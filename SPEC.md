@@ -18,6 +18,11 @@ Priority themes:
 - Include publication/update date for each source
 - Clearly label uncertainty or unresolved interpretations
 - Add disclaimer: informational only, not legal advice
+- Writing must include analyst-style synthesis, not copy-paste summaries
+- For each article, include:
+  - what sources agree on
+  - where interpretation risk remains
+  - practical implication for foreign employers
 
 ## Writing Rule
 - Audience: non-Chinese English readers

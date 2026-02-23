@@ -9,10 +9,11 @@ Write one factual, readable English article for overseas readers interested in C
 1. Pick ONE topic with strongest EOR decision relevance (not just keyword volume).
 2. Research and collect at least 3 reliable sources (prefer official/primary sources).
 3. Cross-check critical claims and flag uncertainty.
-4. Draft article in human-like professional English.
-5. Generate image prompt pack for manual image creation in external AI tools.
-6. Build HTML page into repo.
-7. If `.pipeline/APPROVE_AUTOPUBLISH` exists, commit+push. Otherwise stop at pending-review and report artifacts path.
+4. Draft article in an industry-expert style: analysis-driven, practical, and evidence-aware.
+5. Add your own synthesis: what changed, what matters, what to watch next, and what remains uncertain.
+6. Generate image prompt pack for manual image creation in external AI tools.
+7. Build HTML page into repo.
+8. If `.pipeline/APPROVE_AUTOPUBLISH` exists, commit+push. Otherwise stop at pending-review and report artifacts path.
 
 ## Output constraints
 - No fabricated facts.

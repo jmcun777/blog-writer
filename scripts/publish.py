@@ -92,21 +92,28 @@ def pick_prompt_pack(title: str):
     return main_prompt, variants, negative
 
 
-def write_placeholder_cover(out_dir: pathlib.Path, title: str):
+def write_cover_svg(out_dir: pathlib.Path, title: str):
+    words = title.split()
+    subtitle = ' '.join(words[:8])
     svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
   <defs>
-    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#0b5fff"/>
-      <stop offset="100%" stop-color="#7aa2ff"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1d4ed8"/>
+      <stop offset="55%" stop-color="#2563eb"/>
+      <stop offset="100%" stop-color="#0ea5e9"/>
     </linearGradient>
   </defs>
-  <rect width="1600" height="900" fill="url(#g)"/>
-  <rect x="80" y="90" width="1440" height="720" rx="24" fill="white" fill-opacity="0.12"/>
-  <text x="120" y="250" font-family="Inter,Arial,sans-serif" font-size="54" fill="white" font-weight="700">Pre-review Cover Placeholder</text>
-  <text x="120" y="325" font-family="Inter,Arial,sans-serif" font-size="34" fill="white" fill-opacity="0.95">{html.escape(title)}</text>
-  <text x="120" y="780" font-family="Inter,Arial,sans-serif" font-size="24" fill="white" fill-opacity="0.9">Replace with generated cover.jpg before final publishing</text>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <circle cx="1350" cy="120" r="180" fill="white" fill-opacity="0.08"/>
+  <circle cx="1480" cy="760" r="220" fill="white" fill-opacity="0.06"/>
+  <rect x="90" y="100" width="1420" height="700" rx="28" fill="white" fill-opacity="0.1"/>
+  <text x="130" y="220" font-family="Inter,Arial,sans-serif" font-size="34" font-weight="600" fill="white" fill-opacity="0.92">China Payroll Insight</text>
+  <foreignObject x="130" y="270" width="1300" height="360">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family:Inter,Arial,sans-serif;color:white;font-size:58px;font-weight:800;line-height:1.15;letter-spacing:-0.01em;">{html.escape(title)}</div>
+  </foreignObject>
+  <text x="130" y="700" font-family="Inter,Arial,sans-serif" font-size="30" fill="white" fill-opacity="0.95">{html.escape(subtitle)}</text>
 </svg>'''
-    (out_dir / 'cover-placeholder.svg').write_text(svg, encoding='utf-8')
+    (out_dir / 'cover.svg').write_text(svg, encoding='utf-8')
 
 
 def main():
@@ -135,28 +142,22 @@ def main():
     out_dir = pathlib.Path(args.dist_root) / f"{args.date}-{slug}"
     out_dir.mkdir(parents=True, exist_ok=True)
 
+    main_prompt, variants, negative = pick_prompt_pack(title) if not args.image_prompt.strip() else (args.image_prompt.strip(), [], "Negative prompt: no watermark.")
+    prompt_txt = "\n".join([main_prompt, "", *variants, "", "Aspect ratio: 16:9 (1600x900 recommended)", negative])
+    (out_dir / 'image_prompt.txt').write_text(prompt_txt, encoding='utf-8')
+    (out_dir / 'image_alt.txt').write_text(args.image_alt, encoding='utf-8')
+    write_cover_svg(out_dir, title)
+
     body_html = md_to_html(draft_text)
     cover_block = (
-        f'<figure class="hero"><img src="./cover.jpg" alt="{html.escape(args.image_alt)}" '
-        "onerror=\"this.onerror=null;this.src='./cover-placeholder.svg'\" loading=\"lazy\" /></figure>"
+        f'<figure class="hero"><img src="./cover.svg" alt="{html.escape(args.image_alt)}" loading="lazy" />'
+        '<figcaption>Suggested hero visual for editorial review. You can replace with a generated JPG/PNG using the prompt pack.</figcaption></figure>'
     )
     body_html = cover_block + body_html
 
     tpl = pathlib.Path(args.template).read_text(encoding='utf-8')
     canonical_url = f"{args.site_base_url.rstrip('/')}/{out_dir.as_posix().lstrip('./')}/"
-    og_image = args.og_image or f"{args.site_base_url.rstrip('/')}/{out_dir.as_posix().lstrip('./')}/cover.jpg"
-
-    if args.image_prompt.strip():
-        main_prompt = args.image_prompt.strip()
-        variants = []
-        negative = "Negative prompt: no watermark, no blurry text, no propaganda style visuals."
-    else:
-        main_prompt, variants, negative = pick_prompt_pack(title)
-
-    prompt_txt = "\n".join([main_prompt, "", *variants, "", "Aspect ratio: 16:9 (1600x900 recommended)", negative])
-    (out_dir / 'image_prompt.txt').write_text(prompt_txt, encoding='utf-8')
-    (out_dir / 'image_alt.txt').write_text(args.image_alt, encoding='utf-8')
-    write_placeholder_cover(out_dir, title)
+    og_image = args.og_image or f"{args.site_base_url.rstrip('/')}/{out_dir.as_posix().lstrip('./')}/cover.svg"
 
     prompt_preview = html.escape((prompt_txt[:260] + ('…' if len(prompt_txt) > 260 else '')))
     prompt_block = (

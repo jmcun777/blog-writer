@@ -56,6 +56,8 @@ for p in posts:
     prompt_preview, prompt_link = load_prompt_preview(p)
     prompt_preview = html.escape(prompt_preview)
     tags = html.escape(load_tags(p))
+    updated = p.joinpath('index.html').stat().st_mtime
+    updated_str = __import__('datetime').datetime.fromtimestamp(updated).strftime('%Y-%m-%d %H:%M')
     prompt_cell = f"<code>{prompt_preview}</code><div style='margin-top:6px'><a href=\"{prompt_link}\" target=\"_blank\">Full prompt (txt)</a></div>" if prompt_link else "-"
     rows.append(f"""
       <tr>
@@ -63,6 +65,7 @@ for p in posts:
         <td><a href=\"{rel}\" target=\"_blank\"><strong>{title}</strong></a></td>
         <td>{prompt_cell}</td>
         <td>{tags}</td>
+        <td>{updated_str}</td>
       </tr>
     """)
 
@@ -94,10 +97,11 @@ page = f"""<!doctype html>
         <th style=\"width:340px\">Article Details</th>
         <th>Recommended Image Prompt</th>
         <th style=\"width:260px\">Tags / Keywords</th>
+        <th style=\"width:165px\">Last Updated</th>
       </tr>
     </thead>
     <tbody>
-      {''.join(rows) if rows else '<tr><td colspan="4">No posts yet.</td></tr>'}
+      {''.join(rows) if rows else '<tr><td colspan="5">No posts yet.</td></tr>'}
     </tbody>
   </table>
 </body>
