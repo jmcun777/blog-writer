@@ -28,10 +28,11 @@ Priority themes:
 - Audience: non-Chinese English readers
 - Use plain, professional English and explain local terms
 - Avoid exaggerated certainty and avoid AI-generic filler language
+- Follow `/home/tz/.openclaw/workspace-dev/STYLE_GUIDE.md` (China Briefing-inspired analyst style)
 - Target length: **1,400-2,000 words** (short posts are not acceptable unless explicitly requested)
 - Readability baseline:
   - avoid overly short, choppy paragraphs
-  - most body paragraphs should be ~80-160 words
+  - most body paragraphs should be ~90-170 words
   - use examples, transitions, and practical context so sections feel human-written
 - Style variation rule (avoid mechanical sameness):
   - rotate between article shapes (explainer, checklist-led, myth-vs-fact, scenario-led, timeline-led)
@@ -44,6 +45,8 @@ Priority themes:
   - practical checklist and examples
 - Structure guidance (flexible, not rigid template):
   - include policy change, business impact, scenarios, action checklist, and FAQ
+  - include a “Key Takeaways” summary block near top
+  - include “What to watch next” when rules may evolve
   - allow section order to vary by topic for natural flow
 
 ## Required Output Files

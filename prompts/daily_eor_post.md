@@ -2,6 +2,8 @@
 
 You are producing one daily blog post for China-Payroll.com.
 
+Use style reference: `/home/tz/.openclaw/workspace-dev/STYLE_GUIDE.md` (China Briefing-inspired analyst style for international business readers).
+
 ## Objective
 Write one factual, readable English article for overseas readers interested in China employment/payroll compliance, with high EOR relevance.
 
@@ -38,16 +40,17 @@ Cover image rule:
 - If final image is not ready yet, keep the slot; reviewer can later upload/replace `cover.jpg`.
 
 ## Draft format (draft.md)
-- Title
-- Executive summary (4-6 bullets)
-- What changed
+- Title (utility-first, international search intent)
+- Key takeaways (3-5 bullets)
+- What changed (hook + immediate business relevance)
 - Policy and market context
 - Why it matters for foreign employers / EOR buyers
 - Practical scenarios (at least 2)
 - What to do now (step-by-step action checklist)
+- What to watch next (policy/implementation uncertainty)
 - FAQ (5-8 Q&A)
 - Disclaimer
-- Sources
+- Sources (with dates where possible)
 
 ## Length, readability, and SEO requirements
 - Target 1,400-2,000 words per article.
