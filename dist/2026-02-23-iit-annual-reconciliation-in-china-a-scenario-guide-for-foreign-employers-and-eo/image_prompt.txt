@@ -1,0 +1,8 @@
+Editorial hero image for an English article titled 'IIT Annual Reconciliation in China: A Scenario Guide for Foreign Employers and EOR Teams'. Scene: international HR/payroll team reviewing China employment compliance updates. Style: professional, clean, trustworthy, modern business publication. Composition: 16:9 horizontal hero with clear whitespace for headline. Color palette: blue, white, subtle gray. No text overlays, no watermark, no logos.
+
+Variant A (isometric): clean isometric office + compliance dashboard visuals, minimalistic details.
+Variant B (photo-realistic): realistic corporate meeting room, documents/laptop charts, natural lighting.
+Variant C (flat illustration): modern flat vector style, simple geometric shapes, editorial look.
+
+Aspect ratio: 16:9
+Negative prompt: no watermark, no blurry text, no propaganda symbols, no flags dominating the scene, no caricature.
