@@ -57,10 +57,7 @@ for p in posts:
     rows.append(f"""
       <tr>
         <td>{date}</td>
-        <td>
-          <div><strong>{title}</strong></div>
-          <div><a href=\"{rel}\" target=\"_blank\">{html.escape(rel)}</a></div>
-        </td>
+        <td><a href=\"{rel}\" target=\"_blank\"><strong>{title}</strong></a></td>
         <td><code>{prompt_preview}</code></td>
         <td>{tags}</td>
       </tr>
