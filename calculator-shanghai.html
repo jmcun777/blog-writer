@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <title>Shanghai Salary, Benefits & Tax Calculator</title>
+  <title>Shanghai Salary, Benefits & Tax Calculator</title><meta name="calc-version" content="2026.02.23-r1"/>
   <meta name="description" content="Estimate monthly take-home pay and employer cost in Shanghai with editable social insurance, housing fund, and IIT settings."/>
   <style>
     body{font-family:Arial,Helvetica,sans-serif;background:#f4f7fb;margin:0;color:#14253d}
@@ -22,53 +22,55 @@
     .muted{color:#627896;font-size:13px;line-height:1.55}
     .pill{display:inline-block;background:#eef4ff;border:1px solid #d6e4ff;border-radius:999px;padding:4px 10px;font-size:12px;color:#33527d}
     @media (max-width: 800px){.grid,.result{grid-template-columns:1fr}}
-  </style>
+  .editable{border:2px solid #f59e0b !important;background:#fff8e6 !important;box-shadow:0 0 0 2px rgba(245,158,11,.15)}
+.readonly-hint{font-size:12px;color:#6b7280}
+</style>
 </head>
 <body>
   <div class="wrap">
     <div class="card">
-      <h1>Shanghai Salary, Benefits & Tax Calculator</h1>
+      <h1>Shanghai Salary, Benefits & Tax Calculator</h1><p class="readonly-hint">Fields highlighted in amber are editable. Other fields are locked policy assumptions.</p>
       <p class="muted">For pre-sales and planning use. All rates are editable so your team can match the latest local policy notices.</p>
       <span class="pill">Monthly Calculator · Editable Assumptions</span>
     </div>
 
     <div class="card">
-      <h2>1) Employee Inputs</h2>
+      <h2>1) Employee Inputs</h2><p class="readonly-hint">Fields highlighted in amber are editable. Other fields are locked policy assumptions.</p>
       <div class="grid">
-        <div class="field"><label>Gross Monthly Salary (RMB)</label><input id="gross" type="number" value="30000"/></div>
-        <div class="field"><label>Additional Special Deductions (RMB / month)</label><input id="special" type="number" value="0"/></div>
+        <div class="field"><label>Gross Monthly Salary (RMB)</label><input id="gross" type="number" value="30000"/ class="editable"></div>
+        <div class="field"><label>Additional Special Deductions (RMB / month)</label><input id="special" type="number" value="0"/ class="editable"></div>
       </div>
     </div>
 
     <div class="card">
       <h2>2) Employee Contribution Rates (%)</h2>
       <div class="grid">
-        <div class="field"><label>Pension</label><input id="empPension" type="number" step="0.01" value="8"/></div>
-        <div class="field"><label>Medical</label><input id="empMedical" type="number" step="0.01" value="2"/></div>
-        <div class="field"><label>Unemployment</label><input id="empUnemp" type="number" step="0.01" value="0.5"/></div>
-        <div class="field"><label>Housing Fund</label><input id="empHF" type="number" step="0.01" value="7"/></div>
-        <div class="field"><label>Medical Fixed Add-on (RMB)</label><input id="empMedFix" type="number" value="3"/></div>
+        <div class="field"><label>Pension</label><input id="empPension" type="number" step="0.01" value="8"/ readonly></div>
+        <div class="field"><label>Medical</label><input id="empMedical" type="number" step="0.01" value="2"/ readonly></div>
+        <div class="field"><label>Unemployment</label><input id="empUnemp" type="number" step="0.01" value="0.5"/ readonly></div>
+        <div class="field"><label>Housing Fund</label><input id="empHF" type="number" step="0.01" value="7"/ readonly></div>
+        <div class="field"><label>Medical Fixed Add-on (RMB)</label><input id="empMedFix" type="number" value="3"/ readonly></div>
       </div>
     </div>
 
     <div class="card">
       <h2>3) Employer Contribution Rates (%)</h2>
       <div class="grid">
-        <div class="field"><label>Pension</label><input id="erPension" type="number" step="0.01" value="16"/></div>
-        <div class="field"><label>Medical</label><input id="erMedical" type="number" step="0.01" value="9.5"/></div>
-        <div class="field"><label>Unemployment</label><input id="erUnemp" type="number" step="0.01" value="0.5"/></div>
-        <div class="field"><label>Work Injury</label><input id="erInjury" type="number" step="0.01" value="0.16"/></div>
-        <div class="field"><label>Maternity</label><input id="erMaternity" type="number" step="0.01" value="0"/></div>
-        <div class="field"><label>Housing Fund</label><input id="erHF" type="number" step="0.01" value="7"/></div>
+        <div class="field"><label>Pension</label><input id="erPension" type="number" step="0.01" value="16"/ readonly></div>
+        <div class="field"><label>Medical</label><input id="erMedical" type="number" step="0.01" value="9.5"/ readonly></div>
+        <div class="field"><label>Unemployment</label><input id="erUnemp" type="number" step="0.01" value="0.5"/ readonly></div>
+        <div class="field"><label>Work Injury</label><input id="erInjury" type="number" step="0.01" value="0.16"/ readonly></div>
+        <div class="field"><label>Maternity</label><input id="erMaternity" type="number" step="0.01" value="0"/ readonly></div>
+        <div class="field"><label>Housing Fund</label><input id="erHF" type="number" step="0.01" value="7"/ readonly></div>
       </div>
     </div>
 
     <div class="card">
       <h2>4) Base Caps (RMB / month)</h2>
       <div class="grid">
-        <div class="field"><label>Contribution Base Floor</label><input id="baseFloor" type="number" value="7310"/></div>
-        <div class="field"><label>Contribution Base Ceiling</label><input id="baseCeil" type="number" value="36549"/></div>
-        <div class="field"><label>Monthly IIT Standard Deduction</label><input id="stdDeduction" type="number" value="5000"/></div>
+        <div class="field"><label>Contribution Base Floor</label><input id="baseFloor" type="number" value="7310"/ readonly></div>
+        <div class="field"><label>Contribution Base Ceiling</label><input id="baseCeil" type="number" value="36549"/ readonly></div>
+        <div class="field"><label>Monthly IIT Standard Deduction</label><input id="stdDeduction" type="number" value="5000"/ readonly></div>
       </div>
       <p class="muted">Tip: update these values whenever Shanghai policy is revised.</p>
     </div>
@@ -87,7 +89,12 @@
     </div>
 
     <div class="card muted">
-      Disclaimer: planning tool only (not legal/tax advice). Confirm latest rates, bases, and exceptions with official Shanghai notices before payroll execution.
+      <div class="card muted"><b>How to use this calculator</b><br/>
+• <b>Gross Salary</b>: employee monthly gross pay before deductions.
+<br/>• <b>Additional Special Deductions</b>: employee-claimed deductible items.
+<br/>• Contribution rates and base limits are locked as policy assumptions for consistency.
+<br/>• Outputs show employee deductions, IIT, take-home pay, and employer total cost.</div>
+    <div class="card muted">Disclaimer: planning tool only (not legal/tax advice). Confirm latest rates, bases, and exceptions with official Shanghai notices before payroll execution.
     </div>
   </div>
 
