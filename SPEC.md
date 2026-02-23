@@ -24,18 +24,22 @@ Priority themes:
 - Use plain, professional English and explain local terms
 - Avoid exaggerated certainty and avoid AI-generic filler language
 - Target length: **1,400-2,000 words** (short posts are not acceptable unless explicitly requested)
+- Readability baseline:
+  - avoid overly short, choppy paragraphs
+  - most body paragraphs should be ~80-160 words
+  - use examples, transitions, and practical context so sections feel human-written
+- Style variation rule (avoid mechanical sameness):
+  - rotate between article shapes (explainer, checklist-led, myth-vs-fact, scenario-led, timeline-led)
+  - not every post should use identical heading phrasing/order
+  - vary opener style (news hook, practical pain point, data point)
 - SEO quality baseline:
   - one primary keyword + 4-8 related keywords used naturally
   - descriptive H2/H3 headings
   - FAQ section with 5-8 Q&A
   - practical checklist and examples
-- Structure:
-  1) What changed
-  2) Background context and regulatory framing
-  3) Why it matters for employers using EOR/PEO-like setups
-  4) Practical scenarios and risk points
-  5) What companies should do next (step-by-step checklist)
-  6) FAQ
+- Structure guidance (flexible, not rigid template):
+  - include policy change, business impact, scenarios, action checklist, and FAQ
+  - allow section order to vary by topic for natural flow
 
 ## Required Output Files
 For each post (under `dist/YYYY-MM-DD-slug/`):

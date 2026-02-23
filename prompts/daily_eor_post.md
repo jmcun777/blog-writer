@@ -30,6 +30,10 @@ Then generate publishable files in `dist/YYYY-MM-DD-slug/`:
 - `image_alt.txt`
 - `sources.json`
 
+Cover image rule:
+- HTML must reserve a cover image slot at `./cover.jpg` (hero image at top of article).
+- If final image is not ready yet, keep the slot; reviewer can later upload/replace `cover.jpg`.
+
 ## Draft format (draft.md)
 - Title
 - Executive summary (4-6 bullets)
@@ -42,11 +46,18 @@ Then generate publishable files in `dist/YYYY-MM-DD-slug/`:
 - Disclaimer
 - Sources
 
-## Length and SEO requirements
+## Length, readability, and SEO requirements
 - Target 1,400-2,000 words per article.
+- Avoid choppy writing: most paragraphs should be ~80-160 words with clear transitions.
 - Use one primary keyword plus related terms naturally (no keyword stuffing).
 - Write meaningful section headings that match search intent.
 - Avoid thin content and generic filler.
+
+## Format variation requirements
+- Do not produce identical article skeletons every day.
+- Rotate article style by topic (e.g., scenario-led, checklist-led, risk-map, myth-vs-fact, timeline update).
+- Vary section naming and flow while preserving factual clarity.
+- Ensure the final output reads like a human editorial piece, not a rigid template.
 
 ## Image prompt requirements
 Provide one strong prompt + 3 style variants:

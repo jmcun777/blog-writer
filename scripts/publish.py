@@ -74,6 +74,12 @@ def main():
     out_dir.mkdir(parents=True, exist_ok=True)
 
     body_html = md_to_html(draft_text)
+    cover_block = (
+        f'<figure class="hero"><img src="./cover.jpg" alt="{html.escape(args.image_alt)}" '
+        "onerror=\"this.style.display='none'\" loading=\"lazy\" /></figure>"
+    )
+    body_html = cover_block + body_html
+
     tpl = pathlib.Path(args.template).read_text(encoding='utf-8')
     canonical_url = f"{args.site_base_url.rstrip('/')}/{out_dir.as_posix().lstrip('./')}/"
     og_image = args.og_image or f"{args.site_base_url.rstrip('/')}/{out_dir.as_posix().lstrip('./')}/cover.jpg"
