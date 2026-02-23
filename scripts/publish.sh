@@ -17,7 +17,7 @@ python3 "$ROOT/scripts/publish.py" \
   --date "$DATE"
 
 python3 "$ROOT/scripts/build_review_table.py"
-python3 "$ROOT/scripts/validate_links.py"
+python3 "$ROOT/scripts/validate_links.py"  # hard gate: fail fast on broken links/assets
 
 # Update root index with latest 20 posts
 python3 - <<'PY'

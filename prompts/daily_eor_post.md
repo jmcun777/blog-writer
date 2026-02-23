@@ -13,7 +13,9 @@ Write one factual, readable English article for overseas readers interested in C
 5. Add your own synthesis: what changed, what matters, what to watch next, and what remains uncertain.
 6. Generate image prompt pack for manual image creation in external AI tools.
 7. Build HTML page into repo.
-8. If `.pipeline/APPROVE_AUTOPUBLISH` exists, commit+push. Otherwise stop at pending-review and report artifacts path.
+8. Run link gate checks: `python3 scripts/validate_links.py` before any push.
+9. If `.pipeline/APPROVE_AUTOPUBLISH` exists, commit+push. Otherwise stop at pending-review and report artifacts path.
+10. After push, run `scripts/verify_public_links.sh` and report any non-200 URLs immediately.
 
 ## Output constraints
 - No fabricated facts.
