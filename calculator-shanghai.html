@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Shanghai Salary, Benefits & Tax Calculator</title>
+  <meta name="description" content="Estimate monthly take-home pay and employer cost in Shanghai with editable social insurance, housing fund, and IIT settings."/>
+  <style>
+    body{font-family:Arial,Helvetica,sans-serif;background:#f4f7fb;margin:0;color:#14253d}
+    .wrap{max-width:980px;margin:24px auto;padding:0 16px}
+    .card{background:#fff;border:1px solid #d9e2ef;border-radius:8px;padding:18px;margin-bottom:14px}
+    h1{margin:0 0 8px;font-size:30px}
+    h2{font-size:20px;margin:0 0 10px}
+    .grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+    .field{display:flex;flex-direction:column;gap:6px}
+    label{font-size:13px;color:#4a5f7d}
+    input{padding:10px;border:1px solid #cfd9ea;border-radius:6px;font-size:15px}
+    .result{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+    .kpi{background:#f7faff;border:1px solid #dce7fb;border-radius:6px;padding:10px}
+    .kpi b{display:block;font-size:12px;color:#5a6f8d;margin-bottom:4px}
+    .kpi span{font-size:22px;font-weight:700}
+    .muted{color:#627896;font-size:13px;line-height:1.55}
+    .pill{display:inline-block;background:#eef4ff;border:1px solid #d6e4ff;border-radius:999px;padding:4px 10px;font-size:12px;color:#33527d}
+    @media (max-width: 800px){.grid,.result{grid-template-columns:1fr}}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="card">
+      <h1>Shanghai Salary, Benefits & Tax Calculator</h1>
+      <p class="muted">For pre-sales and planning use. All rates are editable so your team can match the latest local policy notices.</p>
+      <span class="pill">Monthly Calculator · Editable Assumptions</span>
+    </div>
+
+    <div class="card">
+      <h2>1) Employee Inputs</h2>
+      <div class="grid">
+        <div class="field"><label>Gross Monthly Salary (RMB)</label><input id="gross" type="number" value="30000"/></div>
+        <div class="field"><label>Additional Special Deductions (RMB / month)</label><input id="special" type="number" value="0"/></div>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>2) Employee Contribution Rates (%)</h2>
+      <div class="grid">
+        <div class="field"><label>Pension</label><input id="empPension" type="number" step="0.01" value="8"/></div>
+        <div class="field"><label>Medical</label><input id="empMedical" type="number" step="0.01" value="2"/></div>
+        <div class="field"><label>Unemployment</label><input id="empUnemp" type="number" step="0.01" value="0.5"/></div>
+        <div class="field"><label>Housing Fund</label><input id="empHF" type="number" step="0.01" value="7"/></div>
+        <div class="field"><label>Medical Fixed Add-on (RMB)</label><input id="empMedFix" type="number" value="3"/></div>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>3) Employer Contribution Rates (%)</h2>
+      <div class="grid">
+        <div class="field"><label>Pension</label><input id="erPension" type="number" step="0.01" value="16"/></div>
+        <div class="field"><label>Medical</label><input id="erMedical" type="number" step="0.01" value="9.5"/></div>
+        <div class="field"><label>Unemployment</label><input id="erUnemp" type="number" step="0.01" value="0.5"/></div>
+        <div class="field"><label>Work Injury</label><input id="erInjury" type="number" step="0.01" value="0.16"/></div>
+        <div class="field"><label>Maternity</label><input id="erMaternity" type="number" step="0.01" value="0"/></div>
+        <div class="field"><label>Housing Fund</label><input id="erHF" type="number" step="0.01" value="7"/></div>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>4) Base Caps (RMB / month)</h2>
+      <div class="grid">
+        <div class="field"><label>Contribution Base Floor</label><input id="baseFloor" type="number" value="7310"/></div>
+        <div class="field"><label>Contribution Base Ceiling</label><input id="baseCeil" type="number" value="36549"/></div>
+        <div class="field"><label>Monthly IIT Standard Deduction</label><input id="stdDeduction" type="number" value="5000"/></div>
+      </div>
+      <p class="muted">Tip: update these values whenever Shanghai policy is revised.</p>
+    </div>
+
+    <div class="card">
+      <h2>Results</h2>
+      <div class="result">
+        <div class="kpi"><b>Employee Social + Housing</b><span id="empTotal">0</span></div>
+        <div class="kpi"><b>Monthly IIT</b><span id="iit">0</span></div>
+        <div class="kpi"><b>Employee Take-home</b><span id="net">0</span></div>
+        <div class="kpi"><b>Employer Contributions</b><span id="erTotal">0</span></div>
+        <div class="kpi"><b>Total Employer Cost</b><span id="totalCost">0</span></div>
+        <div class="kpi"><b>Taxable Income (for IIT)</b><span id="taxable">0</span></div>
+      </div>
+      <p class="muted">Formula: IIT taxable income = Gross - Employee Contributions - Standard Deduction - Additional Special Deductions.</p>
+    </div>
+
+    <div class="card muted">
+      Disclaimer: planning tool only (not legal/tax advice). Confirm latest rates, bases, and exceptions with official Shanghai notices before payroll execution.
+    </div>
+  </div>
+
+<script>
+const ids = ["gross","special","empPension","empMedical","empUnemp","empHF","empMedFix","erPension","erMedical","erUnemp","erInjury","erMaternity","erHF","baseFloor","baseCeil","stdDeduction"];
+ids.forEach(id => document.getElementById(id).addEventListener('input', calc));
+
+function val(id){ return parseFloat(document.getElementById(id).value || 0); }
+function money(n){ return '¥' + n.toLocaleString(undefined,{minimumFractionDigits:2,maximumFractionDigits:2}); }
+function clampBase(gross,floor,ceil){ return Math.max(floor, Math.min(gross, ceil)); }
+
+function iitMonthly(taxable){
+  if (taxable <= 0) return 0;
+  const br = [
+    [3000,0.03,0],[12000,0.10,210],[25000,0.20,1410],
+    [35000,0.25,2660],[55000,0.30,4410],[80000,0.35,7160],[Infinity,0.45,15160]
+  ];
+  for(const [cap,rate,qd] of br){
+    if(taxable<=cap) return taxable*rate-qd;
+  }
+  return 0;
+}
+
+function calc(){
+  const gross=val('gross'), special=val('special');
+  const floor=val('baseFloor'), ceil=val('baseCeil');
+  const base=clampBase(gross,floor,ceil);
+
+  const emp = base*(val('empPension')+val('empMedical')+val('empUnemp')+val('empHF'))/100 + val('empMedFix');
+  const er = base*(val('erPension')+val('erMedical')+val('erUnemp')+val('erInjury')+val('erMaternity')+val('erHF'))/100;
+
+  const taxable = gross - emp - val('stdDeduction') - special;
+  const iit = Math.max(0, iitMonthly(taxable));
+  const net = gross - emp - iit;
+  const totalCost = gross + er;
+
+  document.getElementById('empTotal').textContent = money(emp);
+  document.getElementById('erTotal').textContent = money(er);
+  document.getElementById('iit').textContent = money(iit);
+  document.getElementById('net').textContent = money(net);
+  document.getElementById('totalCost').textContent = money(totalCost);
+  document.getElementById('taxable').textContent = money(Math.max(0,taxable));
+}
+calc();
+</script>
+</body>
+</html>
