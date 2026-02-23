@@ -1,7 +1,7 @@
 # Blog Production Spec (China-Payroll.com)
 
 ## Goal
-Create daily English blog posts for overseas readers (HR/Finance/Founders) who need trustworthy China employment and payroll information, and may become Employer of Record (EOR) customers.
+Create daily English blog posts for overseas readers (HR/Finance/Founders) who need trustworthy China employment and payroll information, and may become China payroll service customers.
 
 ## Topic Rule (Primary)
 Choose topics by **EOR business relevance first**, then SEO optimization.

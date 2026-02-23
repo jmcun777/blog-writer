@@ -8,7 +8,7 @@ Use style reference: `/home/tz/.openclaw/workspace-dev/STYLE_GUIDE.md` (China Br
 Write one factual, readable English article for overseas readers interested in China employment/payroll compliance, with high EOR relevance.
 
 ## Workflow
-1. Pick ONE topic with strongest EOR decision relevance (not just keyword volume).
+1. Pick ONE topic with strongest foreign-employer decision relevance (not just keyword volume).
 2. Research and collect at least 3 reliable sources (prefer official/primary sources).
 3. Cross-check critical claims and flag uncertainty.
 4. Draft article in an industry-expert style: analysis-driven, practical, and evidence-aware.
@@ -16,7 +16,7 @@ Write one factual, readable English article for overseas readers interested in C
 6. Generate image prompt pack for manual image creation in external AI tools.
 7. Build HTML page into repo.
 8. Run link gate checks: `python3 scripts/validate_links.py` before any push.
-9. If `.pipeline/APPROVE_AUTOPUBLISH` exists, commit+push. Otherwise stop at pending-review and report artifacts path.
+9. Commit and push directly after checks pass (no pending-review hold for this workflow).
 10. After push, run `scripts/verify_public_links_retry.sh 600 30` (retry up to 10 minutes).
 11. Only report completion when all URLs return HTTP 200; otherwise report timeout/fail details.
 
@@ -45,7 +45,7 @@ Cover image rule:
 - Key takeaways (3-5 bullets)
 - What changed (hook + immediate business relevance)
 - Policy and market context
-- Why it matters for foreign employers / EOR buyers
+- Why it matters for foreign employers
 - Practical scenarios (at least 2)
 - What to do now (step-by-step action checklist)
 - What to watch next (policy/implementation uncertainty)

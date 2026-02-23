@@ -29,7 +29,7 @@
     .crumb a{color:#4e6b95;text-decoration:none}
     .crumb a:hover{text-decoration:underline}
 
-    .grid{display:grid;grid-template-columns:minmax(0,820px) 320px;gap:18px;align-items:start}
+    .grid{display:grid;grid-template-columns:minmax(0,1fr);gap:18px;align-items:start}
     .article{background:var(--card);border:1px solid var(--line);border-radius:3px;padding:24px 30px}
 
     .hero{margin:0 0 16px}
@@ -51,15 +51,8 @@
 
     .disc{margin-top:20px;padding-top:12px;border-top:1px dashed var(--line);font-size:13px;color:var(--muted)}
 
-    .side{position:sticky;top:12px}
-    .panel{background:#fff;border:1px solid var(--line);border-radius:3px;padding:12px 12px 10px;margin-bottom:12px}
-    .panel h4{margin:0 0 8px;font-size:14px;color:#163660}
-    .panel p,.panel li{font-size:13px;line-height:1.55;color:#4a617f}
-    .panel ul{margin:0;padding-left:18px}
-
     @media(max-width:1100px){
       .grid{grid-template-columns:1fr}
-      .side{position:static}
     }
     @media(max-width:760px){
       .shell{padding:12px}
@@ -85,10 +78,6 @@
         </section>
         <div class="disc">Informational content only. This article does not constitute legal advice. Last reviewed: {{LAST_REVIEWED}}.</div>
       </article>
-      <aside class="side">
-        <div class="panel"><h4>In this article</h4><p>Use browser find (Ctrl/Cmd + F) to jump between sections.</p></div>
-        <div class="panel"><h4>Reader checklist</h4><ul><li>Policy update</li><li>Business impact</li><li>Action steps</li><li>Watch-outs</li></ul></div>
-      </aside>
     </div>
   </div>
 </body>
