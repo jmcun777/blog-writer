@@ -1,4 +1,4 @@
-# China Minimum Wage Updates in 2026: A Practical EOR Playbook for Foreign Employers
+# China Minimum Wage 2026 for Foreign Employers: Payroll Risks, Cost Impact, and EOR Action Plan
 
 ## Executive summary
 - China does not use one national minimum wage number. Local governments set monthly and hourly floors, and the compliance burden sits at city/province level.

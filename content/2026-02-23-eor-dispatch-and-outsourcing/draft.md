@@ -1,4 +1,4 @@
-# Labor Dispatch vs Service Outsourcing in China: A Decision Framework for EOR-Oriented Teams
+# Labor Dispatch vs Outsourcing in China: A 2026 Compliance Guide for Foreign Companies
 
 ## Executive summary
 - Labeling a relationship as “outsourcing” does not guarantee it will be treated that way in practice.

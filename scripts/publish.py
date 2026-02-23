@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-import json, os, re, html, datetime, pathlib, argparse
+import json, re, html, datetime, pathlib, argparse, hashlib
 
 
 def md_to_html(md: str) -> str:
@@ -15,24 +15,23 @@ def md_to_html(md: str) -> str:
             continue
         if s.startswith('# '):
             if in_ul:
-                out.append('</ul>'); in_ul=False
+                out.append('</ul>'); in_ul = False
             out.append(f"<h1>{html.escape(s[2:].strip())}</h1>")
         elif s.startswith('## '):
             if in_ul:
-                out.append('</ul>'); in_ul=False
+                out.append('</ul>'); in_ul = False
             out.append(f"<h2>{html.escape(s[3:].strip())}</h2>")
         elif s.startswith('### '):
             if in_ul:
-                out.append('</ul>'); in_ul=False
+                out.append('</ul>'); in_ul = False
             out.append(f"<h3>{html.escape(s[4:].strip())}</h3>")
         elif s.startswith('- '):
             if not in_ul:
-                out.append('<ul>'); in_ul=True
+                out.append('<ul>'); in_ul = True
             out.append(f"<li>{html.escape(s[2:].strip())}</li>")
         else:
             if in_ul:
-                out.append('</ul>'); in_ul=False
-            # very light link handling [text](url)
+                out.append('</ul>'); in_ul = False
             esc = html.escape(s)
             esc = re.sub(r'\[([^\]]+)\]\((https?://[^\)]+)\)', r'<a href="\2">\1</a>', esc)
             out.append(f"<p>{esc}</p>")
@@ -46,6 +45,68 @@ def slugify(s: str) -> str:
     s = re.sub(r'[^a-z0-9\s-]', '', s)
     s = re.sub(r'\s+', '-', s)
     return re.sub(r'-+', '-', s).strip('-')[:80] or 'post'
+
+
+def pick_prompt_pack(title: str):
+    t = title.lower()
+    if 'minimum wage' in t:
+        scene = 'HR compensation planning meeting with salary benchmark charts and city map pins across China'
+        motifs = 'payroll sheets, contract clauses, calendar markers'
+    elif 'social insurance' in t:
+        scene = 'finance and payroll operations team reviewing contribution base dashboards in a modern office'
+        motifs = 'benefit icons, compliance checklist, monthly reports'
+    elif 'iit' in t or 'tax' in t:
+        scene = 'tax season preparation desk with multilingual guidance materials and payroll analytics dashboard'
+        motifs = 'calculator, secure documents, process flow graphics'
+    elif 'dispute' in t:
+        scene = 'risk-control workshop with HR and legal teams reviewing case folders and prevention checklists'
+        motifs = 'evidence timeline, policy binder, meeting whiteboard'
+    else:
+        scene = 'global operations team evaluating workforce model options for China market entry'
+        motifs = 'decision matrix, org chart, legal policy documents'
+
+    style_pool = [
+        ('editorial illustration', 'clean composition, magazine quality, subtle shadows'),
+        ('cinematic photo-realistic', 'natural office light, depth of field, modern corporate look'),
+        ('isometric business infographic', 'precise geometry, neutral palette, data-storytelling feel'),
+        ('premium flat vector', 'bold hierarchy, uncluttered shapes, high-contrast readability')
+    ]
+    idx = int(hashlib.md5(title.encode()).hexdigest(), 16) % len(style_pool)
+    style, details = style_pool[idx]
+
+    main_prompt = (
+        f"Create a 16:9 hero image for article title: '{title}'. "
+        f"Scene: {scene}. Include motifs: {motifs}. "
+        f"Style: {style}; {details}. "
+        "Audience is Western business readers. Tone should feel credible, practical, and contemporary. "
+        "Leave clean whitespace on left/top area for headline overlay. "
+        "No text in image, no logos, no watermarks."
+    )
+
+    variants = [
+        "Variant A: add subtle human presence (2-4 professionals), emphasize collaboration and decision-making.",
+        "Variant B: data-first composition with dashboards/charts as visual anchors, minimal people.",
+        "Variant C: risk-and-compliance narrative visual (checklists, timeline cards, policy docs) with premium editorial look."
+    ]
+    negative = "Negative prompt: no propaganda style, no flags dominating frame, no blurry text blocks, no cartoon faces, no watermark."
+    return main_prompt, variants, negative
+
+
+def write_placeholder_cover(out_dir: pathlib.Path, title: str):
+    svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b5fff"/>
+      <stop offset="100%" stop-color="#7aa2ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#g)"/>
+  <rect x="80" y="90" width="1440" height="720" rx="24" fill="white" fill-opacity="0.12"/>
+  <text x="120" y="250" font-family="Inter,Arial,sans-serif" font-size="54" fill="white" font-weight="700">Pre-review Cover Placeholder</text>
+  <text x="120" y="325" font-family="Inter,Arial,sans-serif" font-size="34" fill="white" fill-opacity="0.95">{html.escape(title)}</text>
+  <text x="120" y="780" font-family="Inter,Arial,sans-serif" font-size="24" fill="white" fill-opacity="0.9">Replace with generated cover.jpg before final publishing</text>
+</svg>'''
+    (out_dir / 'cover-placeholder.svg').write_text(svg, encoding='utf-8')
 
 
 def main():
@@ -69,6 +130,7 @@ def main():
         if ln.startswith('# '):
             title = ln[2:].strip()
             break
+
     slug = args.slug or slugify(title)
     out_dir = pathlib.Path(args.dist_root) / f"{args.date}-{slug}"
     out_dir.mkdir(parents=True, exist_ok=True)
@@ -76,7 +138,7 @@ def main():
     body_html = md_to_html(draft_text)
     cover_block = (
         f'<figure class="hero"><img src="./cover.jpg" alt="{html.escape(args.image_alt)}" '
-        "onerror=\"this.style.display='none'\" loading=\"lazy\" /></figure>"
+        "onerror=\"this.onerror=null;this.src='./cover-placeholder.svg'\" loading=\"lazy\" /></figure>"
     )
     body_html = cover_block + body_html
 
@@ -84,43 +146,34 @@ def main():
     canonical_url = f"{args.site_base_url.rstrip('/')}/{out_dir.as_posix().lstrip('./')}/"
     og_image = args.og_image or f"{args.site_base_url.rstrip('/')}/{out_dir.as_posix().lstrip('./')}/cover.jpg"
 
+    if args.image_prompt.strip():
+        main_prompt = args.image_prompt.strip()
+        variants = []
+        negative = "Negative prompt: no watermark, no blurry text, no propaganda style visuals."
+    else:
+        main_prompt, variants, negative = pick_prompt_pack(title)
+
+    prompt_txt = "\n".join([main_prompt, "", *variants, "", "Aspect ratio: 16:9 (1600x900 recommended)", negative])
+    (out_dir / 'image_prompt.txt').write_text(prompt_txt, encoding='utf-8')
+    (out_dir / 'image_alt.txt').write_text(args.image_alt, encoding='utf-8')
+    write_placeholder_cover(out_dir, title)
+
+    prompt_preview = html.escape((prompt_txt[:260] + ('…' if len(prompt_txt) > 260 else '')))
+    prompt_block = (
+        '<section class="prompt"><h3>Image Prompt Pack</h3>'
+        '<p><a href="./image_prompt.txt" target="_blank">Open full image prompt (TXT)</a></p>'
+        f'<p><code>{prompt_preview}</code></p>'
+        '</section>'
+    )
+
     page = (tpl.replace('{{META_TITLE}}', html.escape(title))
               .replace('{{META_DESCRIPTION}}', html.escape(args.meta_description))
               .replace('{{CANONICAL_URL}}', html.escape(canonical_url))
               .replace('{{OG_IMAGE}}', html.escape(og_image))
               .replace('{{BODY_HTML}}', body_html)
               .replace('{{LAST_REVIEWED}}', args.date))
-
-    (out_dir / 'index.html').write_text(page, encoding='utf-8')
-
-    # image prompt pack
-    main_prompt = args.image_prompt or (
-        f"Editorial hero image for an English article titled '{title}'. "
-        "Scene: international HR/payroll team reviewing China employment compliance updates. "
-        "Style: professional, clean, trustworthy, modern business publication. "
-        "Composition: 16:9 horizontal hero with clear whitespace for headline. "
-        "Color palette: blue, white, subtle gray. "
-        "No text overlays, no watermark, no logos."
-    )
-    variants = [
-        "Variant A (isometric): clean isometric office + compliance dashboard visuals, minimalistic details.",
-        "Variant B (photo-realistic): realistic corporate meeting room, documents/laptop charts, natural lighting.",
-        "Variant C (flat illustration): modern flat vector style, simple geometric shapes, editorial look."
-    ]
-    negative = "Negative prompt: no watermark, no blurry text, no propaganda symbols, no flags dominating the scene, no caricature."
-    prompt_txt = "\n".join([main_prompt, "", *variants, "", "Aspect ratio: 16:9", negative])
-    (out_dir / 'image_prompt.txt').write_text(prompt_txt, encoding='utf-8')
-    (out_dir / 'image_alt.txt').write_text(args.image_alt, encoding='utf-8')
-
-    # Add full prompt link (and short preview) inside article HTML
-    prompt_preview = html.escape((prompt_txt[:260] + ('…' if len(prompt_txt) > 260 else '')))
-    prompt_block = (
-        '<section class="prompt"><h3>Image Prompt Pack</h3>'
-        f'<p><a href="./image_prompt.txt" target="_blank">Open full image prompt (TXT)</a></p>'
-        f'<p><code>{prompt_preview}</code></p>'
-        '</section>'
-    )
     page = page.replace('</article>', f'{prompt_block}</article>')
+    (out_dir / 'index.html').write_text(page, encoding='utf-8')
 
     try:
         src = json.loads(args.sources)

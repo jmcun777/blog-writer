@@ -1,4 +1,4 @@
-# IIT Annual Reconciliation in China: A Scenario Guide for Foreign Employers and EOR Teams
+# China IIT Annual Reconciliation Explained: A Practical 2026 Guide for Overseas Employers
 
 ## Executive summary
 - Annual IIT reconciliation is a recurring compliance and employee-experience milestone, even when monthly withholding processes appear stable.

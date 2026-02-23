@@ -1,4 +1,4 @@
-# Labor Dispute Prevention in China: Myth vs Fact for EOR Buyers and Global HR Leaders
+# China Labor Dispute Prevention: 2026 Risk Controls Every Foreign Employer Should Audit
 
 ## Executive summary
 - Labor disputes are often framed as unpredictable, but many are linked to controllable process gaps in contracts, attendance, payroll labeling, and communication.

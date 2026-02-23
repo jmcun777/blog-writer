@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b5fff"/>
+      <stop offset="100%" stop-color="#7aa2ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#g)"/>
+  <rect x="80" y="90" width="1440" height="720" rx="24" fill="white" fill-opacity="0.12"/>
+  <text x="120" y="250" font-family="Inter,Arial,sans-serif" font-size="54" fill="white" font-weight="700">Pre-review Cover Placeholder</text>
+  <text x="120" y="325" font-family="Inter,Arial,sans-serif" font-size="34" fill="white" fill-opacity="0.95">China Social Insurance Base Changes (2026): What Global HR and EOR Buyers Must Do Next</text>
+  <text x="120" y="780" font-family="Inter,Arial,sans-serif" font-size="24" fill="white" fill-opacity="0.9">Replace with generated cover.jpg before final publishing</text>
+</svg>

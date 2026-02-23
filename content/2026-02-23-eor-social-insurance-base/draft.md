@@ -1,4 +1,4 @@
-# China Social Insurance Base Adjustments: A Checklist-Led Guide for EOR Payroll Stability
+# China Social Insurance Base Changes (2026): What Global HR and EOR Buyers Must Do Next
 
 ## Executive summary
 - Social insurance contribution bases in China are locally administered and periodically reset, which can change both employer costs and employee net pay.
