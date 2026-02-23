@@ -17,7 +17,8 @@ Write one factual, readable English article for overseas readers interested in C
 7. Build HTML page into repo.
 8. Run link gate checks: `python3 scripts/validate_links.py` before any push.
 9. If `.pipeline/APPROVE_AUTOPUBLISH` exists, commit+push. Otherwise stop at pending-review and report artifacts path.
-10. After push, run `scripts/verify_public_links.sh` and report any non-200 URLs immediately.
+10. After push, run `scripts/verify_public_links_retry.sh 600 30` (retry up to 10 minutes).
+11. Only report completion when all URLs return HTTP 200; otherwise report timeout/fail details.
 
 ## Output constraints
 - No fabricated facts.
