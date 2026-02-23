@@ -32,18 +32,35 @@ def load_tags(post_dir: pathlib.Path):
     return infer_tags(post_dir.name)
 
 
+def load_title(post_dir: pathlib.Path):
+    idx = post_dir / 'index.html'
+    if not idx.exists():
+        return post_dir.name
+    txt = idx.read_text(encoding='utf-8', errors='ignore')
+    m = re.search(r'<h1[^>]*>(.*?)</h1>', txt, flags=re.I | re.S)
+    if not m:
+        return post_dir.name
+    title = re.sub(r'\s+', ' ', m.group(1)).strip()
+    title = re.sub(r'<[^>]+>', '', title)
+    return title or post_dir.name
+
+
 posts = sorted([p for p in DIST.iterdir() if p.is_dir() and (p / 'index.html').exists()], reverse=True)
 
 rows = []
 for p in posts:
     rel = f"./dist/{p.name}/"
     date = p.name[:10] if re.match(r'^\d{4}-\d{2}-\d{2}', p.name) else '-'
+    title = html.escape(load_title(p))
     prompt_preview = html.escape(load_prompt_preview(p))
     tags = html.escape(load_tags(p))
     rows.append(f"""
       <tr>
         <td>{date}</td>
-        <td><a href=\"{rel}\" target=\"_blank\">{html.escape(p.name)}</a></td>
+        <td>
+          <div><strong>{title}</strong></div>
+          <div><a href=\"{rel}\" target=\"_blank\">{html.escape(rel)}</a></div>
+        </td>
         <td><code>{prompt_preview}</code></td>
         <td>{tags}</td>
       </tr>
