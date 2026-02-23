@@ -1,8 +1,0 @@
-Create a 16:9 hero image for article title: 'China IIT Annual Reconciliation Explained: A Practical 2026 Guide for Overseas Employers'. Scene: tax season preparation desk with multilingual guidance materials and payroll analytics dashboard. Include motifs: calculator, secure documents, process flow graphics. Style: premium flat vector; bold hierarchy, uncluttered shapes, high-contrast readability. Audience is Western business readers. Tone should feel credible, practical, and contemporary. Leave clean whitespace on left/top area for headline overlay. No text in image, no logos, no watermarks.
-
-Variant A: add subtle human presence (2-4 professionals), emphasize collaboration and decision-making.
-Variant B: data-first composition with dashboards/charts as visual anchors, minimal people.
-Variant C: risk-and-compliance narrative visual (checklists, timeline cards, policy docs) with premium editorial look.
-
-Aspect ratio: 16:9 (1600x900 recommended)
-Negative prompt: no propaganda style, no flags dominating frame, no blurry text blocks, no cartoon faces, no watermark.
