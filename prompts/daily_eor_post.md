@@ -32,13 +32,21 @@ Then generate publishable files in `dist/YYYY-MM-DD-slug/`:
 
 ## Draft format (draft.md)
 - Title
-- Executive summary (3-5 bullets)
+- Executive summary (4-6 bullets)
 - What changed
+- Policy and market context
 - Why it matters for foreign employers / EOR buyers
-- What to do now (action checklist)
-- FAQ (3-5 Q&A)
+- Practical scenarios (at least 2)
+- What to do now (step-by-step action checklist)
+- FAQ (5-8 Q&A)
 - Disclaimer
 - Sources
+
+## Length and SEO requirements
+- Target 1,400-2,000 words per article.
+- Use one primary keyword plus related terms naturally (no keyword stuffing).
+- Write meaningful section headings that match search intent.
+- Avoid thin content and generic filler.
 
 ## Image prompt requirements
 Provide one strong prompt + 3 style variants:

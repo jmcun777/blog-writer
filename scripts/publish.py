@@ -106,6 +106,16 @@ def main():
     (out_dir / 'image_prompt.txt').write_text(prompt_txt, encoding='utf-8')
     (out_dir / 'image_alt.txt').write_text(args.image_alt, encoding='utf-8')
 
+    # Add full prompt link (and short preview) inside article HTML
+    prompt_preview = html.escape((prompt_txt[:260] + ('…' if len(prompt_txt) > 260 else '')))
+    prompt_block = (
+        '<section class="prompt"><h3>Image Prompt Pack</h3>'
+        f'<p><a href="./image_prompt.txt" target="_blank">Open full image prompt (TXT)</a></p>'
+        f'<p><code>{prompt_preview}</code></p>'
+        '</section>'
+    )
+    page = page.replace('</article>', f'{prompt_block}</article>')
+
     try:
         src = json.loads(args.sources)
     except Exception:

@@ -23,10 +23,19 @@ Priority themes:
 - Audience: non-Chinese English readers
 - Use plain, professional English and explain local terms
 - Avoid exaggerated certainty and avoid AI-generic filler language
+- Target length: **1,400-2,000 words** (short posts are not acceptable unless explicitly requested)
+- SEO quality baseline:
+  - one primary keyword + 4-8 related keywords used naturally
+  - descriptive H2/H3 headings
+  - FAQ section with 5-8 Q&A
+  - practical checklist and examples
 - Structure:
   1) What changed
-  2) Why it matters for employers using EOR/PEO-like setups
-  3) What companies should do next
+  2) Background context and regulatory framing
+  3) Why it matters for employers using EOR/PEO-like setups
+  4) Practical scenarios and risk points
+  5) What companies should do next (step-by-step checklist)
+  6) FAQ
 
 ## Required Output Files
 For each post (under `dist/YYYY-MM-DD-slug/`):

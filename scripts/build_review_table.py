@@ -19,9 +19,10 @@ def infer_tags(name: str):
 def load_prompt_preview(post_dir: pathlib.Path):
     p = post_dir / 'image_prompt.txt'
     if not p.exists():
-        return ''
+        return '', ''
     txt = p.read_text(encoding='utf-8').strip().replace('\n', ' ')
-    return txt[:220] + ('…' if len(txt) > 220 else '')
+    preview = txt[:180] + ('…' if len(txt) > 180 else '')
+    return preview, './dist/' + post_dir.name + '/image_prompt.txt'
 
 
 def load_tags(post_dir: pathlib.Path):
@@ -52,13 +53,15 @@ for p in posts:
     rel = f"./dist/{p.name}/"
     date = p.name[:10] if re.match(r'^\d{4}-\d{2}-\d{2}', p.name) else '-'
     title = html.escape(load_title(p))
-    prompt_preview = html.escape(load_prompt_preview(p))
+    prompt_preview, prompt_link = load_prompt_preview(p)
+    prompt_preview = html.escape(prompt_preview)
     tags = html.escape(load_tags(p))
+    prompt_cell = f"<code>{prompt_preview}</code><div style='margin-top:6px'><a href=\"{prompt_link}\" target=\"_blank\">Full prompt (txt)</a></div>" if prompt_link else "-"
     rows.append(f"""
       <tr>
         <td>{date}</td>
         <td><a href=\"{rel}\" target=\"_blank\"><strong>{title}</strong></a></td>
-        <td><code>{prompt_preview}</code></td>
+        <td>{prompt_cell}</td>
         <td>{tags}</td>
       </tr>
     """)
