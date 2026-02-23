@@ -44,5 +44,8 @@ For each post (under `dist/YYYY-MM-DD-slug/`):
 - Last reviewed date
 
 ## Publishing
-- Commit and push to `master`
+- Default mode: generate artifacts first, then human review
+- Auto-publish is allowed only when `.pipeline/APPROVE_AUTOPUBLISH` exists in repo root
+- If approval file is missing, do **not** push; return pending-review summary
+- Once approved, commit and push to `master`
 - Publish through GitHub Pages

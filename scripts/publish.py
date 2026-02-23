@@ -59,6 +59,8 @@ def main():
     ap.add_argument('--image-prompt', default='')
     ap.add_argument('--image-alt', default='Business professionals reviewing payroll and compliance documents in a modern office setting.')
     ap.add_argument('--sources', default='[]')
+    ap.add_argument('--site-base-url', default='https://jmcun777.github.io/blog-writer')
+    ap.add_argument('--og-image', default='')
     args = ap.parse_args()
 
     draft_text = pathlib.Path(args.draft).read_text(encoding='utf-8')
@@ -73,8 +75,13 @@ def main():
 
     body_html = md_to_html(draft_text)
     tpl = pathlib.Path(args.template).read_text(encoding='utf-8')
+    canonical_url = f"{args.site_base_url.rstrip('/')}/{out_dir.as_posix().lstrip('./')}/"
+    og_image = args.og_image or f"{args.site_base_url.rstrip('/')}/{out_dir.as_posix().lstrip('./')}/cover.jpg"
+
     page = (tpl.replace('{{META_TITLE}}', html.escape(title))
               .replace('{{META_DESCRIPTION}}', html.escape(args.meta_description))
+              .replace('{{CANONICAL_URL}}', html.escape(canonical_url))
+              .replace('{{OG_IMAGE}}', html.escape(og_image))
               .replace('{{BODY_HTML}}', body_html)
               .replace('{{LAST_REVIEWED}}', args.date))
 

@@ -11,7 +11,8 @@ Write one factual, readable English article for overseas readers interested in C
 3. Cross-check critical claims and flag uncertainty.
 4. Draft article in human-like professional English.
 5. Generate image prompt pack for manual image creation in external AI tools.
-6. Build and publish HTML page into repo.
+6. Build HTML page into repo.
+7. If `.pipeline/APPROVE_AUTOPUBLISH` exists, commit+push. Otherwise stop at pending-review and report artifacts path.
 
 ## Output constraints
 - No fabricated facts.
@@ -24,7 +25,7 @@ Create these files in `content/YYYY-MM-DD-slug/`:
 - `draft.md` (article body)
 
 Then generate publishable files in `dist/YYYY-MM-DD-slug/`:
-- `index.html`
+- `index.html` (must include canonical + Open Graph + Twitter Card metadata)
 - `image_prompt.txt`
 - `image_alt.txt`
 - `sources.json`
