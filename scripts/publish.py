@@ -6,6 +6,7 @@ def md_to_html(md: str) -> str:
     lines = md.splitlines()
     out = []
     in_ul = False
+    in_ol = False
     in_table = False
 
     def flush_ul():
@@ -13,6 +14,12 @@ def md_to_html(md: str) -> str:
         if in_ul:
             out.append('</ul>')
             in_ul = False
+
+    def flush_ol():
+        nonlocal in_ol
+        if in_ol:
+            out.append('</ol>')
+            in_ol = False
 
     def flush_table():
         nonlocal in_table
@@ -23,28 +30,34 @@ def md_to_html(md: str) -> str:
     for i, ln in enumerate(lines):
         s = ln.strip()
         if not s:
-            flush_ul(); flush_table()
+            flush_ul(); flush_ol(); flush_table()
             continue
 
         # markdown table separator line like |---|---|
         is_sep = bool(re.fullmatch(r'\|?\s*:?-{3,}:?\s*(\|\s*:?-{3,}:?\s*)+\|?', s))
 
         if s.startswith('# '):
-            flush_ul(); flush_table()
+            flush_ul(); flush_ol(); flush_table()
             out.append(f"<h1>{html.escape(s[2:].strip())}</h1>")
         elif s.startswith('## '):
-            flush_ul(); flush_table()
+            flush_ul(); flush_ol(); flush_table()
             out.append(f"<h2>{html.escape(s[3:].strip())}</h2>")
         elif s.startswith('### '):
-            flush_ul(); flush_table()
+            flush_ul(); flush_ol(); flush_table()
             out.append(f"<h3>{html.escape(s[4:].strip())}</h3>")
         elif s.startswith('- '):
-            flush_table()
+            flush_ol(); flush_table()
             if not in_ul:
                 out.append('<ul>'); in_ul = True
             out.append(f"<li>{html.escape(s[2:].strip())}</li>")
+        elif re.match(r'^\d+\.\s+', s):
+            flush_ul(); flush_table()
+            if not in_ol:
+                out.append('<ol>'); in_ol = True
+            item = re.sub(r'^\d+\.\s+', '', s)
+            out.append(f"<li>{html.escape(item)}</li>")
         elif '|' in s and s.startswith('|') and s.endswith('|'):
-            flush_ul()
+            flush_ul(); flush_ol()
             cells = [c.strip() for c in s.strip('|').split('|')]
             # header row + separator row
             if (i + 1) < len(lines):
@@ -66,7 +79,7 @@ def md_to_html(md: str) -> str:
                     in_table = True
                 out.append('<tr>' + ''.join(f'<td>{html.escape(c)}</td>' for c in cells) + '</tr>')
         else:
-            flush_ul(); flush_table()
+            flush_ul(); flush_ol(); flush_table()
             esc = html.escape(s)
             esc = re.sub(r'\[([^\]]+)\]\((https?://[^\)]+)\)', r'<a href="\2">\1</a>', esc)
             # basic inline markdown formatting
@@ -75,7 +88,7 @@ def md_to_html(md: str) -> str:
             esc = re.sub(r'`([^`]+)`', r'<code>\1</code>', esc)
             out.append(f"<p>{esc}</p>")
 
-    flush_ul(); flush_table()
+    flush_ul(); flush_ol(); flush_table()
     return '\n'.join(out)
 
 
