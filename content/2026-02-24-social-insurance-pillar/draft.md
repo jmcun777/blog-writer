@@ -1,4 +1,4 @@
-# Social Insurance in China for Foreign Employees (2026): A Structured Guide for International Employers
+# China Social Insurance Guide (2026)
 
 ## Overview
 For international employers in China, social insurance should be treated as a core part of workforce compliance and payroll governance. The legal framework sets the baseline, but the real management challenge is operational: city-level process differences, documentation timing, and exception handling.
