@@ -6,37 +6,72 @@ def md_to_html(md: str) -> str:
     lines = md.splitlines()
     out = []
     in_ul = False
-    for ln in lines:
+    in_table = False
+
+    def flush_ul():
+        nonlocal in_ul
+        if in_ul:
+            out.append('</ul>')
+            in_ul = False
+
+    def flush_table():
+        nonlocal in_table
+        if in_table:
+            out.append('</tbody></table>')
+            in_table = False
+
+    for i, ln in enumerate(lines):
         s = ln.strip()
         if not s:
-            if in_ul:
-                out.append('</ul>')
-                in_ul = False
+            flush_ul(); flush_table()
             continue
+
+        # markdown table separator line like |---|---|
+        is_sep = bool(re.fullmatch(r'\|?\s*:?-{3,}:?\s*(\|\s*:?-{3,}:?\s*)+\|?', s))
+
         if s.startswith('# '):
-            if in_ul:
-                out.append('</ul>'); in_ul = False
+            flush_ul(); flush_table()
             out.append(f"<h1>{html.escape(s[2:].strip())}</h1>")
         elif s.startswith('## '):
-            if in_ul:
-                out.append('</ul>'); in_ul = False
+            flush_ul(); flush_table()
             out.append(f"<h2>{html.escape(s[3:].strip())}</h2>")
         elif s.startswith('### '):
-            if in_ul:
-                out.append('</ul>'); in_ul = False
+            flush_ul(); flush_table()
             out.append(f"<h3>{html.escape(s[4:].strip())}</h3>")
         elif s.startswith('- '):
+            flush_table()
             if not in_ul:
                 out.append('<ul>'); in_ul = True
             out.append(f"<li>{html.escape(s[2:].strip())}</li>")
+        elif '|' in s and s.startswith('|') and s.endswith('|'):
+            flush_ul()
+            cells = [c.strip() for c in s.strip('|').split('|')]
+            # header row + separator row
+            if (i + 1) < len(lines):
+                nxt = lines[i + 1].strip()
+                nxt_sep = bool(re.fullmatch(r'\|?\s*:?-{3,}:?\s*(\|\s*:?-{3,}:?\s*)+\|?', nxt))
+            else:
+                nxt_sep = False
+
+            if nxt_sep:
+                flush_table()
+                out.append('<table><thead><tr>' + ''.join(f'<th>{html.escape(c)}</th>' for c in cells) + '</tr></thead><tbody>')
+                in_table = True
+            elif is_sep:
+                # skip separator line
+                continue
+            else:
+                if not in_table:
+                    out.append('<table><tbody>')
+                    in_table = True
+                out.append('<tr>' + ''.join(f'<td>{html.escape(c)}</td>' for c in cells) + '</tr>')
         else:
-            if in_ul:
-                out.append('</ul>'); in_ul = False
+            flush_ul(); flush_table()
             esc = html.escape(s)
             esc = re.sub(r'\[([^\]]+)\]\((https?://[^\)]+)\)', r'<a href="\2">\1</a>', esc)
             out.append(f"<p>{esc}</p>")
-    if in_ul:
-        out.append('</ul>')
+
+    flush_ul(); flush_table()
     return '\n'.join(out)
 
 
