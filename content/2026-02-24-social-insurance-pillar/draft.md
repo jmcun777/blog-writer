@@ -13,6 +13,24 @@ At national level, labor and social insurance laws provide the core framework fo
 
 This baseline helps multinational teams avoid fragmented assumptions inherited from old internal practices or informal market commentary.
 
+## Core social security components and baseline numbers (what employers need on one screen)
+For foreign readers, the system is usually understood through the “five insurances + housing fund” operating model in payroll practice.
+
+| Item | Employee side (typical) | Employer side (typical) | Notes |
+|---|---:|---:|---|
+| Pension | ~8% | ~16% | Often the largest contribution component |
+| Medical | ~2% + local fixed amount | ~9% to 10% (city-dependent) | Local fixed add-ons may apply |
+| Unemployment | ~0.5% | ~0.5% | May vary by city policy cycle |
+| Work injury | 0% | Industry-rate based (small percentage) | Employer-only; rate tied to risk class |
+| Maternity | 0% | Often integrated into employer-side social pool by local rules | Handling differs by local policy history |
+| Housing fund | commonly 5%–12% | commonly 5%–12% | Not part of “five insurances” legally, but operationally linked in payroll |
+
+### Contribution base mechanics
+China payroll execution also depends on contribution **base floor/ceiling** set by local authorities. This means the contribution base is typically not a simple “use gross salary directly” rule for all employees. In practice, teams apply local floor/ceiling logic first, then apply rates.
+
+### Why these numbers are shown as "typical"
+Rates and base limits are adjusted locally and periodically. The percentages above are practical reference values used in employer planning, but payroll filing must follow the latest city-level official parameters for the relevant cycle.
+
 ## Local execution variance: what changes in practice
 Even with a stable national baseline, implementation can differ in daily operations. Variance usually appears in four areas:
 
