@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{{META_TITLE}}</title>
+  <meta name="description" content="{{META_DESCRIPTION}}" />
+  <link rel="canonical" href="{{CANONICAL_URL}}" />
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="{{META_TITLE}}" />
+  <meta property="og:description" content="{{META_DESCRIPTION}}" />
+  <meta property="og:url" content="{{CANONICAL_URL}}" />
+  <meta property="og:image" content="{{OG_IMAGE}}" />
+  <style>
+    :root{--blue:#0c4f99;--blue2:#1266bf;--ink:#1c2f48;--muted:#637891;--line:#d8e2ee;--bg:#eef3f8}
+    *{box-sizing:border-box}
+    body{margin:0;background:var(--bg);font-family:Arial,Helvetica,sans-serif;color:var(--ink);line-height:1.7}
+    .top{background:linear-gradient(90deg,var(--blue),var(--blue2));color:#fff}
+    .top .inner{max-width:1180px;margin:0 auto;padding:10px 16px;font-size:12px;letter-spacing:.06em;text-transform:uppercase;font-weight:700}
+    .nav{background:#fff;border-bottom:1px solid #d8e2ef}
+    .nav .inner{max-width:1180px;margin:0 auto;padding:8px 16px;font-size:12px;color:#4d6f99}
+    .nav a{color:#4d6f99;text-decoration:none;margin-right:12px}
+    .shell{max-width:1180px;margin:0 auto;padding:18px 16px 30px;display:grid;grid-template-columns:minmax(0,820px) 300px;gap:20px}
+    .crumb{grid-column:1/-1;font-size:12px;color:#6f84a0}
+    .article{background:#fff;border:1px solid var(--line);padding:24px 30px}
+    .hero img{width:100%;display:block;border:1px solid var(--line)}
+    .hero figcaption{font-size:12px;color:var(--muted);margin-top:6px}
+    h1{font-size:38px;line-height:1.16;margin:10px 0 14px;color:#122a4e}
+    h2{font-size:30px;line-height:1.23;margin:34px 0 12px;color:#183c68;border-bottom:1px solid #e6edf7;padding-bottom:7px}
+    h3{font-size:21px;line-height:1.35;margin:22px 0 10px;color:#224a75}
+    p{font-size:18px;line-height:1.8;color:#24364f;margin:0 0 16px}
+    ul,ol{padding-left:24px;margin:4px 0 16px}
+    li{font-size:17px;line-height:1.72;margin-bottom:8px}
+    table{width:100%;border-collapse:collapse;margin:10px 0 18px}
+    th,td{border:1px solid #d9e1ee;padding:10px 11px;vertical-align:top;font-size:15px;line-height:1.55}
+    th{background:#f2f6fc;text-align:left;color:#1f3f67}
+    aside .card{background:#fff;border:1px solid var(--line);padding:12px;margin-bottom:12px}
+    aside h4{margin:0 0 8px;font-size:13px;text-transform:uppercase;color:#29496e;letter-spacing:.05em}
+    aside p,aside li{font-size:13px;color:#425b7a;line-height:1.55}
+    .cta,.prompt{margin-top:20px;border:1px solid #d6e2f4;background:#f7faff;padding:12px}
+    .prompt code{display:block;background:#edf3ff;border:1px solid #d4e0f7;padding:9px;white-space:pre-wrap}
+    .disc{margin-top:18px;padding-top:10px;border-top:1px dashed #d7e0ec;font-size:12px;color:var(--muted)}
+    a{color:#0d58ab;text-decoration:none} a:hover{text-decoration:underline}
+    @media(max-width:980px){.shell{grid-template-columns:1fr}.article{padding:18px}aside{order:3}}
+  </style>
+</head>
+<body>
+  <div class="top"><div class="inner">Doing Business in China</div></div>
+  <div class="nav"><div class="inner"><a href="#">Accounting & Tax</a><a href="#">Human Resources and Payroll</a><a href="#">Audit and Compliance</a></div></div>
+  <div class="shell">
+    <div class="crumb">China Guide / Human Resources and Payroll / Topic Guide</div>
+    <article class="article">{{BODY_HTML}}
+      <section class="cta"><h3>Need local employment support in China?</h3><p>If you need a compliance-first partner for hiring, payroll, and risk controls in China, China-Payroll.com can help evaluate the right setup.</p></section>
+      <div class="disc">Informational content only. Last reviewed: {{LAST_REVIEWED}}.</div>
+    </article>
+    <aside>
+      <div class="card"><h4>Guide Lens</h4><ul><li>China situation first</li><li>Operational implications</li><li>Action controls</li></ul></div>
+      <div class="card"><h4>Update Discipline</h4><p>Maintain one canonical pillar URL and refresh monthly.</p></div>
+    </aside>
+  </div>
+</body>
+</html>
