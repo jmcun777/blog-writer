@@ -3,6 +3,14 @@ import json, re, html, datetime, pathlib, argparse, hashlib
 
 
 def md_to_html(md: str) -> str:
+    def render_inline(text: str) -> str:
+        esc = html.escape(text)
+        esc = re.sub(r'\[([^\]]+)\]\((https?://[^\)]+)\)', r'<a href="\2">\1</a>', esc)
+        esc = re.sub(r'\*\*([^*]+)\*\*', r'<strong>\1</strong>', esc)
+        esc = re.sub(r'\*([^*]+)\*', r'<em>\1</em>', esc)
+        esc = re.sub(r'`([^`]+)`', r'<code>\1</code>', esc)
+        return esc
+
     lines = md.splitlines()
     out = []
     in_ul = False
@@ -49,13 +57,13 @@ def md_to_html(md: str) -> str:
             flush_ol(); flush_table()
             if not in_ul:
                 out.append('<ul>'); in_ul = True
-            out.append(f"<li>{html.escape(s[2:].strip())}</li>")
+            out.append(f"<li>{render_inline(s[2:].strip())}</li>")
         elif re.match(r'^\d+\.\s+', s):
             flush_ul(); flush_table()
             if not in_ol:
                 out.append('<ol>'); in_ol = True
             item = re.sub(r'^\d+\.\s+', '', s)
-            out.append(f"<li>{html.escape(item)}</li>")
+            out.append(f"<li>{render_inline(item)}</li>")
         elif '|' in s and s.startswith('|') and s.endswith('|'):
             flush_ul(); flush_ol()
             cells = [c.strip() for c in s.strip('|').split('|')]
@@ -68,7 +76,7 @@ def md_to_html(md: str) -> str:
 
             if nxt_sep:
                 flush_table()
-                out.append('<table><thead><tr>' + ''.join(f'<th>{html.escape(c)}</th>' for c in cells) + '</tr></thead><tbody>')
+                out.append('<table><thead><tr>' + ''.join(f'<th>{render_inline(c)}</th>' for c in cells) + '</tr></thead><tbody>')
                 in_table = True
             elif is_sep:
                 # skip separator line
@@ -77,16 +85,10 @@ def md_to_html(md: str) -> str:
                 if not in_table:
                     out.append('<table><tbody>')
                     in_table = True
-                out.append('<tr>' + ''.join(f'<td>{html.escape(c)}</td>' for c in cells) + '</tr>')
+                out.append('<tr>' + ''.join(f'<td>{render_inline(c)}</td>' for c in cells) + '</tr>')
         else:
             flush_ul(); flush_ol(); flush_table()
-            esc = html.escape(s)
-            esc = re.sub(r'\[([^\]]+)\]\((https?://[^\)]+)\)', r'<a href="\2">\1</a>', esc)
-            # basic inline markdown formatting
-            esc = re.sub(r'\*\*([^*]+)\*\*', r'<strong>\1</strong>', esc)
-            esc = re.sub(r'\*([^*]+)\*', r'<em>\1</em>', esc)
-            esc = re.sub(r'`([^`]+)`', r'<code>\1</code>', esc)
-            out.append(f"<p>{esc}</p>")
+            out.append(f"<p>{render_inline(s)}</p>")
 
     flush_ul(); flush_ol(); flush_table()
     return '\n'.join(out)
