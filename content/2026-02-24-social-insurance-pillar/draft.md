@@ -6,9 +6,9 @@
 - Employers should read this topic in three layers: legal baseline, local variance, and operating controls.
 
 ## 1) China baseline: what is broadly consistent nationwide
-At the national level, social insurance obligations are rooted in China’s labor and social insurance framework. For foreign employers, this means social insurance should be treated as a core employment compliance domain, not a discretionary payroll add-on. In management terms, the default assumption is inclusion and contribution handling through formal payroll and filing channels. **[S1][S2]**
+At the national level, social insurance obligations are rooted in China’s labor and social insurance framework. For foreign employers, this means social insurance should be treated as a core employment compliance domain, not a discretionary payroll add-on. In management terms, the default assumption is inclusion and contribution handling through formal payroll and filing channels.
 
-This baseline is important because many multinational teams begin with fragmented assumptions inherited from legacy setups, vendor folklore, or past project exceptions. A clean reset is to anchor policy interpretation to national legal sources first, then assess local execution behavior second. **[S1][S2]**
+This baseline is important because many multinational teams begin with fragmented assumptions inherited from legacy setups, vendor folklore, or past project exceptions. A clean reset is to anchor policy interpretation to national legal sources first, then assess local execution behavior second.
 
 ## 2) China local reality: where variance appears in practice
 China Briefing-style reading requires separating principle from administration. In practice, variance usually appears in four repeatable areas:
@@ -92,6 +92,6 @@ Because missing-doc and timing controls are often weaker than policy interpretat
 Exception closure SLA, missing-doc ratio, reconciliation deltas, and dispute volume trends.
 
 ## Sources
-- **[S1]** Social Insurance Law of the PRC (NPC): http://www.npc.gov.cn/zgrdw/englishnpc/Law/2009-02/20/content_1471106.htm
-- **[S2]** Labor Contract Law of the PRC (NPC): http://www.npc.gov.cn/zgrdw/englishnpc/Law/2007-12/13/content_1384064.htm
-- **[S3]** PwC Worldwide Tax Summaries (PRC): https://taxsummaries.pwc.com/peoples-republic-of-china/individual/other-taxes
+- **** Social Insurance Law of the PRC (NPC): http://www.npc.gov.cn/zgrdw/englishnpc/Law/2009-02/20/content_1471106.htm
+- **** Labor Contract Law of the PRC (NPC): http://www.npc.gov.cn/zgrdw/englishnpc/Law/2007-12/13/content_1384064.htm
+- **** PwC Worldwide Tax Summaries (PRC): https://taxsummaries.pwc.com/peoples-republic-of-china/individual/other-taxes
