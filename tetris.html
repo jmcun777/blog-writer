@@ -2,17 +2,29 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
   <title>Tetris - DA Lab</title>
   <style>
     body { margin:0; font-family: Arial, sans-serif; background:#0f172a; color:#e2e8f0; display:flex; justify-content:center; }
-    .wrap { display:flex; gap:20px; padding:24px; align-items:flex-start; }
-    canvas { background:#020617; border:2px solid #334155; image-rendering: pixelated; }
-    .panel { min-width:220px; background:#111827; border:1px solid #334155; border-radius:8px; padding:14px; }
-    h1 { margin:0 0 10px; font-size:20px; }
+    .wrap { display:flex; gap:16px; padding:16px; align-items:flex-start; width:100%; max-width:860px; }
+    canvas { background:#020617; border:2px solid #334155; image-rendering: pixelated; width:300px; height:600px; }
+    .panel { min-width:220px; background:#111827; border:1px solid #334155; border-radius:8px; padding:12px; }
+    h1 { margin:0 0 8px; font-size:20px; }
     .k { color:#94a3b8; font-size:13px; }
-    .v { font-weight:700; font-size:22px; margin-bottom:10px; }
-    button { width:100%; margin-top:10px; padding:10px; border:0; border-radius:6px; cursor:pointer; background:#2563eb; color:#fff; }
+    .v { font-weight:700; font-size:22px; margin-bottom:8px; }
+    button { width:100%; margin-top:8px; padding:10px; border:0; border-radius:6px; cursor:pointer; background:#2563eb; color:#fff; }
+
+    .mobile-controls { display:none; margin-top:10px; }
+    .row { display:flex; gap:8px; margin-top:8px; }
+    .ctl { flex:1; padding:14px 10px; border-radius:8px; border:1px solid #475569; background:#1e293b; color:#fff; font-size:18px; }
+
+    @media (max-width: 820px) {
+      .wrap { flex-direction:column; align-items:center; }
+      canvas { width:250px; height:500px; }
+      .panel { width:100%; max-width:360px; }
+      .mobile-controls { display:block; }
+      .desktop-tip { display:none; }
+    }
   </style>
 </head>
 <body>
@@ -23,9 +35,21 @@
       <div class="k">Score</div><div id="score" class="v">0</div>
       <div class="k">Lines</div><div id="lines" class="v">0</div>
       <div class="k">Level</div><div id="level" class="v">1</div>
-      <div class="k">Controls</div>
-      <div class="k">← → move · ↑ rotate · ↓ soft drop · Space hard drop</div>
+      <div class="k desktop-tip">Keyboard: ← → move · ↑ rotate · ↓ soft drop · Space hard drop</div>
       <button id="restart">Restart</button>
+
+      <div class="mobile-controls">
+        <div class="k">Mobile controls</div>
+        <div class="row">
+          <button class="ctl" id="left">◀</button>
+          <button class="ctl" id="rotate">⟳</button>
+          <button class="ctl" id="right">▶</button>
+        </div>
+        <div class="row">
+          <button class="ctl" id="down">▼</button>
+          <button class="ctl" id="drop">⤓</button>
+        </div>
+      </div>
     </div>
   </div>
 
@@ -67,15 +91,12 @@ function spawn(){
 }
 
 function collide(board,p){
-  for(let y=0;y<p.matrix.length;y++) for(let x=0;x<p.matrix[y].length;x++){
+  for(let y=0;y<p.matrix.length;y++) for(let x=0;x<p.matrix[y].length;x++)
     if(p.matrix[y][x]!==0 && (board[y+p.pos.y] && board[y+p.pos.y][x+p.pos.x])!==0) return true;
-  }
   return false;
 }
 
-function merge(board,p){
-  p.matrix.forEach((row,y)=>row.forEach((v,x)=>{ if(v) board[y+p.pos.y][x+p.pos.x]=v; }));
-}
+function merge(board,p){ p.matrix.forEach((row,y)=>row.forEach((v,x)=>{ if(v) board[y+p.pos.y][x+p.pos.x]=v; })); }
 
 function rotate(matrix,dir){
   for(let y=0;y<matrix.length;y++) for(let x=0;x<y;x++) [matrix[x][y],matrix[y][x]]=[matrix[y][x],matrix[x][y]];
@@ -110,28 +131,18 @@ function sweep(){
 
 function playerDrop(){
   player.pos.y++;
-  if(collide(board,player)){
-    player.pos.y--; merge(board,player); spawn(); sweep();
-  }
+  if(collide(board,player)){ player.pos.y--; merge(board,player); spawn(); sweep(); }
   dropCounter=0;
 }
 
-function hardDrop(){
-  while(!collide(board,player)) player.pos.y++;
-  player.pos.y--; merge(board,player); spawn(); sweep(); dropCounter=0;
-}
-
+function hardDrop(){ while(!collide(board,player)) player.pos.y++; player.pos.y--; merge(board,player); spawn(); sweep(); dropCounter=0; }
 function playerMove(dir){ player.pos.x+=dir; if(collide(board,player)) player.pos.x-=dir; }
 
 function drawMatrix(matrix,offset){
   matrix.forEach((row,y)=>row.forEach((v,x)=>{ if(v){ ctx.fillStyle=colors[v]; ctx.fillRect(x+offset.x,y+offset.y,1,1); ctx.strokeStyle='#0b1020'; ctx.strokeRect(x+offset.x,y+offset.y,1,1);} }));
 }
 
-function draw(){
-  ctx.fillStyle='#020617'; ctx.fillRect(0,0,COLS,ROWS);
-  drawMatrix(board,{x:0,y:0});
-  if(!over) drawMatrix(player.matrix,player.pos);
-}
+function draw(){ ctx.fillStyle='#020617'; ctx.fillRect(0,0,COLS,ROWS); drawMatrix(board,{x:0,y:0}); if(!over) drawMatrix(player.matrix,player.pos); }
 
 function update(time=0){
   const delta=time-lastTime; lastTime=time; dropCounter+=delta;
@@ -140,19 +151,29 @@ function update(time=0){
   if(!over) requestAnimationFrame(update);
 }
 
-function updateStats(){
-  scoreEl.textContent=score; linesEl.textContent=lines; levelEl.textContent=level;
-}
+function updateStats(){ scoreEl.textContent=score; linesEl.textContent=lines; levelEl.textContent=level; }
 
 function gameOver(){
-  ctx.fillStyle='rgba(0,0,0,0.7)'; ctx.fillRect(0,8,10,4);
-  ctx.fillStyle='#fff'; ctx.font='1px Arial';
-  ctx.fillText('GAME OVER',2.1,10.2);
+  ctx.fillStyle='rgba(0,0,0,0.72)'; ctx.fillRect(0,8,10,4);
+  ctx.fillStyle='#fff'; ctx.font='1px Arial'; ctx.fillText('GAME OVER',2.1,10.2);
 }
 
 const scoreEl=document.getElementById('score');
 const linesEl=document.getElementById('lines');
 const levelEl=document.getElementById('level');
+
+function bindTap(id, fn){
+  const el=document.getElementById(id);
+  const h=(e)=>{ e.preventDefault(); if(!over) fn(); };
+  el.addEventListener('touchstart',h,{passive:false});
+  el.addEventListener('click',h);
+}
+
+bindTap('left', ()=>playerMove(-1));
+bindTap('right', ()=>playerMove(1));
+bindTap('rotate', ()=>playerRotate(1));
+bindTap('down', ()=>playerDrop());
+bindTap('drop', ()=>hardDrop());
 
 document.addEventListener('keydown',e=>{
   if(over) return;
