@@ -48,6 +48,18 @@ Priority themes:
   - include a “Key Takeaways” summary block near top
   - include “What to watch next” when rules may evolve
   - allow section order to vary by topic for natural flow
+  - prioritize operational depth over policy commentary
+
+## Operations-first requirements (mandatory)
+Each article must include practical execution content for daily HR/payroll operations:
+1. Process SOP (step-by-step) with role ownership (HR / Payroll / Manager / Vendor)
+2. Required document checklist (what to collect, from whom, when)
+3. Timeline and SLA suggestions (D-7, D-3, payroll day, post-run)
+4. Exception handling playbook (missing docs, delayed approval, disputed treatment)
+5. System implementation notes (payroll fields, audit log, evidence archive)
+6. “Common mistakes” and “How to prevent” sections
+
+Policy interpretation should be concise and support operations, not dominate article length.
 
 ## Required Output Files
 For each post (under `dist/YYYY-MM-DD-slug/`):

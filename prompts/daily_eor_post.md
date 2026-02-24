@@ -44,9 +44,14 @@ Cover image rule:
 - Title (utility-first, international search intent)
 - Key takeaways (3-5 bullets)
 - What changed (hook + immediate business relevance)
-- Policy and market context
+- Policy and market context (concise)
 - Why it matters for foreign employers
 - Practical scenarios (at least 2)
+- Daily operations SOP (role-by-role)
+- Document checklist (required docs + deadlines)
+- Exception handling playbook
+- System implementation notes (payroll fields / controls / audit trail)
+- Common mistakes and prevention
 - What to do now (step-by-step action checklist)
 - What to watch next (policy/implementation uncertainty)
 - FAQ (5-8 Q&A)
@@ -54,7 +59,8 @@ Cover image rule:
 - Sources (with dates where possible)
 
 ## Length, readability, and SEO requirements
-- Target 1,400-2,000 words per article.
+- Target 1,600-2,300 words per article.
+- At least 45% of content must be operational guidance (SOP/checklists/controls/examples).
 - Avoid choppy writing: most paragraphs should be ~80-160 words with clear transitions.
 - Use one primary keyword plus related terms naturally (no keyword stuffing).
 - Write meaningful section headings that match search intent.
