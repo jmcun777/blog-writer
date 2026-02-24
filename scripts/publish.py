@@ -69,6 +69,10 @@ def md_to_html(md: str) -> str:
             flush_ul(); flush_table()
             esc = html.escape(s)
             esc = re.sub(r'\[([^\]]+)\]\((https?://[^\)]+)\)', r'<a href="\2">\1</a>', esc)
+            # basic inline markdown formatting
+            esc = re.sub(r'\*\*([^*]+)\*\*', r'<strong>\1</strong>', esc)
+            esc = re.sub(r'\*([^*]+)\*', r'<em>\1</em>', esc)
+            esc = re.sub(r'`([^`]+)`', r'<code>\1</code>', esc)
             out.append(f"<p>{esc}</p>")
 
     flush_ul(); flush_table()
