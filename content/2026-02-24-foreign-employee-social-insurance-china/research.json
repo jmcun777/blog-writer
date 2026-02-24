@@ -1,0 +1,41 @@
+{
+  "topic": "China social insurance obligations for foreign employees and treaty-based exemption handling",
+  "primary_keyword": "China social insurance foreign employees",
+  "angle": "Decision-focused compliance and payroll operations guide for foreign employers using EOR or direct entities",
+  "sources": [
+    {
+      "title": "Labor Contract Law of the People's Republic of China (2012 Amendment)",
+      "url": "http://www.npc.gov.cn/zgrdw/englishnpc/Law/2007-12/13/content_1384064.htm",
+      "publisher": "National People's Congress (official)",
+      "accessed_date": "2026-02-24",
+      "published_or_updated": "2012 amendment text page",
+      "notes": "Used for employment relationship and written contract obligations that connect to social insurance enrollment process controls."
+    },
+    {
+      "title": "Social Insurance Law of the People's Republic of China",
+      "url": "http://www.npc.gov.cn/zgrdw/englishnpc/Law/2009-02/20/content_1471106.htm",
+      "publisher": "National People's Congress (official)",
+      "accessed_date": "2026-02-24",
+      "published_or_updated": "2010 law text page",
+      "notes": "Core legal basis for social insurance participation obligations, contribution mechanics, and treatment of foreigners employed in China."
+    },
+    {
+      "title": "Worldwide Tax Summaries: People’s Republic of China – Other taxes",
+      "url": "https://taxsummaries.pwc.com/peoples-republic-of-china/individual/other-taxes",
+      "publisher": "PwC",
+      "accessed_date": "2026-02-24",
+      "published_or_updated": "Page timestamp as displayed by publisher",
+      "notes": "Practical market summary on social security treatment of foreign employees and bilateral totalization agreement handling in practice."
+    }
+  ],
+  "consensus_points": [
+    "China social insurance participation is not optional once an employment relationship exists within scope.",
+    "Employer-side payroll operations must map enrollment, contribution base, and monthly filings consistently with local authority practice.",
+    "Cross-border cases can involve treaty-based exemption pathways, but documentation and local filing treatment are decisive."
+  ],
+  "uncertainties_or_interpretation_risks": [
+    "City-level administrative practice can differ in implementation detail, especially document checklists and timing expectations.",
+    "Treaty-exemption handling can vary by city and insurance branch, so employers should confirm current local bureau practice before relying on historical process maps.",
+    "English translations of legal texts may not capture every nuance; Chinese originals and local advice remain the final reference for edge cases."
+  ]
+}
