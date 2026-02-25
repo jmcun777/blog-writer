@@ -1,0 +1,49 @@
+{
+  "topic": "China termination payroll runbook for foreign employers: severance, final payroll, IIT and social insurance offboarding controls",
+  "primary_keyword": "China termination payroll severance",
+  "angle": "Operations-first playbook for HR and payroll teams handling employee exits in China with auditable controls and deadline discipline",
+  "sources": [
+    {
+      "title": "Labor Contract Law of the People's Republic of China (2012 Amendment)",
+      "url": "http://www.npc.gov.cn/zgrdw/englishnpc/Law/2007-12/13/content_1384064.htm",
+      "publisher": "National People's Congress (official)",
+      "accessed_date": "2026-02-25",
+      "published_or_updated": "English text page (law amended in 2012)",
+      "notes": "Used for termination conditions, severance framework, and employer obligations around ending labor contracts."
+    },
+    {
+      "title": "Social Insurance Law of the People's Republic of China",
+      "url": "http://www.npc.gov.cn/zgrdw/englishnpc/Law/2009-02/20/content_1471106.htm",
+      "publisher": "National People's Congress (official)",
+      "accessed_date": "2026-02-25",
+      "published_or_updated": "English text page (law adopted in 2010)",
+      "notes": "Used for employer obligations to register, contribute, and administer social insurance status changes linked to employee exits."
+    },
+    {
+      "title": "Worldwide Tax Summaries – People's Republic of China: Taxes on personal income",
+      "url": "https://taxsummaries.pwc.com/peoples-republic-of-china/individual/taxes-on-personal-income",
+      "publisher": "PwC",
+      "accessed_date": "2026-02-25",
+      "published_or_updated": "Publisher-maintained reference page",
+      "notes": "Used for practical IIT withholding context and termination-payment tax handling considerations for payroll operations."
+    },
+    {
+      "title": "Worldwide Tax Summaries – People's Republic of China: Other taxes",
+      "url": "https://taxsummaries.pwc.com/peoples-republic-of-china/individual/other-taxes",
+      "publisher": "PwC",
+      "accessed_date": "2026-02-25",
+      "published_or_updated": "Publisher-maintained reference page",
+      "notes": "Used for social security and housing fund practical context affecting final-pay and offboarding process controls."
+    }
+  ],
+  "consensus_points": [
+    "Termination in China is process-sensitive: legal basis, evidence quality, and payment timing all affect dispute exposure.",
+    "Severance and final payroll must be treated as one controlled workflow across HR, payroll, and line management rather than isolated tasks.",
+    "IIT and social-insurance treatment can involve city-level implementation differences; local confirmation is required for edge cases."
+  ],
+  "uncertainties_or_interpretation_risks": [
+    "Local bureau practice can differ on exact document forms, filing windows, and treatment of specific final-payment components.",
+    "Certain termination-payment tax treatments may depend on current implementing circulars and local system logic not fully reflected in high-level English summaries.",
+    "Chinese-language original rules and city-specific guidance prevail where English translations are simplified or outdated."
+  ]
+}
