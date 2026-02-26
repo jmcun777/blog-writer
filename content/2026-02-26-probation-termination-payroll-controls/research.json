@@ -1,0 +1,70 @@
+{
+  "topic": "China probation-period termination controls for foreign employers: payroll, evidence, and dispute-risk execution",
+  "primary_keyword": "China probation termination payroll compliance",
+  "related_keywords": [
+    "China Labor Contract Law probation",
+    "China final payroll process",
+    "foreign employer China HR operations",
+    "China severance and termination risk",
+    "EOR China employee offboarding"
+  ],
+  "sources": [
+    {
+      "title": "Labor Contract Law of the People's Republic of China",
+      "publisher": "National People's Congress (official English text)",
+      "url": "http://www.npc.gov.cn/zgrdw/englishnpc/Law/2007-12/13/content_1384064.htm",
+      "published_or_updated": "2007-06-29 (adopted) / English page accessed 2026-02-26",
+      "type": "primary law",
+      "key_points_used": [
+        "Sets probation-period limits and links probation length to contract term.",
+        "Provides legal grounds for termination and risk for unlawful termination.",
+        "Defines severance principles and compensation exposure framework."
+      ]
+    },
+    {
+      "title": "Social Insurance Law of the People's Republic of China",
+      "publisher": "National People's Congress (official English text)",
+      "url": "http://www.npc.gov.cn/zgrdw/englishnpc/Law/2009-02/20/content_1471106.htm",
+      "published_or_updated": "2010-10-28 (adopted) / English page accessed 2026-02-26",
+      "type": "primary law",
+      "key_points_used": [
+        "Confirms employer and employee participation obligations in social insurance.",
+        "Supports offboarding controls to avoid contribution and filing mismatches during exit payroll."
+      ]
+    },
+    {
+      "title": "China: Key recent developments in employment law (comparative perspective for multinational employers)",
+      "publisher": "Littler",
+      "url": "https://www.littler.com/news-analysis/asap/key-recent-developments-chinas-employment-law-china-us-comparative-perspective",
+      "published_or_updated": "2025-09-16",
+      "type": "international labor law analysis",
+      "key_points_used": [
+        "Multinational employers in China face rising documentation and process-discipline expectations in disputes.",
+        "Operational consistency is a core risk control, not only policy awareness."
+      ]
+    },
+    {
+      "title": "People's Republic of China - Individual taxes on personal income",
+      "publisher": "PwC Worldwide Tax Summaries",
+      "url": "https://taxsummaries.pwc.com/peoples-republic-of-china/individual/taxes-on-personal-income",
+      "published_or_updated": "Page accessed 2026-02-26 (dynamic update)",
+      "type": "technical tax reference",
+      "key_points_used": [
+        "Provides practical IIT framework context for payroll treatment during final settlement periods.",
+        "Supports caution that payroll tax handling for specific termination components can require local confirmation."
+      ]
+    }
+  ],
+  "consensus": [
+    "Probation termination in China is not manager-discretion only; employers need legally supported grounds and evidence.",
+    "Payroll, HR, and manager controls must be synchronized to avoid disputes and rework in final pay.",
+    "Foreign employers should run probation exits through a documented SOP with approvals, audit trail, and local-rule checks."
+  ],
+  "uncertainties": [
+    "Local adjudication standards for evidence sufficiency can differ by city and case facts.",
+    "Treatment details for certain final-pay components and filings may vary by local tax/social-insurance administration practice.",
+    "English-language source summaries may not capture all nuances of Chinese implementing guidance."
+  ],
+  "practical_implication_for_foreign_employers": "The highest-value control is a probation-exit runbook with evidence thresholds, payroll cutoff governance, and exception handling before final pay is released.",
+  "research_completed_at": "2026-02-26"
+}
