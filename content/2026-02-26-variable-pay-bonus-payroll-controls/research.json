@@ -1,0 +1,69 @@
+{
+  "topic": "China variable pay and bonus payroll controls for foreign employers",
+  "primary_keyword": "China bonus payroll compliance",
+  "related_keywords": [
+    "China variable compensation payroll",
+    "China payroll approval controls",
+    "foreign employer incentive payout China",
+    "China IIT payroll handling",
+    "EOR China payroll governance"
+  ],
+  "sources": [
+    {
+      "title": "Labor Contract Law of the People's Republic of China",
+      "publisher": "National People's Congress (official English text)",
+      "url": "http://www.npc.gov.cn/zgrdw/englishnpc/Law/2007-12/13/content_1384064.htm",
+      "published_or_updated": "2007-06-29 (adopted) / accessed 2026-02-26",
+      "type": "primary law",
+      "key_points_used": [
+        "Anchors contract and wage-related rights framework relevant to variable compensation handling.",
+        "Supports documentation and lawful-treatment expectations in dispute scenarios."
+      ]
+    },
+    {
+      "title": "Labor Law of the People's Republic of China",
+      "publisher": "National People's Congress (official English text)",
+      "url": "http://www.npc.gov.cn/zgrdw/englishnpc/Law/2007-12/16/content_1381294.htm",
+      "published_or_updated": "1994-07-05 (adopted) / accessed 2026-02-26",
+      "type": "primary law",
+      "key_points_used": [
+        "Provides wage payment and labor-protection baseline principles relevant to payroll execution.",
+        "Supports employer duty to administer compensation in compliant and documented manner."
+      ]
+    },
+    {
+      "title": "People's Republic of China - Individual taxes on personal income",
+      "publisher": "PwC Worldwide Tax Summaries",
+      "url": "https://taxsummaries.pwc.com/peoples-republic-of-china/individual/taxes-on-personal-income",
+      "published_or_updated": "accessed 2026-02-26",
+      "type": "technical tax reference",
+      "key_points_used": [
+        "Provides payroll tax context for salary/bonus treatment and annual reconciliation environment.",
+        "Supports need for pre-run classification of payment components and tax logic documentation."
+      ]
+    },
+    {
+      "title": "Key Recent Developments in China's Employment Law: A China-U.S. Comparative Perspective for Multinational Employers",
+      "publisher": "Littler",
+      "url": "https://www.littler.com/news-analysis/asap/key-recent-developments-chinas-employment-law-china-us-comparative-perspective",
+      "published_or_updated": "2025-09-16",
+      "type": "international labor law analysis",
+      "key_points_used": [
+        "Reinforces that multinational employer risk is often process and documentation quality.",
+        "Supports operations-first compliance posture for payroll-sensitive employment decisions."
+      ]
+    }
+  ],
+  "consensus": [
+    "Variable pay risk is primarily caused by weak approvals, unclear eligibility records, and late payroll conversion changes.",
+    "Foreign employers need a controlled workflow from compensation decision to payroll release.",
+    "Evidence quality and communication alignment are essential for defensibility."
+  ],
+  "uncertainties": [
+    "City-level practice and case-specific interpretation can differ in dispute handling.",
+    "Specific tax-treatment details may require local confirmation before final run.",
+    "English-language sources may not include all implementing nuances in Chinese-language materials."
+  ],
+  "practical_implication_for_foreign_employers": "Use a D-10 to D+5 variable-pay payroll runbook with approval lock, component-level tax notes, and post-run reconciliation evidence.",
+  "research_completed_at": "2026-02-26"
+}
