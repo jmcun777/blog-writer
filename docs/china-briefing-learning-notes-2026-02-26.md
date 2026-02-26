@@ -14,3 +14,10 @@ What improved in this loop:
 Applied to current run:
 - New article uses timeline-led and decision-tree framing.
 - Added explicit owner matrix and exception routing language for foreign employer teams.
+
+---
+
+## Incremental learning update (15:30 run)
+- Shifted to **control-tower framing** (attendance data -> manager approvals -> payroll conversion) to better mirror day-to-day operations.
+- Increased **exception specificity**: late timesheet, disputed overtime eligibility, public-holiday misclassification, and cross-city calendar mismatch.
+- Tightened section openers so each starts with a decision or risk trigger rather than generic context.

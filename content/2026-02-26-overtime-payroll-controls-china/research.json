@@ -1,0 +1,69 @@
+{
+  "topic": "China overtime and working-time payroll controls for foreign employers",
+  "primary_keyword": "China overtime payroll compliance",
+  "related_keywords": [
+    "China working hours compliance",
+    "China attendance-to-payroll controls",
+    "foreign employer overtime risk China",
+    "China payroll exception handling",
+    "EOR China timekeeping governance"
+  ],
+  "sources": [
+    {
+      "title": "Labor Law of the People's Republic of China",
+      "publisher": "National People's Congress (official English text)",
+      "url": "http://www.npc.gov.cn/zgrdw/englishnpc/Law/2007-12/16/content_1381294.htm",
+      "published_or_updated": "1994-07-05 (adopted) / accessed 2026-02-26",
+      "type": "primary law",
+      "key_points_used": [
+        "Establishes working-hour framework and rest-day/public-holiday overtime compensation principles.",
+        "Provides baseline for employer overtime payment obligations and working-time limits."
+      ]
+    },
+    {
+      "title": "Labor Contract Law of the People's Republic of China",
+      "publisher": "National People's Congress (official English text)",
+      "url": "http://www.npc.gov.cn/zgrdw/englishnpc/Law/2007-12/13/content_1384064.htm",
+      "published_or_updated": "2007-06-29 (adopted) / accessed 2026-02-26",
+      "type": "primary law",
+      "key_points_used": [
+        "Supports contract, labor-rights, and dispute-risk framework relevant to overtime and compensation handling.",
+        "Provides employer compliance baseline for evidence and lawful treatment in labor disputes."
+      ]
+    },
+    {
+      "title": "Social Insurance Law of the People's Republic of China",
+      "publisher": "National People's Congress (official English text)",
+      "url": "http://www.npc.gov.cn/zgrdw/englishnpc/Law/2009-02/20/content_1471106.htm",
+      "published_or_updated": "2010-10-28 (adopted) / accessed 2026-02-26",
+      "type": "primary law",
+      "key_points_used": [
+        "Anchors contribution administration controls in payroll processing and post-run reconciliation.",
+        "Supports payroll governance model where compensation changes are mapped consistently to statutory processing."
+      ]
+    },
+    {
+      "title": "Key Recent Developments in China's Employment Law: A China-U.S. Comparative Perspective for Multinational Employers",
+      "publisher": "Littler",
+      "url": "https://www.littler.com/news-analysis/asap/key-recent-developments-chinas-employment-law-china-us-comparative-perspective",
+      "published_or_updated": "2025-09-16",
+      "type": "international labor law analysis",
+      "key_points_used": [
+        "Multinational employers need process-discipline and consistent documentation in China employment operations.",
+        "Dispute exposure is frequently linked to execution quality, not just policy awareness."
+      ]
+    }
+  ],
+  "consensus": [
+    "Overtime compliance risk for foreign employers is primarily an execution issue across attendance, approvals, and payroll conversion.",
+    "A documented, role-owned workflow with timeline gates reduces payroll rework and labor dispute risk.",
+    "Evidence quality and consistent communication are central to defensibility."
+  ],
+  "uncertainties": [
+    "Detailed local practice on evidence expectations and overtime treatment can vary by city and case facts.",
+    "Some implementation details require local confirmation where rules or practice are interpreted differently.",
+    "English-language summaries may not capture all nuances of Chinese-language implementing guidance."
+  ],
+  "practical_implication_for_foreign_employers": "Build an attendance-to-payroll control tower with D-7 and D-3 gates, standardized exception handling, and auditable approval records.",
+  "research_completed_at": "2026-02-26"
+}
