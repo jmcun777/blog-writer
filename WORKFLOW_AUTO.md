@@ -15,3 +15,9 @@
    - coherent section flow
    - concrete data density
 5. Avoid machine-writing artifacts and overlong intros.
+
+
+## Sticky Topic Rule (Hourly Testing Mode)
+- During hourly testing, do NOT pick random/new topics by default.
+- Read `/home/tz/.openclaw/workspace-dev/CURRENT_TOPIC.md` and keep the same topic for iterative improvement each run.
+- If user sends a new topic in chat, update `CURRENT_TOPIC.md` immediately and use that as the new optimization target for subsequent hourly runs.
