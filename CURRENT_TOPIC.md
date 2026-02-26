@@ -1,7 +1,7 @@
 # CURRENT_TOPIC
 
 Active topic for hourly optimization loop:
-In China, input termination (fixed-term contract non-renewal / termination payroll & HR controls)
+In China employee termination
 
 Rule:
 - Keep optimizing this same topic every hourly run until user gives a new topic.
