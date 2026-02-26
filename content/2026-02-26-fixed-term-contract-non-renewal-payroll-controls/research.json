@@ -1,0 +1,70 @@
+{
+  "topic": "China fixed-term contract non-renewal: payroll and severance execution controls for foreign employers",
+  "primary_keyword": "China fixed-term contract non-renewal payroll compliance",
+  "related_keywords": [
+    "China Labor Contract Law renewal",
+    "China severance payroll process",
+    "foreign employer contract renewal controls",
+    "China HR offboarding SOP",
+    "EOR China termination compliance"
+  ],
+  "sources": [
+    {
+      "title": "Labor Contract Law of the People's Republic of China",
+      "publisher": "National People's Congress (official English text)",
+      "url": "http://www.npc.gov.cn/zgrdw/englishnpc/Law/2007-12/13/content_1384064.htm",
+      "published_or_updated": "2007-06-29 (adopted) / accessed 2026-02-26",
+      "type": "primary law",
+      "key_points_used": [
+        "Defines contract term structures and renewal-related legal framework.",
+        "Sets statutory severance framework and compensation exposure for unlawful handling.",
+        "Provides baseline obligations that affect renewal and non-renewal decisions."
+      ]
+    },
+    {
+      "title": "Social Insurance Law of the People's Republic of China",
+      "publisher": "National People's Congress (official English text)",
+      "url": "http://www.npc.gov.cn/zgrdw/englishnpc/Law/2009-02/20/content_1471106.htm",
+      "published_or_updated": "2010-10-28 (adopted) / accessed 2026-02-26",
+      "type": "primary law",
+      "key_points_used": [
+        "Supports social insurance contribution and offboarding obligations relevant to contract-end payroll month.",
+        "Anchors control needs for contribution and filing closure during non-renewal processing."
+      ]
+    },
+    {
+      "title": "Key Recent Developments in China's Employment Law: A China-U.S. Comparative Perspective for Multinational Employers",
+      "publisher": "Littler",
+      "url": "https://www.littler.com/news-analysis/asap/key-recent-developments-chinas-employment-law-china-us-comparative-perspective",
+      "published_or_updated": "2025-09-16",
+      "type": "international labor law analysis",
+      "key_points_used": [
+        "Multinational employers need process-discipline and documentation consistency in China employment decisions.",
+        "Dispute risk is often driven by execution quality rather than policy awareness alone."
+      ]
+    },
+    {
+      "title": "People's Republic of China - Individual taxes on personal income",
+      "publisher": "PwC Worldwide Tax Summaries",
+      "url": "https://taxsummaries.pwc.com/peoples-republic-of-china/individual/taxes-on-personal-income",
+      "published_or_updated": "accessed 2026-02-26",
+      "type": "technical tax reference",
+      "key_points_used": [
+        "Supports payroll-tax operational context for final settlement handling and annual IIT considerations.",
+        "Reinforces need to classify and document payment components before final payroll run."
+      ]
+    }
+  ],
+  "consensus": [
+    "Foreign employers should treat fixed-term contract end decisions as controlled compliance workflows, not simple admin notices.",
+    "Payroll, HR, and manager alignment is central to reducing dispute and rework risk.",
+    "Evidence quality, timeline discipline, and communication consistency are decisive in defensibility."
+  ],
+  "uncertainties": [
+    "Local adjudication and authority practice can differ on specific fact patterns and evidence thresholds.",
+    "Treatment details for some payment components and filing sequences may require city-level confirmation.",
+    "English summaries may not capture all implementing detail in Chinese-language guidance."
+  ],
+  "practical_implication_for_foreign_employers": "The highest-value move is to run contract-end renewal decisions through a D-14 to D+7 SOP with legal-basis coding, document gates, and payroll release controls.",
+  "research_completed_at": "2026-02-26"
+}
