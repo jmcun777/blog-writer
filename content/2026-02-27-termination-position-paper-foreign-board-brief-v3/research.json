@@ -1,0 +1,70 @@
+{
+  "topic": "In China employee termination: position paper for foreign boards on legal defensibility and payroll risk",
+  "primary_keyword": "China employee termination position paper foreign employers",
+  "related_keywords": [
+    "China Labor Contract Law termination compliance",
+    "foreign investor labor risk China",
+    "China severance and unlawful termination exposure",
+    "China labor arbitration evidence standards",
+    "EOR payroll termination governance China"
+  ],
+  "sources": [
+    {
+      "title": "Labor Contract Law of the People's Republic of China",
+      "publisher": "National People's Congress (official English text)",
+      "url": "http://www.npc.gov.cn/zgrdw/englishnpc/Law/2007-12/13/content_1384064.htm",
+      "published_or_updated": "adopted 2007-06-29; amended 2012-12-28; accessed 2026-02-27",
+      "type": "official_primary_law",
+      "fit_note": "Primary legal basis for termination routes and consequences."
+    },
+    {
+      "title": "Regulations for the Implementation of the Labor Contract Law of the PRC (State Council Decree No. 535)",
+      "publisher": "State Council Gazette (official)",
+      "url": "https://www.gov.cn/gongbao/content/2008/content_1124615.htm",
+      "published_or_updated": "2008-09-18; accessed 2026-02-27",
+      "type": "official_implementing_regulation",
+      "fit_note": "Provides implementation detail needed for board-level policy design."
+    },
+    {
+      "title": "Interpretation of the Supreme People's Court on Issues Concerning the Application of Law in the Trial of Labor Dispute Cases (I)",
+      "publisher": "Supreme People's Court (official)",
+      "url": "https://www.court.gov.cn/fabu/xiangqing/243981.html",
+      "published_or_updated": "2020 amendment; accessed 2026-02-27",
+      "type": "official_judicial_interpretation",
+      "fit_note": "Supports dispute-risk framing and evidentiary governance principles."
+    },
+    {
+      "title": "Social Insurance Law of the People's Republic of China",
+      "publisher": "National People's Congress (official English text)",
+      "url": "http://www.npc.gov.cn/zgrdw/englishnpc/Law/2009-02/20/content_1471106.htm",
+      "published_or_updated": "adopted 2010-10-28; accessed 2026-02-27",
+      "type": "official_primary_law",
+      "fit_note": "Anchors statutory closure obligations tied to termination payroll handling."
+    },
+    {
+      "title": "Employee Termination in China: A Guide for Employers",
+      "publisher": "China Briefing (Dezan Shira & Associates)",
+      "url": "https://www.china-briefing.com/news/employee-termination-in-china/",
+      "published_or_updated": "updated 2025; accessed 2026-02-27",
+      "type": "authoritative_practice_reference",
+      "fit_note": "Provides practical translation of legal requirements for foreign operators."
+    }
+  ],
+  "source_replacement_notes": [
+    "Rotated from role-relay structure to a board-facing position-paper format; source stack unchanged to preserve legal certainty.",
+    "Excluded weak-fit tax/comparative sources because this run focuses on legal defensibility strategy rather than calculation detail.",
+    "Kept China Briefing as practical implementation lens while prioritizing official law and judicial interpretation."
+  ],
+  "consensus": [
+    "Termination in China should be governed as a legal risk decision, not only an HR operation.",
+    "Evidence and communication consistency are leading indicators of dispute outcomes.",
+    "Foreign employers benefit from board-level guardrails that force legal-first sequencing."
+  ],
+  "uncertainties": [
+    "City-level handling practices and evidentiary emphasis differ.",
+    "Complex component treatment in final payments may require local confirmation.",
+    "Official English texts may not fully capture all Chinese-language updates in practice."
+  ],
+  "source_fit_assessment": "Sufficient for a position-paper format because it combines binding legal authority with one high-fit practitioner source for foreign-reader operational interpretation.",
+  "research_completed_at": "2026-02-27"
+}

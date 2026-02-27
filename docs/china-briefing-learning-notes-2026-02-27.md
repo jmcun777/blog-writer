@@ -9,3 +9,8 @@
 - Rotated from matrix-led framing to a **role-relay governance** structure centered on handoff risks across Legal/HR/Manager/Payroll/Vendor.
 - Kept China Briefing-inspired utility flow by pairing legal architecture first with operational controls as a secondary layer.
 - Increased governance clarity by adding explicit decision gates and archive ownership, improving foreign-reader comprehension of who owns which risk.
+
+## Incremental learning update (06:04 run; variation=position paper / board brief)
+- Rotated into a **position-paper** structure aimed at foreign boards and regional leadership rather than function-level operators.
+- Mirrored China Briefing’s neutral-evidence style while introducing a clear thesis section and policy stance blocks.
+- Improved reader fit by framing legal hierarchy in plain language first, then moving operations into a secondary implementation layer.
