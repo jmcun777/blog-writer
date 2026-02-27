@@ -16,7 +16,7 @@ Applied to current run:
 - Added explicit owner matrix and exception routing language for foreign employer teams.
 
 ---
-## Incremental learning update (17:04 run; variation=Myth-vs-Fact + cost-risk matrix)
-- Rotated away from D-xx timeline skeleton to **myth-vs-fact** and **cost-risk matrix** framing.
-- Added **decision triggers** for in-cycle vs off-cycle release using risk-tier thresholds instead of date checkpoints.
-- Increased practicality with a **control catalog** (owner, control objective, failure signal, corrective action).
+## Incremental learning update (17:32 run; variation=checklist-led playbook)
+- Rotated to a **checklist-led operational playbook** with release gates by control condition, not date labels.
+- Added **pre-release triage checklist** and **post-release stabilization checklist** to improve day-2 execution quality.
+- Increased practical specificity in manager/HR/payroll handoff templates and failure indicators.

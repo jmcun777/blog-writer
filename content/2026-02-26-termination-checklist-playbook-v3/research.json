@@ -1,0 +1,69 @@
+{
+  "topic": "In China employee termination: checklist-led payroll execution playbook for foreign employers",
+  "primary_keyword": "China employee termination payroll checklist",
+  "related_keywords": [
+    "China severance payroll process",
+    "foreign employer termination workflow China",
+    "China labor dispute prevention checklist",
+    "EOR China offboarding controls",
+    "China final payroll governance"
+  ],
+  "sources": [
+    {
+      "title": "Labor Contract Law of the People's Republic of China",
+      "publisher": "National People's Congress (official English text)",
+      "url": "http://www.npc.gov.cn/zgrdw/englishnpc/Law/2007-12/13/content_1384064.htm",
+      "published_or_updated": "2007-06-29 (adopted) / accessed 2026-02-26",
+      "type": "primary law",
+      "key_points_used": [
+        "Provides legal framework for termination handling and compensation exposure.",
+        "Supports documentation and process consistency expectations in employment disputes."
+      ]
+    },
+    {
+      "title": "Social Insurance Law of the People's Republic of China",
+      "publisher": "National People's Congress (official English text)",
+      "url": "http://www.npc.gov.cn/zgrdw/englishnpc/Law/2009-02/20/content_1471106.htm",
+      "published_or_updated": "2010-10-28 (adopted) / accessed 2026-02-26",
+      "type": "primary law",
+      "key_points_used": [
+        "Supports social insurance obligations relevant to termination-month closure operations.",
+        "Anchors offboarding consistency requirements affecting payroll completion."
+      ]
+    },
+    {
+      "title": "People's Republic of China - Individual taxes on personal income",
+      "publisher": "PwC Worldwide Tax Summaries",
+      "url": "https://taxsummaries.pwc.com/peoples-republic-of-china/individual/taxes-on-personal-income",
+      "published_or_updated": "accessed 2026-02-26",
+      "type": "technical tax reference",
+      "key_points_used": [
+        "Provides payroll tax context for final-pay component handling and annual reconciliation environment.",
+        "Supports documenting treatment assumptions at component level."
+      ]
+    },
+    {
+      "title": "Key Recent Developments in China's Employment Law: A China-U.S. Comparative Perspective for Multinational Employers",
+      "publisher": "Littler",
+      "url": "https://www.littler.com/news-analysis/asap/key-recent-developments-chinas-employment-law-china-us-comparative-perspective",
+      "published_or_updated": "2025-09-16",
+      "type": "international labor law analysis",
+      "key_points_used": [
+        "Highlights documentation and process discipline as major risk controls for multinational employers in China.",
+        "Supports operations-first approach to termination execution quality."
+      ]
+    }
+  ],
+  "consensus": [
+    "Termination compliance outcomes depend heavily on execution control quality.",
+    "Checklist-led governance helps foreign employers reduce preventable rework and disputes.",
+    "Contested components should be routed through controlled exception handling rather than rushed in-cycle release."
+  ],
+  "uncertainties": [
+    "City-level interpretation and evidence expectations can vary by case details.",
+    "Some component-treatment details may require local confirmation before release.",
+    "English-language source summaries may not capture all Chinese-language implementation nuance."
+  ],
+  "practical_implication_for_foreign_employers": "Use condition-based release checklists (pre-release and post-release) to standardize go/no-go decisions for each termination case.",
+  "research_completed_at": "2026-02-26"
+}
