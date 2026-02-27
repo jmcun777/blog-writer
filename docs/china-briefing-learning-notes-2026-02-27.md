@@ -24,3 +24,8 @@
 - Rotated into a **decision-tree** structure with explicit go/no-go gates for legal route, evidence, alignment, and local uncertainty.
 - Borrowed China Briefing utility style by making branch logic highly scannable for international operators.
 - Improved operational readability by mapping document requirements directly to each decision gate.
+
+## Incremental learning update (09:04 run; variation=checklist-led legal primer)
+- Rotated into a **checklist-led** structure that starts with legal/regulatory context, then moves into control blocks.
+- Preserved China Briefing-like utility tone with concise, decision-ready checklists rather than narrative-heavy exposition.
+- Improved foreign-reader usability by tying each checklist block to explicit risk rationale and owner accountability.
