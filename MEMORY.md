@@ -19,3 +19,4 @@ For expert-style blog writing, user wants:
 - Target output type: industry insight, business decision analysis, structural breakdown, risk alerts, model comparison (not mass-market explainer).
 - Completion bar: clear core view + decision path + realistic scenarios + risk boundaries + net-new insight.
 - For foreign clients unfamiliar with China, prioritize introductory legal/regulatory explanation first; keep deeply time-sensitive operational tactics secondary.
+- User wants output style to benchmark against ChatGPT Pulse daily briefs; target strong similarity in briefing flow while preserving factual rigor.

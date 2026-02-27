@@ -37,3 +37,15 @@
 - Do not always use the exact same timeline pattern (e.g., D-14 to D+7) in every article.
 - Keep core facts consistent, but vary framing, heading labels, and narrative entry point.
 
+## Pulse-Benchmark Mode (Enabled)
+- Benchmark writing style against ChatGPT Pulse-like daily briefings.
+- Use a two-layer output model:
+  1) Pulse-style daily brief (primary): headline-driven, news-desk tone, impact-first, concise action steps.
+  2) Legal depth appendix (secondary): regulations, legal basis, caveats.
+- Before drafting, aggregate multi-source updates and cluster into themes; do not write from a single-source mindset.
+- Enforce source mix each run: official/legal + practitioner + market/business context + practical interpretation.
+- Add dual scoring per run:
+  - Quality score (accuracy/clarity/decision value)
+  - Pulse-similarity score (structure, tone, readability, briefing feel)
+- If Pulse-similarity is weak, revise style before publish.
+
