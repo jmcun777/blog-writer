@@ -1,0 +1,69 @@
+{
+  "topic": "In China employee termination: scenario-led incident-to-control payroll playbook for foreign employers",
+  "primary_keyword": "China employee termination payroll incident control",
+  "related_keywords": [
+    "China termination dispute prevention",
+    "foreign employer severance operations China",
+    "China payroll off-cycle governance",
+    "EOR China termination workflow",
+    "China final pay risk management"
+  ],
+  "sources": [
+    {
+      "title": "Labor Contract Law of the People's Republic of China",
+      "publisher": "National People's Congress (official English text)",
+      "url": "http://www.npc.gov.cn/zgrdw/englishnpc/Law/2007-12/13/content_1384064.htm",
+      "published_or_updated": "2007-06-29 (adopted) / accessed 2026-02-26",
+      "type": "primary law",
+      "key_points_used": [
+        "Framework for termination, severance, and compensation exposure.",
+        "Supports need for lawful basis and process integrity."
+      ]
+    },
+    {
+      "title": "Social Insurance Law of the People's Republic of China",
+      "publisher": "National People's Congress (official English text)",
+      "url": "http://www.npc.gov.cn/zgrdw/englishnpc/Law/2009-02/20/content_1471106.htm",
+      "published_or_updated": "2010-10-28 (adopted) / accessed 2026-02-26",
+      "type": "primary law",
+      "key_points_used": [
+        "Confirms social insurance obligations tied to termination-month payroll/offboarding closure.",
+        "Supports post-termination process controls."
+      ]
+    },
+    {
+      "title": "People's Republic of China - Individual taxes on personal income",
+      "publisher": "PwC Worldwide Tax Summaries",
+      "url": "https://taxsummaries.pwc.com/peoples-republic-of-china/individual/taxes-on-personal-income",
+      "published_or_updated": "accessed 2026-02-26",
+      "type": "technical tax reference",
+      "key_points_used": [
+        "Provides context for payroll tax treatment and annual reconciliation environment.",
+        "Supports documenting component-level assumptions before release."
+      ]
+    },
+    {
+      "title": "Key Recent Developments in China's Employment Law: A China-U.S. Comparative Perspective for Multinational Employers",
+      "publisher": "Littler",
+      "url": "https://www.littler.com/news-analysis/asap/key-recent-developments-chinas-employment-law-china-us-comparative-perspective",
+      "published_or_updated": "2025-09-16",
+      "type": "international labor law analysis",
+      "key_points_used": [
+        "Process and documentation quality are critical for multinational employer risk control.",
+        "Execution failures are a common source of disputes."
+      ]
+    }
+  ],
+  "consensus": [
+    "Termination incidents are best controlled via structured escalation and clear payout scope rules.",
+    "Evidence quality and communication consistency are central to defensibility.",
+    "Scenario-led training improves operational readiness for high-pressure cases."
+  ],
+  "uncertainties": [
+    "City-level evidence expectations can vary by fact pattern.",
+    "Some treatment details require local confirmation before release.",
+    "English-language summaries may not capture all implementation nuances in Chinese-language guidance."
+  ],
+  "practical_implication_for_foreign_employers": "Adopt incident severity tiers (L1-L3) to standardize escalation, in-cycle scope, and post-incident remediation in termination payroll cases.",
+  "research_completed_at": "2026-02-26"
+}

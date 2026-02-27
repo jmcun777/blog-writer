@@ -16,7 +16,7 @@ Applied to current run:
 - Added explicit owner matrix and exception routing language for foreign employer teams.
 
 ---
-## Incremental learning update (17:32 run; variation=checklist-led playbook)
-- Rotated to a **checklist-led operational playbook** with release gates by control condition, not date labels.
-- Added **pre-release triage checklist** and **post-release stabilization checklist** to improve day-2 execution quality.
-- Increased practical specificity in manager/HR/payroll handoff templates and failure indicators.
+## Incremental learning update (18:04 run; variation=scenario-led incident-to-SOP)
+- Rotated to **scenario-led incident narrative** (realistic failure chain → recovery controls), avoiding repetitive timeline skeleton.
+- Added **incident severity ladder** (L1/L2/L3) to guide escalation and payout scope decisions.
+- Improved reader retention by connecting each scenario to a concrete control retrofit and KPI impact.
