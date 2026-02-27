@@ -21,3 +21,15 @@
 - During hourly testing, do NOT pick random/new topics by default.
 - Read `/home/tz/.openclaw/workspace-dev/CURRENT_TOPIC.md` and keep the same topic for iterative improvement each run.
 - If user sends a new topic in chat, update `CURRENT_TOPIC.md` immediately and use that as the new optimization target for subsequent hourly runs.
+
+## Anti-Template Variation Rule
+- Do NOT repeat the same article skeleton every run.
+- Rotate among formats for the same topic:
+  1) decision-tree format
+  2) scenario/case format
+  3) checklist format
+  4) myth-vs-fact format
+  5) cost/risk matrix format
+- Do not always use the exact same timeline pattern (e.g., D-14 to D+7) in every article.
+- Keep core facts consistent, but vary framing, heading labels, and narrative entry point.
+
