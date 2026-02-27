@@ -1,0 +1,70 @@
+{
+  "topic": "In China employee termination: role-relay legal governance model for foreign employers",
+  "primary_keyword": "China employee termination governance for foreign employers",
+  "related_keywords": [
+    "China Labor Contract Law termination",
+    "China termination evidence requirements",
+    "foreign employer labor dispute risk China",
+    "China payroll offboarding compliance",
+    "EOR termination governance China"
+  ],
+  "sources": [
+    {
+      "title": "Labor Contract Law of the People's Republic of China",
+      "publisher": "National People's Congress (official English text)",
+      "url": "http://www.npc.gov.cn/zgrdw/englishnpc/Law/2007-12/13/content_1384064.htm",
+      "published_or_updated": "adopted 2007-06-29; amended 2012-12-28; accessed 2026-02-27",
+      "type": "official_primary_law",
+      "fit_note": "Core legal framework for lawful termination routes, compensation basis, and unlawful termination consequences."
+    },
+    {
+      "title": "Regulations for the Implementation of the Labor Contract Law of the PRC (State Council Decree No. 535)",
+      "publisher": "State Council Gazette (official)",
+      "url": "https://www.gov.cn/gongbao/content/2008/content_1124615.htm",
+      "published_or_updated": "2008-09-18; accessed 2026-02-27",
+      "type": "official_implementing_regulation",
+      "fit_note": "Operational interpretation layer needed for role handoffs and documentation requirements."
+    },
+    {
+      "title": "Interpretation of the Supreme People's Court on Issues Concerning the Application of Law in the Trial of Labor Dispute Cases (I)",
+      "publisher": "Supreme People's Court (official)",
+      "url": "https://www.court.gov.cn/fabu/xiangqing/243981.html",
+      "published_or_updated": "2020 amendment; accessed 2026-02-27",
+      "type": "official_judicial_interpretation",
+      "fit_note": "Provides dispute-stage perspective and informs evidence/audit-trail standards."
+    },
+    {
+      "title": "Social Insurance Law of the People's Republic of China",
+      "publisher": "National People's Congress (official English text)",
+      "url": "http://www.npc.gov.cn/zgrdw/englishnpc/Law/2009-02/20/content_1471106.htm",
+      "published_or_updated": "adopted 2010-10-28; accessed 2026-02-27",
+      "type": "official_primary_law",
+      "fit_note": "Supports payroll and statutory contribution closure governance during offboarding."
+    },
+    {
+      "title": "Employee Termination in China: A Guide for Employers",
+      "publisher": "China Briefing (Dezan Shira & Associates)",
+      "url": "https://www.china-briefing.com/news/employee-termination-in-china/",
+      "published_or_updated": "updated 2025; accessed 2026-02-27",
+      "type": "authoritative_practice_reference",
+      "fit_note": "Best-fit practical source for foreign-reader translation of legal routes into operating controls."
+    }
+  ],
+  "source_replacement_notes": [
+    "Kept legal-hierarchy core unchanged because this run is governance-architecture-led rather than tax-calculation-led.",
+    "Replaced matrix-centric framing from prior run with role-relay governance framing while retaining the same high-confidence legal base.",
+    "Excluded generic comparative commentary to reduce interpretation drift and keep China-specific source authority high."
+  ],
+  "consensus": [
+    "Foreign employers should classify legal route before assigning operational tasks.",
+    "Dispute risk is strongly influenced by evidence quality and cross-function consistency.",
+    "Governance failures usually occur at handoff points between legal, HR, manager, payroll, and vendors."
+  ],
+  "uncertainties": [
+    "City-level adjudication practice and evidentiary emphasis can vary.",
+    "Specific treatment details for complex payment components may need local confirmation.",
+    "English-language official texts can lag nuanced Chinese-language implementation updates."
+  ],
+  "source_fit_assessment": "Sufficient for a role-relay governance article because the source set combines binding law, implementation regulation, dispute interpretation, and one foreign-employer-facing practice translator.",
+  "research_completed_at": "2026-02-27"
+}

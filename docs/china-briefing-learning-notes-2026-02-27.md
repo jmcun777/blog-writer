@@ -4,3 +4,8 @@
 - Rotated to a **scenario-led explainer** where each scenario begins with legal context in plain language for non-local readers.
 - Kept operational content secondary by placing control recommendations after each legal interpretation block.
 - Improved readability by using shorter narrative scenarios and clearer distinction between confirmed rule vs uncertain practice.
+
+## Incremental learning update (05:04 run; variation=role-relay legal governance)
+- Rotated from matrix-led framing to a **role-relay governance** structure centered on handoff risks across Legal/HR/Manager/Payroll/Vendor.
+- Kept China Briefing-inspired utility flow by pairing legal architecture first with operational controls as a secondary layer.
+- Increased governance clarity by adding explicit decision gates and archive ownership, improving foreign-reader comprehension of who owns which risk.
