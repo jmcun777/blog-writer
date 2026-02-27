@@ -44,3 +44,8 @@
 - Rotated from scenario-led narrative back to a **cost-risk matrix** structure with clearer risk-adjusted decision weighting.
 - Preserved China Briefing-style analyst tone by keeping legal context first and avoiding over-tactical sequencing.
 - Improved cross-border decision usability by adding explicit risk multipliers and exception matrix controls.
+
+## Incremental learning update (13:04 run; variation=role-relay governance map)
+- Rotated from matrix framing to a **role-relay governance** structure focused on cross-function handoff integrity.
+- Preserved China Briefing-style practicality by combining legal context first with concise role ownership gates.
+- Improved non-local readability by mapping each relay stage to risks, triggers, and recovery actions.
