@@ -1,0 +1,47 @@
+{
+  "topic": "In China employee termination",
+  "angle": "Role-relay + exception routing operating model (HR→Manager→Legal→Payroll→EOR)",
+  "sources": [
+    {
+      "title": "Labor Contract Law of the PRC (official English)",
+      "publisher": "National People's Congress",
+      "url": "http://www.npc.gov.cn/zgrdw/englishnpc/Law/2007-12/13/content_1384064.htm",
+      "date": "2007-06-29 (adopted)",
+      "accessed": "2026-02-26",
+      "notes": "Termination grounds, severance baseline, procedural risk anchors"
+    },
+    {
+      "title": "Social Insurance Law of the PRC (official English)",
+      "publisher": "National People's Congress",
+      "url": "http://www.npc.gov.cn/zgrdw/englishnpc/Law/2009-02/20/content_1471106.htm",
+      "date": "2010-10-28 (adopted)",
+      "accessed": "2026-02-26",
+      "notes": "Contribution obligations and employer duties relevant at offboarding"
+    },
+    {
+      "title": "People's Republic of China - Individual taxes on personal income",
+      "publisher": "PwC Worldwide Tax Summaries",
+      "url": "https://taxsummaries.pwc.com/peoples-republic-of-china/individual/taxes-on-personal-income",
+      "date": "Page updated periodically",
+      "accessed": "2026-02-26",
+      "notes": "Operational tax-withholding context for final payroll packaging"
+    },
+    {
+      "title": "Key Recent Developments in China's Employment Law",
+      "publisher": "Littler",
+      "url": "https://www.littler.com/news-analysis/asap/key-recent-developments-chinas-employment-law-china-us-comparative-perspective",
+      "date": "2025-09-16",
+      "accessed": "2026-02-26",
+      "notes": "Practical dispute and enforcement trends for multinationals"
+    }
+  ],
+  "consensus": [
+    "Termination defensibility depends on legal basis + evidence completeness + consistent communication.",
+    "Final pay handling needs strict component-level control, not one-click 'full settlement' behavior.",
+    "Cross-functional ownership failures are the main source of dispute escalation."
+  ],
+  "uncertainties": [
+    "City-level enforcement expectations and documentary sufficiency can differ in practice.",
+    "Case-specific treatment for disputed components may require local legal judgment before release."
+  ]
+}
