@@ -1,0 +1,15 @@
+Main prompt:
+Create a professional editorial cover image (16:9) for: “In China Employee Termination (2026): A Position-First Operating Paper for Foreign Employers.” Show a multinational HR, legal, payroll, and finance team in a modern office reviewing a risk-boundary dashboard with labeled zones: Clear / Conditional / Contested. Style should be analytical, trust-oriented, and globally understandable. No flags or political symbols. Focus on governance, evidence, and decision discipline.
+
+Variant A (clean isometric):
+Isometric office control room, modular workflow cards, soft blue palette, clear typography blocks, high readability.
+
+Variant B (realistic office photography style):
+Natural light meeting room, diverse professionals, laptop showing compliance matrix, documentary realism.
+
+Variant C (modern flat illustration):
+Flat vector style, layered cards and flow lines, minimal gradients, enterprise editorial look.
+
+Recommended aspect ratio: 16:9 (2400x1350)
+Negative prompt: propaganda visuals, courtroom drama clichés, handcuffs, police imagery, low-resolution text, clutter.
+Suggested alt text: Cross-functional HR, legal, payroll, and finance team reviewing a China employee termination risk-boundary framework.

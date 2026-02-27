@@ -1,0 +1,70 @@
+{
+  "topic": "In China employee termination",
+  "angle": "Position-first operating model with decision logic and risk boundaries",
+  "updated_at": "2026-02-26",
+  "sources": [
+    {
+      "title": "Labor Contract Law of the PRC (official English)",
+      "url": "http://www.npc.gov.cn/zgrdw/englishnpc/Law/2007-12/13/content_1384064.htm",
+      "publisher": "National People's Congress",
+      "date": "2007-06-29",
+      "type": "official_primary",
+      "use_for": "termination grounds, economic compensation framework"
+    },
+    {
+      "title": "Social Insurance Law of the PRC (official English)",
+      "url": "http://www.npc.gov.cn/zgrdw/englishnpc/Law/2009-02/20/content_1471106.htm",
+      "publisher": "National People's Congress",
+      "date": "2010-10-28",
+      "type": "official_primary",
+      "use_for": "offboarding month contribution/closure obligations"
+    },
+    {
+      "title": "SPC Interpretation on Labor Dispute Cases (I), 2020 amendment",
+      "url": "https://www.court.gov.cn/fabu/xiangqing/243981.html",
+      "publisher": "Supreme People's Court",
+      "date": "2020-12-29",
+      "type": "official_judicial",
+      "use_for": "adjudication-facing evidentiary and dispute handling context"
+    },
+    {
+      "title": "PRC Individual taxes on personal income",
+      "url": "https://taxsummaries.pwc.com/peoples-republic-of-china/individual/taxes-on-personal-income",
+      "publisher": "PwC Worldwide Tax Summaries",
+      "date": "rolling update",
+      "type": "technical_practice",
+      "use_for": "IIT treatment context for final pay components"
+    },
+    {
+      "title": "Key Recent Developments in China's Employment Law",
+      "url": "https://www.littler.com/news-analysis/asap/key-recent-developments-chinas-employment-law-china-us-comparative-perspective",
+      "publisher": "Littler",
+      "date": "2025-09-16",
+      "type": "recent_practice",
+      "use_for": "multinational employer practice and risk trend framing"
+    },
+    {
+      "title": "China Employment and Labour Laws and Regulations 2025",
+      "url": "https://iclg.com/practice-areas/employment-and-labour-laws-and-regulations/china",
+      "publisher": "ICLG",
+      "date": "2025",
+      "type": "practical_secondary",
+      "use_for": "market-practice comparison and edge-case reminders"
+    }
+  ],
+  "fit_assessment": {
+    "kept": [
+      "NPC Labor Contract Law",
+      "NPC Social Insurance Law",
+      "Littler 2025",
+      "PwC IIT technical reference"
+    ],
+    "replaced_or_added": [
+      "Added SPC judicial interpretation to support dispute-facing decision logic",
+      "Added ICLG 2025 to increase verifiable practical details for foreign employers"
+    ],
+    "removed": [
+      "Unstable/404 practical links from prior drafts"
+    ]
+  }
+}
