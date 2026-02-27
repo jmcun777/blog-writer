@@ -1,0 +1,69 @@
+{
+  "topic": "In China employee termination: decision-tree payroll operating model for foreign employers",
+  "primary_keyword": "China employee termination decision tree payroll",
+  "related_keywords": [
+    "China severance payroll governance",
+    "foreign employer termination operations",
+    "China labor dispute risk controls",
+    "EOR China termination process control",
+    "China final pay escalation model"
+  ],
+  "sources": [
+    {
+      "title": "Labor Contract Law of the People's Republic of China",
+      "publisher": "National People's Congress (official English text)",
+      "url": "http://www.npc.gov.cn/zgrdw/englishnpc/Law/2007-12/13/content_1384064.htm",
+      "published_or_updated": "2007-06-29 (adopted) / accessed 2026-02-26",
+      "type": "primary law",
+      "key_points_used": [
+        "Provides framework for termination legality and compensation exposure.",
+        "Supports need for evidence-backed decisioning and process integrity."
+      ]
+    },
+    {
+      "title": "Social Insurance Law of the People's Republic of China",
+      "publisher": "National People's Congress (official English text)",
+      "url": "http://www.npc.gov.cn/zgrdw/englishnpc/Law/2009-02/20/content_1471106.htm",
+      "published_or_updated": "2010-10-28 (adopted) / accessed 2026-02-26",
+      "type": "primary law",
+      "key_points_used": [
+        "Anchors obligations relevant to termination-month closure and payroll-linked statutory processing.",
+        "Supports complete offboarding controls after final payout decisions."
+      ]
+    },
+    {
+      "title": "People's Republic of China - Individual taxes on personal income",
+      "publisher": "PwC Worldwide Tax Summaries",
+      "url": "https://taxsummaries.pwc.com/peoples-republic-of-china/individual/taxes-on-personal-income",
+      "published_or_updated": "accessed 2026-02-26",
+      "type": "technical tax reference",
+      "key_points_used": [
+        "Provides practical tax context for component-level final pay treatment.",
+        "Supports documenting assumptions before release."
+      ]
+    },
+    {
+      "title": "Key Recent Developments in China's Employment Law: A China-U.S. Comparative Perspective for Multinational Employers",
+      "publisher": "Littler",
+      "url": "https://www.littler.com/news-analysis/asap/key-recent-developments-chinas-employment-law-china-us-comparative-perspective",
+      "published_or_updated": "2025-09-16",
+      "type": "international labor law analysis",
+      "key_points_used": [
+        "Reinforces operational discipline and documentation as major control levers.",
+        "Supports decision-structured governance for multinational employers."
+      ]
+    }
+  ],
+  "consensus": [
+    "Termination workflows benefit from explicit branch decisions instead of one-size-fits-all processing.",
+    "Evidence and approval quality should determine payout scope.",
+    "Escalation thresholds reduce ad hoc release risk."
+  ],
+  "uncertainties": [
+    "City-level interpretation and evidence thresholds can vary.",
+    "Some technical treatment details require local confirmation.",
+    "English-language summaries may not capture all Chinese-language implementation detail."
+  ],
+  "practical_implication_for_foreign_employers": "Apply a three-branch decision tree (standard / contested / high-risk) with branch-specific payout and escalation rules.",
+  "research_completed_at": "2026-02-26"
+}
