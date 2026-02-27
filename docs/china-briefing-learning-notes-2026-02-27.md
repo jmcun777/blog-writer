@@ -1,6 +1,6 @@
 # China Briefing Deep-Learning Notes — 2026-02-27 (Hourly Quality Loop)
 
-## Incremental learning update (00:04 run; variation=checklist + troubleshooting matrix)
-- Rotated to a **checklist-first troubleshooting format** with clear go/no-go checks and issue-to-fix mapping.
-- Added **operator troubleshooting grid** (symptom → likely cause → immediate action → owner) to improve day-of execution value.
-- Tightened practical writing by reducing policy recap and expanding control-level instructions for HR/payroll handoffs.
+## Incremental learning update (01:04 run; variation=plain-language legal explainer + practical appendix)
+- Rotated to an **explainer-first structure**: legal/regulatory basics for non-local readers before operations detail.
+- Reduced tactical density in core sections and moved execution depth into a concise practical appendix.
+- Improved audience fit with plain-language definitions of key China-specific concepts before recommendations.
