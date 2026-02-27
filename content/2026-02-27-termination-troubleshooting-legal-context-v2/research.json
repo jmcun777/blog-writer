@@ -1,0 +1,70 @@
+{
+  "topic": "In China employee termination: troubleshooting guide with legal-context-first diagnostics for foreign employers",
+  "primary_keyword": "China employee termination troubleshooting foreign employers",
+  "related_keywords": [
+    "China Labor Contract Law termination risk",
+    "foreign employer labor dispute prevention China",
+    "China payroll offboarding error handling",
+    "China termination documentation controls",
+    "China Briefing termination practice"
+  ],
+  "sources": [
+    {
+      "title": "Labor Contract Law of the People's Republic of China",
+      "publisher": "National People's Congress (official English text)",
+      "url": "http://www.npc.gov.cn/zgrdw/englishnpc/Law/2007-12/13/content_1384064.htm",
+      "published_or_updated": "adopted 2007-06-29; amended 2012-12-28; accessed 2026-02-27",
+      "type": "official_primary_law",
+      "fit_note": "Core legal framework for diagnosing route-selection and consequence errors."
+    },
+    {
+      "title": "Regulations for the Implementation of the Labor Contract Law of the PRC (State Council Decree No. 535)",
+      "publisher": "State Council Gazette (official)",
+      "url": "https://www.gov.cn/gongbao/content/2008/content_1124615.htm",
+      "published_or_updated": "2008-09-18; accessed 2026-02-27",
+      "type": "official_implementing_regulation",
+      "fit_note": "Supports practical troubleshooting diagnosis on implementation-level gaps."
+    },
+    {
+      "title": "Interpretation of the Supreme People's Court on Issues Concerning the Application of Law in the Trial of Labor Dispute Cases (I)",
+      "publisher": "Supreme People's Court (official)",
+      "url": "https://www.court.gov.cn/fabu/xiangqing/243981.html",
+      "published_or_updated": "2020 amendment; accessed 2026-02-27",
+      "type": "official_judicial_interpretation",
+      "fit_note": "Adds dispute-facing diagnostic lens for evidence and consistency failures."
+    },
+    {
+      "title": "Social Insurance Law of the People's Republic of China",
+      "publisher": "National People's Congress (official English text)",
+      "url": "http://www.npc.gov.cn/zgrdw/englishnpc/Law/2009-02/20/content_1471106.htm",
+      "published_or_updated": "adopted 2010-10-28; accessed 2026-02-27",
+      "type": "official_primary_law",
+      "fit_note": "Anchors troubleshooting for termination-month contribution and statutory closure issues."
+    },
+    {
+      "title": "Employee Termination in China: A Guide for Employers",
+      "publisher": "China Briefing (Dezan Shira & Associates)",
+      "url": "https://www.china-briefing.com/news/employee-termination-in-china/",
+      "published_or_updated": "updated 2025; accessed 2026-02-27",
+      "type": "authoritative_practice_reference",
+      "fit_note": "Provides practical failure patterns and foreign-employer implementation cautions."
+    }
+  ],
+  "source_replacement_notes": [
+    "Rotated from checklist-led structure to troubleshooting-led diagnostics while keeping legal source hierarchy stable.",
+    "Excluded lower-fit generalized comparative/tax-focused commentary for this error-diagnosis format.",
+    "Retained China Briefing as practical context layer for non-local operators."
+  ],
+  "consensus": [
+    "Most termination failures are misdiagnosed as process-speed issues when they are actually legal-route or evidence-coherence issues.",
+    "Troubleshooting is most effective when diagnostics start with legal context and confidence boundaries.",
+    "Foreign teams need explicit fix-paths for cross-function inconsistency before release."
+  ],
+  "uncertainties": [
+    "City-level dispute handling style and evidence weighting can vary.",
+    "Complex payment-component treatment in edge cases may require local confirmation.",
+    "Official English texts may not fully capture all current Chinese-language implementation nuance."
+  ],
+  "source_fit_assessment": "Sufficient for troubleshooting format because sources support both legal diagnosis and practical remediation sequencing.",
+  "research_completed_at": "2026-02-27"
+}

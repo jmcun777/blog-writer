@@ -29,3 +29,8 @@
 - Rotated into a **checklist-led** structure that starts with legal/regulatory context, then moves into control blocks.
 - Preserved China Briefing-like utility tone with concise, decision-ready checklists rather than narrative-heavy exposition.
 - Improved foreign-reader usability by tying each checklist block to explicit risk rationale and owner accountability.
+
+## Incremental learning update (10:04 run; variation=troubleshooting diagnostics)
+- Rotated to a **troubleshooting-first** structure that starts with legal-context diagnosis before operational fixes.
+- Applied China Briefing-inspired utility writing by turning common failure symptoms into root-cause/action maps.
+- Improved readability for non-local operators by introducing a five-stage diagnostic sequence with clear rollback points.
