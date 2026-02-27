@@ -54,3 +54,8 @@
 - Rotated to a **position-paper** format aimed at foreign investors and board-level governance audiences.
 - Preserved China Briefing-inspired analyst voice while adding a clear thesis and policy-priority hierarchy.
 - Improved strategic readability by introducing board metrics and risk-adjusted oversight language.
+
+## Incremental learning update (15:04 run; variation=myth-vs-fact v2)
+- Rotated from investor position-paper framing to **myth-vs-fact** structure for faster assumption correction.
+- Preserved China Briefing-style analytical tone while pairing each myth correction with practical control implications.
+- Improved audience accessibility by separating confirmed legal signals from practical uncertainty boundaries.

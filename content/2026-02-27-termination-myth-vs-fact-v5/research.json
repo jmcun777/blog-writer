@@ -1,0 +1,70 @@
+{
+  "topic": "In China employee termination: myth-vs-fact guide for foreign employers",
+  "primary_keyword": "China employee termination myths and facts foreign employers",
+  "related_keywords": [
+    "China Labor Contract Law termination",
+    "foreign employer termination risk China",
+    "China labor dispute evidence requirements",
+    "China payroll offboarding consistency",
+    "China Briefing termination guidance"
+  ],
+  "sources": [
+    {
+      "title": "Labor Contract Law of the People's Republic of China",
+      "publisher": "National People’s Congress (official English text)",
+      "url": "http://www.npc.gov.cn/zgrdw/englishnpc/Law/2007-12/13/content_1384064.htm",
+      "published_or_updated": "adopted 2007-06-29; amended 2012-12-28; accessed 2026-02-27",
+      "type": "official_primary_law",
+      "fit_note": "Primary source for correcting misconceptions about route legality and consequences."
+    },
+    {
+      "title": "Regulations for the Implementation of the Labor Contract Law of the PRC (State Council Decree No. 535)",
+      "publisher": "State Council Gazette (official)",
+      "url": "https://www.gov.cn/gongbao/content/2008/content_1124615.htm",
+      "published_or_updated": "2008-09-18; accessed 2026-02-27",
+      "type": "official_implementing_regulation",
+      "fit_note": "Supports practical interpretation of route handling and implementation boundaries."
+    },
+    {
+      "title": "Interpretation of the Supreme People's Court on Issues Concerning the Application of Law in the Trial of Labor Dispute Cases (I)",
+      "publisher": "Supreme People’s Court (official)",
+      "url": "https://www.court.gov.cn/fabu/xiangqing/243981.html",
+      "published_or_updated": "2020 amendment; accessed 2026-02-27",
+      "type": "official_judicial_interpretation",
+      "fit_note": "Grounds myth-corrections related to evidentiary and dispute-facing risk."
+    },
+    {
+      "title": "Social Insurance Law of the People's Republic of China",
+      "publisher": "National People’s Congress (official English text)",
+      "url": "http://www.npc.gov.cn/zgrdw/englishnpc/Law/2009-02/20/content_1471106.htm",
+      "published_or_updated": "adopted 2010-10-28; accessed 2026-02-27",
+      "type": "official_primary_law",
+      "fit_note": "Anchors myth corrections linked to statutory closure and contribution obligations."
+    },
+    {
+      "title": "Employee Termination in China: A Guide for Employers",
+      "publisher": "China Briefing (Dezan Shira & Associates)",
+      "url": "https://www.china-briefing.com/news/employee-termination-in-china/",
+      "published_or_updated": "updated 2025; accessed 2026-02-27",
+      "type": "authoritative_practice_reference",
+      "fit_note": "Provides practical foreign-employer context to translate legal facts into operational meaning."
+    }
+  ],
+  "source_replacement_notes": [
+    "Rotated from position-paper format to myth-vs-fact format while preserving legal-source hierarchy.",
+    "Excluded lower-fit tax-centric and broad comparative sources to keep misconception correction precise.",
+    "Retained China Briefing as practical translation layer for non-local readers."
+  ],
+  "consensus": [
+    "Foreign employers often carry at-will assumptions that conflict with China route-based termination logic.",
+    "Myth-vs-fact framing improves comprehension when each correction is tied to source-backed legal context.",
+    "Cross-function consistency remains the dominant practical control once myths are corrected."
+  ],
+  "uncertainties": [
+    "City-level implementation and evidentiary emphasis vary.",
+    "Some payment-component treatments in edge cases may require local confirmation.",
+    "Official English texts may not capture every Chinese-language implementation nuance."
+  ],
+  "source_fit_assessment": "Sufficient for myth-vs-fact format because sources support high-confidence legal corrections plus practical multinational interpretation.",
+  "research_completed_at": "2026-02-27"
+}
