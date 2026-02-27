@@ -49,3 +49,8 @@
 - Rotated from matrix framing to a **role-relay governance** structure focused on cross-function handoff integrity.
 - Preserved China Briefing-style practicality by combining legal context first with concise role ownership gates.
 - Improved non-local readability by mapping each relay stage to risks, triggers, and recovery actions.
+
+## Incremental learning update (14:04 run; variation=position paper investor brief)
+- Rotated to a **position-paper** format aimed at foreign investors and board-level governance audiences.
+- Preserved China Briefing-inspired analyst voice while adding a clear thesis and policy-priority hierarchy.
+- Improved strategic readability by introducing board metrics and risk-adjusted oversight language.
