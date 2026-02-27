@@ -14,3 +14,8 @@
 - Rotated into a **position-paper** structure aimed at foreign boards and regional leadership rather than function-level operators.
 - Mirrored China Briefing’s neutral-evidence style while introducing a clear thesis section and policy stance blocks.
 - Improved reader fit by framing legal hierarchy in plain language first, then moving operations into a secondary implementation layer.
+
+## Incremental learning update (07:04 run; variation=myth-vs-fact)
+- Rotated to a **myth-vs-fact** editorial pattern to correct cross-border misconceptions quickly for non-local readers.
+- Preserved China Briefing-like utility flow by pairing each myth correction with practical decision implications.
+- Increased clarity by emphasizing confidence boundaries (what is settled law vs what needs local confirmation).

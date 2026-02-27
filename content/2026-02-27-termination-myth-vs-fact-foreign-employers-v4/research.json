@@ -1,0 +1,70 @@
+{
+  "topic": "In China employee termination: myth-vs-fact legal clarity guide for foreign employers",
+  "primary_keyword": "China employee termination myths foreign employers",
+  "related_keywords": [
+    "China Labor Contract Law termination",
+    "China unlawful termination compensation risk",
+    "foreign employer China labor dispute exposure",
+    "China payroll offboarding compliance",
+    "China Briefing termination guidance"
+  ],
+  "sources": [
+    {
+      "title": "Labor Contract Law of the People's Republic of China",
+      "publisher": "National People's Congress (official English text)",
+      "url": "http://www.npc.gov.cn/zgrdw/englishnpc/Law/2007-12/13/content_1384064.htm",
+      "published_or_updated": "adopted 2007-06-29; amended 2012-12-28; accessed 2026-02-27",
+      "type": "official_primary_law",
+      "fit_note": "Anchors fact-checking for common foreign-employer misconceptions on termination routes and consequences."
+    },
+    {
+      "title": "Regulations for the Implementation of the Labor Contract Law of the PRC (State Council Decree No. 535)",
+      "publisher": "State Council Gazette (official)",
+      "url": "https://www.gov.cn/gongbao/content/2008/content_1124615.htm",
+      "published_or_updated": "2008-09-18; accessed 2026-02-27",
+      "type": "official_implementing_regulation",
+      "fit_note": "Supports practical interpretation when myths stem from oversimplified policy assumptions."
+    },
+    {
+      "title": "Interpretation of the Supreme People's Court on Issues Concerning the Application of Law in the Trial of Labor Dispute Cases (I)",
+      "publisher": "Supreme People's Court (official)",
+      "url": "https://www.court.gov.cn/fabu/xiangqing/243981.html",
+      "published_or_updated": "2020 amendment; accessed 2026-02-27",
+      "type": "official_judicial_interpretation",
+      "fit_note": "Used to ground dispute-facing facts and evidence-related myth corrections."
+    },
+    {
+      "title": "Social Insurance Law of the People's Republic of China",
+      "publisher": "National People's Congress (official English text)",
+      "url": "http://www.npc.gov.cn/zgrdw/englishnpc/Law/2009-02/20/content_1471106.htm",
+      "published_or_updated": "adopted 2010-10-28; accessed 2026-02-27",
+      "type": "official_primary_law",
+      "fit_note": "Supports fact checks linked to termination-month payroll and contribution closure responsibilities."
+    },
+    {
+      "title": "Employee Termination in China: A Guide for Employers",
+      "publisher": "China Briefing (Dezan Shira & Associates)",
+      "url": "https://www.china-briefing.com/news/employee-termination-in-china/",
+      "published_or_updated": "updated 2025; accessed 2026-02-27",
+      "type": "authoritative_practice_reference",
+      "fit_note": "Best-fit practical source for foreign-reader myth correction and implementation caution."
+    }
+  ],
+  "source_replacement_notes": [
+    "Rotated from position-paper format to myth-vs-fact format; retained core legal source hierarchy for factual stability.",
+    "Excluded low-fit generalized commentary and tax-first materials to keep legal myth correction precise.",
+    "Re-centered China Briefing as the practical layer supporting foreign-reader comprehension, not as primary legal authority."
+  ],
+  "consensus": [
+    "Foreign employers commonly overestimate managerial discretion in China termination cases.",
+    "Legal route classification and evidence coherence drive dispute outcomes more than procedural speed.",
+    "A myth-vs-fact format improves comprehension for non-local readers when each correction ties to source hierarchy."
+  ],
+  "uncertainties": [
+    "City-level enforcement style and document expectations vary.",
+    "Complex payment treatment details can differ by fact pattern and local practice.",
+    "Official English texts may not fully reflect evolving Chinese-language implementation practice."
+  ],
+  "source_fit_assessment": "Sufficient for myth-vs-fact because sources support high-confidence factual correction while preserving practical readability for foreign audiences.",
+  "research_completed_at": "2026-02-27"
+}
