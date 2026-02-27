@@ -1,6 +1,6 @@
 # China Briefing Deep-Learning Notes — 2026-02-27 (Hourly Quality Loop)
 
-## Incremental learning update (02:04 run; variation=FAQ-first explainer)
-- Rotated to an **FAQ-first explainer** format for non-local readers who need direct answers before process detail.
-- Front-loaded legal/regulatory context in each FAQ answer and kept operations content in a compact final section.
-- Improved readability with shorter plain-language answer blocks and reduced jargon density.
+## Incremental learning update (03:04 run; variation=scenario-led legal explainer)
+- Rotated to a **scenario-led explainer** where each scenario begins with legal context in plain language for non-local readers.
+- Kept operational content secondary by placing control recommendations after each legal interpretation block.
+- Improved readability by using shorter narrative scenarios and clearer distinction between confirmed rule vs uncertain practice.

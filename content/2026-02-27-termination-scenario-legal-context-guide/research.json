@@ -1,0 +1,57 @@
+{
+  "topic": "In China employee termination: scenario-led legal context guide for foreign employers",
+  "primary_keyword": "China employee termination scenarios for foreign employers",
+  "related_keywords": [
+    "China labor law termination explained",
+    "China severance risk scenarios",
+    "China payroll offboarding for foreign companies",
+    "EOR China termination case handling",
+    "China dispute prevention in termination"
+  ],
+  "sources": [
+    {
+      "title": "Labor Contract Law of the People's Republic of China",
+      "publisher": "National People's Congress (official English text)",
+      "url": "http://www.npc.gov.cn/zgrdw/englishnpc/Law/2007-12/13/content_1384064.htm",
+      "published_or_updated": "2007-06-29 (adopted) / accessed 2026-02-27",
+      "type": "primary law",
+      "fit_note": "Primary legal framework for termination and compensation exposure; essential for scenario interpretation."
+    },
+    {
+      "title": "Social Insurance Law of the People's Republic of China",
+      "publisher": "National People's Congress (official English text)",
+      "url": "http://www.npc.gov.cn/zgrdw/englishnpc/Law/2009-02/20/content_1471106.htm",
+      "published_or_updated": "2010-10-28 (adopted) / accessed 2026-02-27",
+      "type": "primary law",
+      "fit_note": "Supports legal context for offboarding and termination-month statutory closure."
+    },
+    {
+      "title": "People's Republic of China - Individual taxes on personal income",
+      "publisher": "PwC Worldwide Tax Summaries",
+      "url": "https://taxsummaries.pwc.com/peoples-republic-of-china/individual/taxes-on-personal-income",
+      "published_or_updated": "accessed 2026-02-27",
+      "type": "technical tax reference",
+      "fit_note": "Adds plain-language payroll tax context for non-local readers."
+    },
+    {
+      "title": "Key Recent Developments in China's Employment Law: A China-U.S. Comparative Perspective for Multinational Employers",
+      "publisher": "Littler",
+      "url": "https://www.littler.com/news-analysis/asap/key-recent-developments-chinas-employment-law-china-us-comparative-perspective",
+      "published_or_updated": "2025-09-16",
+      "type": "practitioner analysis",
+      "fit_note": "Provides multinational execution risk perspective to complement legal baseline."
+    }
+  ],
+  "consensus": [
+    "Foreign employers need legal-context clarity first, then controlled execution.",
+    "Documentation and communication consistency strongly influence dispute risk.",
+    "Uncertain items should be separated and confirmed before payout."
+  ],
+  "uncertainties": [
+    "City-level evidentiary standards and dispute practice may vary.",
+    "Some component treatment details require local confirmation.",
+    "English-language summaries may not include all local implementation nuance."
+  ],
+  "source_fit_assessment": "Source set is sufficient and unchanged from prior run because it remains the strongest mix of official legal baseline + practical tax context + multinational execution analysis for foreign-reader scenario storytelling.",
+  "research_completed_at": "2026-02-27"
+}
