@@ -18,3 +18,4 @@ For expert-style blog writing, user wants:
 - Reduce “AI flavor”: less symmetry/mechanical pros-cons; vary rhythm and structure.
 - Target output type: industry insight, business decision analysis, structural breakdown, risk alerts, model comparison (not mass-market explainer).
 - Completion bar: clear core view + decision path + realistic scenarios + risk boundaries + net-new insight.
+- For foreign clients unfamiliar with China, prioritize introductory legal/regulatory explanation first; keep deeply time-sensitive operational tactics secondary.

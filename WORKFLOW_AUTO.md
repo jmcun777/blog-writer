@@ -14,7 +14,11 @@
    - short utility headings
    - coherent section flow
    - concrete data density
-5. Avoid machine-writing artifacts and overlong intros.
+5. Audience-fit rule (foreign readers new to China):
+   - lead with clear legal/regulatory introduction and context
+   - explain core local law concepts in plain business English first
+   - keep heavy operational playbooks as secondary/optional sections
+6. Avoid machine-writing artifacts and overlong intros.
 
 
 ## Sticky Topic Rule (Hourly Testing Mode)
