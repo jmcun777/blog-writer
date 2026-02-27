@@ -16,7 +16,7 @@ Applied to current run:
 - Added explicit owner matrix and exception routing language for foreign employer teams.
 
 ---
-## Incremental learning update (20:04 run; variation=cost-risk matrix + myth busting checklist hybrid)
-- Rotated to a **hybrid format**: cost-risk matrix first, then myth-busting checklist for execution.
-- Added **decision thresholds** (impact x controllability) to decide release, hold, or escalate.
-- Improved actionability with a short **48-hour containment script** for high-risk termination cases.
+## Incremental learning update (21:04 run; variation=role-relay operating memo)
+- Rotated to **role-relay memo format** (HR→Manager→Payroll→Finance→Vendor), avoiding repeated matrix skeleton.
+- Added **handoff acceptance criteria** at each relay point (input quality checks before ownership transfer).
+- Improved practical depth with **failure-to-fix mapping**: each handoff failure links to one corrective control and KPI.

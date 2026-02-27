@@ -1,0 +1,67 @@
+{
+  "topic": "In China employee termination: role-relay operating memo for payroll execution",
+  "primary_keyword": "China employee termination payroll handoff controls",
+  "related_keywords": [
+    "China termination workflow ownership",
+    "foreign employer payroll offboarding controls",
+    "China severance execution governance",
+    "EOR China termination handoff",
+    "China labor dispute prevention operations"
+  ],
+  "sources": [
+    {
+      "title": "Labor Contract Law of the People's Republic of China",
+      "publisher": "National People's Congress (official English text)",
+      "url": "http://www.npc.gov.cn/zgrdw/englishnpc/Law/2007-12/13/content_1384064.htm",
+      "published_or_updated": "2007-06-29 (adopted) / accessed 2026-02-26",
+      "type": "primary law",
+      "key_points_used": [
+        "Framework for termination legality and compensation exposure.",
+        "Supports evidence-based process integrity."
+      ]
+    },
+    {
+      "title": "Social Insurance Law of the People's Republic of China",
+      "publisher": "National People's Congress (official English text)",
+      "url": "http://www.npc.gov.cn/zgrdw/englishnpc/Law/2009-02/20/content_1471106.htm",
+      "published_or_updated": "2010-10-28 (adopted) / accessed 2026-02-26",
+      "type": "primary law",
+      "key_points_used": [
+        "Supports obligations linked to termination-month closure and offboarding processing.",
+        "Reinforces end-to-end completion controls."
+      ]
+    },
+    {
+      "title": "People's Republic of China - Individual taxes on personal income",
+      "publisher": "PwC Worldwide Tax Summaries",
+      "url": "https://taxsummaries.pwc.com/peoples-republic-of-china/individual/taxes-on-personal-income",
+      "published_or_updated": "accessed 2026-02-26",
+      "type": "technical tax reference",
+      "key_points_used": [
+        "Supports component-level treatment documentation in final payroll handling."
+      ]
+    },
+    {
+      "title": "Key Recent Developments in China's Employment Law: A China-U.S. Comparative Perspective for Multinational Employers",
+      "publisher": "Littler",
+      "url": "https://www.littler.com/news-analysis/asap/key-recent-developments-chinas-employment-law-china-us-comparative-perspective",
+      "published_or_updated": "2025-09-16",
+      "type": "international labor law analysis",
+      "key_points_used": [
+        "Operational discipline and documentation quality are major risk controls."
+      ]
+    }
+  ],
+  "consensus": [
+    "Handoff quality across functions is a primary determinant of termination payroll outcomes.",
+    "Acceptance criteria at each relay step reduce late-cycle errors and disputes.",
+    "Escalation rules should trigger from handoff quality failures, not only employee complaints."
+  ],
+  "uncertainties": [
+    "City-level interpretation may differ for close evidence scenarios.",
+    "Some treatment details require local confirmation before release.",
+    "English-language summaries may not include full local implementation nuance."
+  ],
+  "practical_implication_for_foreign_employers": "Adopt a role-relay model with handoff acceptance checks and fail-fast escalation when transfer quality is below threshold.",
+  "research_completed_at": "2026-02-26"
+}
