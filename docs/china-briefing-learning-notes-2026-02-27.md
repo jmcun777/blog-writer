@@ -34,3 +34,8 @@
 - Rotated to a **troubleshooting-first** structure that starts with legal-context diagnosis before operational fixes.
 - Applied China Briefing-inspired utility writing by turning common failure symptoms into root-cause/action maps.
 - Improved readability for non-local operators by introducing a five-stage diagnostic sequence with clear rollback points.
+
+## Incremental learning update (11:04 run; variation=scenario-led cross-border control)
+- Rotated from diagnostics playbook to a **scenario-led** narrative with three high-pressure foreign-employer case patterns.
+- Preserved China Briefing-like analyst tone by embedding legal context before each scenario decision path.
+- Improved audience fit by pairing each scenario with explicit practical lessons and cross-scenario control principles.

@@ -1,0 +1,70 @@
+{
+  "topic": "In China employee termination: scenario-led cross-border control guide for foreign employers",
+  "primary_keyword": "China employee termination scenarios foreign employers",
+  "related_keywords": [
+    "China Labor Contract Law termination",
+    "foreign employer severance risk China",
+    "China labor dispute prevention",
+    "China payroll offboarding controls",
+    "China Briefing termination practice"
+  ],
+  "sources": [
+    {
+      "title": "Labor Contract Law of the People's Republic of China",
+      "publisher": "National People's Congress (official English text)",
+      "url": "http://www.npc.gov.cn/zgrdw/englishnpc/Law/2007-12/13/content_1384064.htm",
+      "published_or_updated": "adopted 2007-06-29; amended 2012-12-28; accessed 2026-02-27",
+      "type": "official_primary_law",
+      "fit_note": "Core legal basis used to evaluate scenario route choices and consequence logic."
+    },
+    {
+      "title": "Regulations for the Implementation of the Labor Contract Law of the PRC (State Council Decree No. 535)",
+      "publisher": "State Council Gazette (official)",
+      "url": "https://www.gov.cn/gongbao/content/2008/content_1124615.htm",
+      "published_or_updated": "2008-09-18; accessed 2026-02-27",
+      "type": "official_implementing_regulation",
+      "fit_note": "Supports scenario-level implementation interpretation and practical constraints."
+    },
+    {
+      "title": "Interpretation of the Supreme People's Court on Issues Concerning the Application of Law in the Trial of Labor Dispute Cases (I)",
+      "publisher": "Supreme People's Court (official)",
+      "url": "https://www.court.gov.cn/fabu/xiangqing/243981.html",
+      "published_or_updated": "2020 amendment; accessed 2026-02-27",
+      "type": "official_judicial_interpretation",
+      "fit_note": "Adds dispute-facing lens for scenario risk evaluation and evidence sensitivity."
+    },
+    {
+      "title": "Social Insurance Law of the People's Republic of China",
+      "publisher": "National People's Congress (official English text)",
+      "url": "http://www.npc.gov.cn/zgrdw/englishnpc/Law/2009-02/20/content_1471106.htm",
+      "published_or_updated": "adopted 2010-10-28; accessed 2026-02-27",
+      "type": "official_primary_law",
+      "fit_note": "Anchors scenario offboarding obligations linked to contribution closure."
+    },
+    {
+      "title": "Employee Termination in China: A Guide for Employers",
+      "publisher": "China Briefing (Dezan Shira & Associates)",
+      "url": "https://www.china-briefing.com/news/employee-termination-in-china/",
+      "published_or_updated": "updated 2025; accessed 2026-02-27",
+      "type": "authoritative_practice_reference",
+      "fit_note": "Provides practical foreign-employer scenario framing and implementation cautions."
+    }
+  ],
+  "source_replacement_notes": [
+    "Rotated from troubleshooting format to scenario-led format while keeping legal-source hierarchy stable.",
+    "Excluded lower-fit generalized comparative and tax-centric materials for this legal-scenario focus.",
+    "Retained China Briefing as practical translator for multinational readers."
+  ],
+  "consensus": [
+    "Scenario-led writing improves foreign-reader comprehension when legal context precedes operational action.",
+    "Most risk escalation in scenarios comes from route ambiguity and evidence inconsistency.",
+    "Cross-function alignment is decisive in turning a high-pressure case into a controllable case."
+  ],
+  "uncertainties": [
+    "City-level implementation and evidentiary weighting can vary.",
+    "Edge-case payment component handling may need local confirmation.",
+    "Official English texts may not fully capture all Chinese-language implementation nuances."
+  ],
+  "source_fit_assessment": "Sufficient for scenario format because sources support both legal framing and practical multinational case interpretation.",
+  "research_completed_at": "2026-02-27"
+}
