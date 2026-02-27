@@ -16,7 +16,7 @@ Applied to current run:
 - Added explicit owner matrix and exception routing language for foreign employer teams.
 
 ---
-## Incremental learning update (16:04 run; sticky topic = China employee termination)
-- Added **termination control-tower scoreboard** (legal basis quality, pay-package lock, communication consistency, archive completeness).
-- Increased **termination-specific exception detail** (missing evidence, disputed basis, late severance approval, off-cycle payout governance).
-- Tightened opening to immediate employer decision risk for in-cycle vs off-cycle termination payments.
+## Incremental learning update (17:04 run; variation=Myth-vs-Fact + cost-risk matrix)
+- Rotated away from D-xx timeline skeleton to **myth-vs-fact** and **cost-risk matrix** framing.
+- Added **decision triggers** for in-cycle vs off-cycle release using risk-tier thresholds instead of date checkpoints.
+- Increased practicality with a **control catalog** (owner, control objective, failure signal, corrective action).

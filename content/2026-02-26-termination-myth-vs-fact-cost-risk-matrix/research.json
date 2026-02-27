@@ -1,0 +1,69 @@
+{
+  "topic": "In China employee termination: myth-vs-fact guide with payroll cost-risk matrix for foreign employers",
+  "primary_keyword": "China employee termination payroll risk",
+  "related_keywords": [
+    "China severance compliance",
+    "foreign employer termination controls",
+    "China labor dispute payroll prevention",
+    "EOR China termination process",
+    "China off-cycle termination payment governance"
+  ],
+  "sources": [
+    {
+      "title": "Labor Contract Law of the People's Republic of China",
+      "publisher": "National People's Congress (official English text)",
+      "url": "http://www.npc.gov.cn/zgrdw/englishnpc/Law/2007-12/13/content_1384064.htm",
+      "published_or_updated": "2007-06-29 (adopted) / accessed 2026-02-26",
+      "type": "primary law",
+      "key_points_used": [
+        "Framework for lawful termination, severance obligations, and compensation exposure.",
+        "Supports requirement for defensible process and documentation consistency."
+      ]
+    },
+    {
+      "title": "Social Insurance Law of the People's Republic of China",
+      "publisher": "National People's Congress (official English text)",
+      "url": "http://www.npc.gov.cn/zgrdw/englishnpc/Law/2009-02/20/content_1471106.htm",
+      "published_or_updated": "2010-10-28 (adopted) / accessed 2026-02-26",
+      "type": "primary law",
+      "key_points_used": [
+        "Confirms social insurance obligations relevant to termination-month payroll and closure steps.",
+        "Supports need for post-termination processing controls."
+      ]
+    },
+    {
+      "title": "People's Republic of China - Individual taxes on personal income",
+      "publisher": "PwC Worldwide Tax Summaries",
+      "url": "https://taxsummaries.pwc.com/peoples-republic-of-china/individual/taxes-on-personal-income",
+      "published_or_updated": "accessed 2026-02-26",
+      "type": "technical tax reference",
+      "key_points_used": [
+        "Provides practical tax context for final-pay component treatment and annual reconciliation environment.",
+        "Supports documenting assumptions for component-level payroll treatment."
+      ]
+    },
+    {
+      "title": "Key Recent Developments in China's Employment Law: A China-U.S. Comparative Perspective for Multinational Employers",
+      "publisher": "Littler",
+      "url": "https://www.littler.com/news-analysis/asap/key-recent-developments-chinas-employment-law-china-us-comparative-perspective",
+      "published_or_updated": "2025-09-16",
+      "type": "international labor law analysis",
+      "key_points_used": [
+        "Highlights process discipline and documentation as key multinational employer risk controls.",
+        "Reinforces execution-quality lens for China employment operations."
+      ]
+    }
+  ],
+  "consensus": [
+    "Termination risk is mostly execution risk: basis, payroll treatment, and communication alignment.",
+    "Documented controls and exception governance reduce dispute and rework exposure.",
+    "Foreign employers benefit from explicit risk-tier decisions before payroll release."
+  ],
+  "uncertainties": [
+    "City-level interpretation and evidence thresholds can vary by fact pattern.",
+    "Some component-level treatment details may require local confirmation before payment release.",
+    "English-language source summaries may not capture all implementation details from Chinese-language materials."
+  ],
+  "practical_implication_for_foreign_employers": "Use a risk-tier matrix (low/medium/high) to decide in-cycle payment scope, off-cycle handling, and escalation path for each termination case.",
+  "research_completed_at": "2026-02-26"
+}
