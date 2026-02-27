@@ -1,0 +1,67 @@
+{
+  "topic": "In China employee termination: myth-vs-fact decision memo with release verdicts",
+  "primary_keyword": "China employee termination payroll decision memo",
+  "related_keywords": [
+    "China severance release controls",
+    "foreign employer termination payroll governance",
+    "China dispute prevention decision rules",
+    "EOR China final pay controls",
+    "China off-cycle termination handling"
+  ],
+  "sources": [
+    {
+      "title": "Labor Contract Law of the People's Republic of China",
+      "publisher": "National People's Congress (official English text)",
+      "url": "http://www.npc.gov.cn/zgrdw/englishnpc/Law/2007-12/13/content_1384064.htm",
+      "published_or_updated": "2007-06-29 (adopted) / accessed 2026-02-26",
+      "type": "primary law",
+      "key_points_used": [
+        "Termination and compensation framework",
+        "Need for lawful basis and evidence integrity"
+      ]
+    },
+    {
+      "title": "Social Insurance Law of the People's Republic of China",
+      "publisher": "National People's Congress (official English text)",
+      "url": "http://www.npc.gov.cn/zgrdw/englishnpc/Law/2009-02/20/content_1471106.htm",
+      "published_or_updated": "2010-10-28 (adopted) / accessed 2026-02-26",
+      "type": "primary law",
+      "key_points_used": [
+        "Termination-month closure obligations",
+        "Need for offboarding consistency"
+      ]
+    },
+    {
+      "title": "People's Republic of China - Individual taxes on personal income",
+      "publisher": "PwC Worldwide Tax Summaries",
+      "url": "https://taxsummaries.pwc.com/peoples-republic-of-china/individual/taxes-on-personal-income",
+      "published_or_updated": "accessed 2026-02-26",
+      "type": "technical tax reference",
+      "key_points_used": [
+        "Component-level treatment context and documentation importance"
+      ]
+    },
+    {
+      "title": "Key Recent Developments in China's Employment Law: A China-U.S. Comparative Perspective for Multinational Employers",
+      "publisher": "Littler",
+      "url": "https://www.littler.com/news-analysis/asap/key-recent-developments-chinas-employment-law-china-us-comparative-perspective",
+      "published_or_updated": "2025-09-16",
+      "type": "international labor law analysis",
+      "key_points_used": [
+        "Process and documentation discipline as key controls"
+      ]
+    }
+  ],
+  "consensus": [
+    "Decision quality in termination payroll depends on controls, not urgency.",
+    "Explicit verdict rules reduce ad hoc in-cycle risk.",
+    "Contested components should follow controlled exception paths."
+  ],
+  "uncertainties": [
+    "City-level evidence standards vary by case facts.",
+    "Some component treatment details need local confirmation.",
+    "English-language summaries may miss Chinese-language implementation nuances."
+  ],
+  "practical_implication_for_foreign_employers": "Use myth-based decision verdicts with control-confidence scoring before approving in-cycle payouts.",
+  "research_completed_at": "2026-02-26"
+}

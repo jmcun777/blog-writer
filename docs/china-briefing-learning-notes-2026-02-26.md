@@ -16,7 +16,7 @@ Applied to current run:
 - Added explicit owner matrix and exception routing language for foreign employer teams.
 
 ---
-## Incremental learning update (22:04 run; variation=position paper + risk boundaries)
-- Rotated to a **position-paper format** with explicit “must not cross” risk boundaries for payout decisions.
-- Added **boundary tests** (evidence sufficiency, authority validity, communication coherence, recoverability) before release.
-- Improved practical depth with a **minimum viable release packet** concept for in-cycle execution.
+## Incremental learning update (23:04 run; variation=myth-vs-fact decision memo)
+- Rotated to **myth-vs-fact decision memo** format with explicit release verdicts per myth.
+- Added **control confidence score** (high/medium/low) per case condition to support rapid judgment.
+- Improved operational depth with a **same-day remediation queue** for fixable vs non-fixable gaps.
