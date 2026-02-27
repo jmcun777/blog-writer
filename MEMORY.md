@@ -20,3 +20,4 @@ For expert-style blog writing, user wants:
 - Completion bar: clear core view + decision path + realistic scenarios + risk boundaries + net-new insight.
 - For foreign clients unfamiliar with China, prioritize introductory legal/regulatory explanation first; keep deeply time-sensitive operational tactics secondary.
 - User wants output style to benchmark against ChatGPT Pulse daily briefs; target strong similarity in briefing flow while preserving factual rigor.
+- User prefers receiving article links only after online URL is confirmed reachable (HTTP 200), to avoid 404 links.
