@@ -1,0 +1,66 @@
+{
+  "topic": "In China employee termination: payroll risk-boundary position paper for foreign employers",
+  "primary_keyword": "China employee termination payroll risk boundaries",
+  "related_keywords": [
+    "China severance decision governance",
+    "foreign employer termination controls China",
+    "China payroll dispute prevention",
+    "EOR China termination release criteria",
+    "China final pay compliance operations"
+  ],
+  "sources": [
+    {
+      "title": "Labor Contract Law of the People's Republic of China",
+      "publisher": "National People's Congress (official English text)",
+      "url": "http://www.npc.gov.cn/zgrdw/englishnpc/Law/2007-12/13/content_1384064.htm",
+      "published_or_updated": "2007-06-29 (adopted) / accessed 2026-02-26",
+      "type": "primary law",
+      "key_points_used": [
+        "Defines framework for termination legality and compensation exposure.",
+        "Supports evidence-backed, process-consistent execution."
+      ]
+    },
+    {
+      "title": "Social Insurance Law of the People's Republic of China",
+      "publisher": "National People's Congress (official English text)",
+      "url": "http://www.npc.gov.cn/zgrdw/englishnpc/Law/2009-02/20/content_1471106.htm",
+      "published_or_updated": "2010-10-28 (adopted) / accessed 2026-02-26",
+      "type": "primary law",
+      "key_points_used": [
+        "Supports obligations tied to termination-month closure and statutory processing consistency."
+      ]
+    },
+    {
+      "title": "People's Republic of China - Individual taxes on personal income",
+      "publisher": "PwC Worldwide Tax Summaries",
+      "url": "https://taxsummaries.pwc.com/peoples-republic-of-china/individual/taxes-on-personal-income",
+      "published_or_updated": "accessed 2026-02-26",
+      "type": "technical tax reference",
+      "key_points_used": [
+        "Supports component-level treatment documentation and assumption logging."
+      ]
+    },
+    {
+      "title": "Key Recent Developments in China's Employment Law: A China-U.S. Comparative Perspective for Multinational Employers",
+      "publisher": "Littler",
+      "url": "https://www.littler.com/news-analysis/asap/key-recent-developments-chinas-employment-law-china-us-comparative-perspective",
+      "published_or_updated": "2025-09-16",
+      "type": "international labor law analysis",
+      "key_points_used": [
+        "Reinforces documentation discipline and process governance in multinational employer operations."
+      ]
+    }
+  ],
+  "consensus": [
+    "Termination payout decisions should be constrained by explicit risk boundaries.",
+    "Minimum release criteria reduce ad hoc high-risk decisions.",
+    "Boundary breaches should trigger escalation before payout, not after disputes emerge."
+  ],
+  "uncertainties": [
+    "City-level evidence and dispute-handling practice can differ by facts.",
+    "Some treatment details need local confirmation before release.",
+    "English-language summaries may not capture all implementation nuance in Chinese sources."
+  ],
+  "practical_implication_for_foreign_employers": "Adopt explicit do-not-cross boundaries and a minimum viable release packet for in-cycle termination payouts.",
+  "research_completed_at": "2026-02-26"
+}

@@ -16,7 +16,7 @@ Applied to current run:
 - Added explicit owner matrix and exception routing language for foreign employer teams.
 
 ---
-## Incremental learning update (21:04 run; variation=role-relay operating memo)
-- Rotated to **role-relay memo format** (HR→Manager→Payroll→Finance→Vendor), avoiding repeated matrix skeleton.
-- Added **handoff acceptance criteria** at each relay point (input quality checks before ownership transfer).
-- Improved practical depth with **failure-to-fix mapping**: each handoff failure links to one corrective control and KPI.
+## Incremental learning update (22:04 run; variation=position paper + risk boundaries)
+- Rotated to a **position-paper format** with explicit “must not cross” risk boundaries for payout decisions.
+- Added **boundary tests** (evidence sufficiency, authority validity, communication coherence, recoverability) before release.
+- Improved practical depth with a **minimum viable release packet** concept for in-cycle execution.
