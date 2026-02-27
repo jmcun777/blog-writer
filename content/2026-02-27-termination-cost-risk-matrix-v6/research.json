@@ -1,0 +1,70 @@
+{
+  "topic": "In China employee termination: advanced cost-risk matrix for foreign employers",
+  "primary_keyword": "China employee termination cost risk matrix foreign employers",
+  "related_keywords": [
+    "China Labor Contract Law termination",
+    "foreign employer termination exposure China",
+    "China labor arbitration evidence",
+    "China payroll offboarding alignment",
+    "China Briefing termination"
+  ],
+  "sources": [
+    {
+      "title": "Labor Contract Law of the People's Republic of China",
+      "publisher": "National People’s Congress (official English text)",
+      "url": "http://www.npc.gov.cn/zgrdw/englishnpc/Law/2007-12/13/content_1384064.htm",
+      "published_or_updated": "adopted 2007-06-29; amended 2012-12-28; accessed 2026-02-27",
+      "type": "official_primary_law",
+      "fit_note": "Core framework for route-based risk and consequence mapping."
+    },
+    {
+      "title": "Regulations for the Implementation of the Labor Contract Law of the PRC (State Council Decree No. 535)",
+      "publisher": "State Council Gazette (official)",
+      "url": "https://www.gov.cn/gongbao/content/2008/content_1124615.htm",
+      "published_or_updated": "2008-09-18; accessed 2026-02-27",
+      "type": "official_implementing_regulation",
+      "fit_note": "Supports matrix interpretation for practical route handling."
+    },
+    {
+      "title": "Interpretation of the Supreme People's Court on Issues Concerning the Application of Law in the Trial of Labor Dispute Cases (I)",
+      "publisher": "Supreme People’s Court (official)",
+      "url": "https://www.court.gov.cn/fabu/xiangqing/243981.html",
+      "published_or_updated": "2020 amendment; accessed 2026-02-27",
+      "type": "official_judicial_interpretation",
+      "fit_note": "Adds dispute-facing evidence and consistency risk lens for matrix weighting."
+    },
+    {
+      "title": "Social Insurance Law of the People's Republic of China",
+      "publisher": "National People’s Congress (official English text)",
+      "url": "http://www.npc.gov.cn/zgrdw/englishnpc/Law/2009-02/20/content_1471106.htm",
+      "published_or_updated": "adopted 2010-10-28; accessed 2026-02-27",
+      "type": "official_primary_law",
+      "fit_note": "Anchors statutory closure controls in total-risk costing."
+    },
+    {
+      "title": "Employee Termination in China: A Guide for Employers",
+      "publisher": "China Briefing (Dezan Shira & Associates)",
+      "url": "https://www.china-briefing.com/news/employee-termination-in-china/",
+      "published_or_updated": "updated 2025; accessed 2026-02-27",
+      "type": "authoritative_practice_reference",
+      "fit_note": "Provides multinational-practical context for matrix decision tradeoffs."
+    }
+  ],
+  "source_replacement_notes": [
+    "Rotated from scenario-led structure to cost-risk matrix structure while preserving legal source hierarchy.",
+    "Excluded low-fit tax-heavy and generalized comparative sources to keep matrix dimensions legal-governance centered.",
+    "Retained China Briefing as practical translation layer for foreign clients."
+  ],
+  "consensus": [
+    "Cost-only optimization is often misleading in China termination decisions.",
+    "Risk-adjusted decisions require legal route confidence and evidence integrity weighting.",
+    "Matrix framing helps cross-border stakeholders align on defensibility, not just payout speed."
+  ],
+  "uncertainties": [
+    "City-level implementation and evidentiary standards vary.",
+    "Complex payment-component treatment may require local confirmation.",
+    "Official English text may not reflect all Chinese-language practice nuances."
+  ],
+  "source_fit_assessment": "Sufficient for cost-risk matrix format because sources support legal route grounding, dispute-risk weighting, and practical multinational interpretation.",
+  "research_completed_at": "2026-02-27"
+}

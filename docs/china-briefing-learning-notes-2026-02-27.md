@@ -39,3 +39,8 @@
 - Rotated from diagnostics playbook to a **scenario-led** narrative with three high-pressure foreign-employer case patterns.
 - Preserved China Briefing-like analyst tone by embedding legal context before each scenario decision path.
 - Improved audience fit by pairing each scenario with explicit practical lessons and cross-scenario control principles.
+
+## Incremental learning update (12:04 run; variation=cost-risk matrix v2)
+- Rotated from scenario-led narrative back to a **cost-risk matrix** structure with clearer risk-adjusted decision weighting.
+- Preserved China Briefing-style analyst tone by keeping legal context first and avoiding over-tactical sequencing.
+- Improved cross-border decision usability by adding explicit risk multipliers and exception matrix controls.
