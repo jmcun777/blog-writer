@@ -1,0 +1,69 @@
+{
+  "topic": "In China employee termination: hybrid cost-risk matrix and myth-busting checklist for payroll decisions",
+  "primary_keyword": "China employee termination payroll cost risk matrix",
+  "related_keywords": [
+    "China termination payroll controls",
+    "foreign employer severance risk China",
+    "China dispute prevention payroll",
+    "EOR China termination governance",
+    "China final pay escalation thresholds"
+  ],
+  "sources": [
+    {
+      "title": "Labor Contract Law of the People's Republic of China",
+      "publisher": "National People's Congress (official English text)",
+      "url": "http://www.npc.gov.cn/zgrdw/englishnpc/Law/2007-12/13/content_1384064.htm",
+      "published_or_updated": "2007-06-29 (adopted) / accessed 2026-02-26",
+      "type": "primary law",
+      "key_points_used": [
+        "Core framework for termination and compensation exposure.",
+        "Supports evidence-backed and process-consistent termination handling."
+      ]
+    },
+    {
+      "title": "Social Insurance Law of the People's Republic of China",
+      "publisher": "National People's Congress (official English text)",
+      "url": "http://www.npc.gov.cn/zgrdw/englishnpc/Law/2009-02/20/content_1471106.htm",
+      "published_or_updated": "2010-10-28 (adopted) / accessed 2026-02-26",
+      "type": "primary law",
+      "key_points_used": [
+        "Supports obligations around termination-month closure and payroll-linked statutory processing.",
+        "Reinforces offboarding completeness controls."
+      ]
+    },
+    {
+      "title": "People's Republic of China - Individual taxes on personal income",
+      "publisher": "PwC Worldwide Tax Summaries",
+      "url": "https://taxsummaries.pwc.com/peoples-republic-of-china/individual/taxes-on-personal-income",
+      "published_or_updated": "accessed 2026-02-26",
+      "type": "technical tax reference",
+      "key_points_used": [
+        "Practical context for component-level final-pay treatment assumptions.",
+        "Supports documentation discipline in payroll treatment notes."
+      ]
+    },
+    {
+      "title": "Key Recent Developments in China's Employment Law: A China-U.S. Comparative Perspective for Multinational Employers",
+      "publisher": "Littler",
+      "url": "https://www.littler.com/news-analysis/asap/key-recent-developments-chinas-employment-law-china-us-comparative-perspective",
+      "published_or_updated": "2025-09-16",
+      "type": "international labor law analysis",
+      "key_points_used": [
+        "Emphasizes process and documentation quality as key controls for multinationals.",
+        "Supports escalation-based governance for complex cases."
+      ]
+    }
+  ],
+  "consensus": [
+    "Termination payout scope should follow risk and control completeness, not urgency.",
+    "Myth-driven decisions often create avoidable dispute and correction costs.",
+    "Hybrid matrix + checklist governance improves operational consistency."
+  ],
+  "uncertainties": [
+    "City-level evidence thresholds and handling practices vary by case facts.",
+    "Some treatment details require local confirmation before release.",
+    "English-language summaries may not include all Chinese-language implementation nuances."
+  ],
+  "practical_implication_for_foreign_employers": "Apply impact-controllability thresholds and myth-busting checks before approving in-cycle termination payments.",
+  "research_completed_at": "2026-02-26"
+}
