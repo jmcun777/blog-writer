@@ -1,0 +1,70 @@
+{
+  "topic": "In China employee termination: legal-gate decision tree for foreign employers",
+  "primary_keyword": "China employee termination decision tree foreign employers",
+  "related_keywords": [
+    "China Labor Contract Law termination routes",
+    "foreign employer termination governance China",
+    "China labor arbitration evidence risk",
+    "China payroll offboarding compliance",
+    "China Briefing termination guide"
+  ],
+  "sources": [
+    {
+      "title": "Labor Contract Law of the People's Republic of China",
+      "publisher": "National People's Congress (official English text)",
+      "url": "http://www.npc.gov.cn/zgrdw/englishnpc/Law/2007-12/13/content_1384064.htm",
+      "published_or_updated": "adopted 2007-06-29; amended 2012-12-28; accessed 2026-02-27",
+      "type": "official_primary_law",
+      "fit_note": "Core source for route logic and termination consequence framework in decision-tree branching."
+    },
+    {
+      "title": "Regulations for the Implementation of the Labor Contract Law of the PRC (State Council Decree No. 535)",
+      "publisher": "State Council Gazette (official)",
+      "url": "https://www.gov.cn/gongbao/content/2008/content_1124615.htm",
+      "published_or_updated": "2008-09-18; accessed 2026-02-27",
+      "type": "official_implementing_regulation",
+      "fit_note": "Supports branch-level implementation and process interpretation."
+    },
+    {
+      "title": "Interpretation of the Supreme People's Court on Issues Concerning the Application of Law in the Trial of Labor Dispute Cases (I)",
+      "publisher": "Supreme People's Court (official)",
+      "url": "https://www.court.gov.cn/fabu/xiangqing/243981.html",
+      "published_or_updated": "2020 amendment; accessed 2026-02-27",
+      "type": "official_judicial_interpretation",
+      "fit_note": "Adds dispute-lens checkpoints for evidence and consistency nodes."
+    },
+    {
+      "title": "Social Insurance Law of the People's Republic of China",
+      "publisher": "National People's Congress (official English text)",
+      "url": "http://www.npc.gov.cn/zgrdw/englishnpc/Law/2009-02/20/content_1471106.htm",
+      "published_or_updated": "adopted 2010-10-28; accessed 2026-02-27",
+      "type": "official_primary_law",
+      "fit_note": "Anchors offboarding contribution closure checks in final branch execution."
+    },
+    {
+      "title": "Employee Termination in China: A Guide for Employers",
+      "publisher": "China Briefing (Dezan Shira & Associates)",
+      "url": "https://www.china-briefing.com/news/employee-termination-in-china/",
+      "published_or_updated": "updated 2025; accessed 2026-02-27",
+      "type": "authoritative_practice_reference",
+      "fit_note": "Provides practical branch interpretation for foreign-reader usability."
+    }
+  ],
+  "source_replacement_notes": [
+    "Rotated from myth-vs-fact to decision-tree format; retained legal-hierarchy sources for stability.",
+    "Excluded broad comparative/tax-dominant sources because branch logic is legal-route centric.",
+    "Kept China Briefing as practical translator for foreign operators at each branch."
+  ],
+  "consensus": [
+    "Decision quality improves when legal route gates are explicit before operational execution.",
+    "Evidence sufficiency and cross-function consistency are key go/no-go branch conditions.",
+    "Foreign employers need plain-language route branching to avoid at-will assumptions."
+  ],
+  "uncertainties": [
+    "City-level implementation and evidence weighting may vary.",
+    "Case-specific payment component treatment may require local confirmation.",
+    "Official English texts may not reflect every Chinese-language practice nuance."
+  ],
+  "source_fit_assessment": "Sufficient for decision-tree format because sources support legal branching logic plus practical implementation interpretation.",
+  "research_completed_at": "2026-02-27"
+}

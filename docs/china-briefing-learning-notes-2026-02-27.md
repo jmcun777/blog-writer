@@ -19,3 +19,8 @@
 - Rotated to a **myth-vs-fact** editorial pattern to correct cross-border misconceptions quickly for non-local readers.
 - Preserved China Briefing-like utility flow by pairing each myth correction with practical decision implications.
 - Increased clarity by emphasizing confidence boundaries (what is settled law vs what needs local confirmation).
+
+## Incremental learning update (08:04 run; variation=decision-tree legal gates)
+- Rotated into a **decision-tree** structure with explicit go/no-go gates for legal route, evidence, alignment, and local uncertainty.
+- Borrowed China Briefing utility style by making branch logic highly scannable for international operators.
+- Improved operational readability by mapping document requirements directly to each decision gate.
