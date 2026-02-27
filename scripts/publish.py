@@ -5,6 +5,7 @@ import json, re, html, datetime, pathlib, argparse, hashlib
 def md_to_html(md: str) -> str:
     def render_inline(text: str) -> str:
         esc = html.escape(text)
+        esc = re.sub(r'!\[([^\]]*)\]\((https?://[^\)]+|\./[^\)]+)\)', r'<img src="\2" alt="\1" loading="lazy" />', esc)
         esc = re.sub(r'\[([^\]]+)\]\((https?://[^\)]+)\)', r'<a href="\2">\1</a>', esc)
         esc = re.sub(r'\*\*([^*]+)\*\*', r'<strong>\1</strong>', esc)
         esc = re.sub(r'\*([^*]+)\*', r'<em>\1</em>', esc)

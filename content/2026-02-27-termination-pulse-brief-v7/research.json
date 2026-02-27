@@ -1,0 +1,60 @@
+{
+  "topic": "In China employee termination: Pulse-style legal-and-operations brief for foreign employers",
+  "primary_keyword": "China employee termination foreign employer brief",
+  "related_keywords": [
+    "China Labor Contract Law termination",
+    "China labor dispute arbitration timeline",
+    "China termination severance cap",
+    "foreign employer China offboarding compliance"
+  ],
+  "sources": [
+    {
+      "title": "Labor Contract Law of the People's Republic of China",
+      "publisher": "National People's Congress (official English text)",
+      "url": "http://www.npc.gov.cn/zgrdw/englishnpc/Law/2007-12/13/content_1384064.htm",
+      "type": "official_primary_law",
+      "fit_note": "Core rules for lawful termination routes, notice, economic compensation, and invalid-termination exposure."
+    },
+    {
+      "title": "Regulations for the Implementation of the Labor Contract Law of the PRC (State Council Decree No. 535)",
+      "publisher": "State Council Gazette",
+      "url": "https://www.gov.cn/gongbao/content/2008/content_1124615.htm",
+      "type": "official_implementing_regulation",
+      "fit_note": "Operational interpretation layer for employer-side execution and documentation."
+    },
+    {
+      "title": "Interpretation of the Supreme People's Court on Issues Concerning the Application of Law in the Trial of Labor Dispute Cases (I)",
+      "publisher": "Supreme People's Court",
+      "url": "https://www.court.gov.cn/fabu/xiangqing/243981.html",
+      "type": "official_judicial_interpretation",
+      "fit_note": "Dispute-facing lens for evidence sufficiency and consistency in litigation/arbitration pathways."
+    },
+    {
+      "title": "Law of the PRC on Mediation and Arbitration of Labor Disputes",
+      "publisher": "PKULaw mirror (commonly cited Chinese text)",
+      "url": "https://www.pkulaw.com/en_law/3bb03a34f9f18d45bdfb.html",
+      "type": "statutory_procedure_reference",
+      "fit_note": "Anchors filing limitation and arbitration timeline for risk-speed framing."
+    },
+    {
+      "title": "Social Insurance Law of the People's Republic of China",
+      "publisher": "National People's Congress (official English text)",
+      "url": "http://www.npc.gov.cn/zgrdw/englishnpc/Law/2009-02/20/content_1471106.htm",
+      "type": "official_primary_law",
+      "fit_note": "Supports statutory closure obligations during termination-month offboarding."
+    },
+    {
+      "title": "Employee Termination in China: A Guide for Employers",
+      "publisher": "China Briefing (Dezan Shira & Associates)",
+      "url": "https://www.china-briefing.com/news/employee-termination-in-china/",
+      "type": "authoritative_practice_reference",
+      "fit_note": "Practical translation for non-China leadership teams; used as secondary interpretation, not primary legal anchor."
+    }
+  ],
+  "source_replacement_notes": [
+    "Replaced weaker generic blog-style commentary with statute/judicial sources and a single practitioner translation layer.",
+    "Added labor-dispute procedure source to support time-bound risk anchors (1-year filing, 45+15 arbitration window).",
+    "Kept legal hierarchy explicit: law -> regulation -> judicial interpretation -> practice guide."
+  ],
+  "research_completed_at": "2026-02-27"
+}
