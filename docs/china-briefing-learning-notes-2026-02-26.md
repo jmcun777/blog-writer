@@ -16,13 +16,7 @@ Applied to current run:
 - Added explicit owner matrix and exception routing language for foreign employer teams.
 
 ---
-
-## Incremental learning update (15:30 run)
-- Shifted to **control-tower framing** (attendance data -> manager approvals -> payroll conversion) to better mirror day-to-day operations.
-- Increased **exception specificity**: late timesheet, disputed overtime eligibility, public-holiday misclassification, and cross-city calendar mismatch.
-- Tightened section openers so each starts with a decision or risk trigger rather than generic context.
-
-## Incremental learning update (15:33 run)
-- Added **payroll-close readiness scorecard** pattern (go/no-go at D-3) for better operator decision support.
-- Improved **cross-functional handoff wording** so HR-to-payroll transition steps are explicit and auditable.
-- Reduced repeated phrasing by rotating section verbs (verify/map/lock/reconcile/archive).
+## Incremental learning update (16:04 run; sticky topic = China employee termination)
+- Added **termination control-tower scoreboard** (legal basis quality, pay-package lock, communication consistency, archive completeness).
+- Increased **termination-specific exception detail** (missing evidence, disputed basis, late severance approval, off-cycle payout governance).
+- Tightened opening to immediate employer decision risk for in-cycle vs off-cycle termination payments.
