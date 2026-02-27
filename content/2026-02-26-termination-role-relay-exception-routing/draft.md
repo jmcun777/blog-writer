@@ -155,6 +155,11 @@ These controls convert abstract compliance intent into measurable process behavi
 ## What to watch next
 Foreign employers should continue monitoring local practice shifts in evidence expectations and dispute handling emphasis. Even when statutory language is stable, enforcement behavior and evidentiary thresholds can move over time. The most resilient strategy is to keep legal interpretation concise but keep operations controls detailed, testable, and role-accountable.
 
+## Source-fit reassessment for this structure
+Because this rewrite uses a **role-relay + exception-routing** model, source adequacy was re-evaluated beyond the prior fixed four-link set. The baseline statutes remain necessary, but they are not sufficient to support executable cross-role controls. This version therefore adds and re-weights sources in three layers: (1) statutory and judicial anchors (Labor Contract Law, Implementation Regulation, SPC interpretation), (2) operations-side treatment references (social insurance and IIT handling), and (3) recent multinational practice references (Littler and China Briefing) to translate legal anchors into day-to-day control gates.
+
+Remaining uncertainty is mainly city-level evidentiary threshold differences and local arbitration practice variance. Those items are flagged as exception-lane risks rather than being over-asserted as universal rules.
+
 ## FAQ
 ### 1) Why use role relay instead of a pure legal checklist?
 Because most real failures happen at cross-functional handoffs. Role relay makes accountability explicit and auditable.
@@ -181,9 +186,12 @@ No. It is an operational control framework for multinational teams and should be
 This content is for informational purposes only and does not constitute legal, tax, or accounting advice. China employment implementation may vary by city and case facts. Employers should obtain qualified local professional advice for case-specific decisions.
 
 ## Sources
-- National People's Congress. *Labor Contract Law of the People's Republic of China* (official English text; adopted 2007-06-29). http://www.npc.gov.cn/zgrdw/englishnpc/Law/2007-12/13/content_1384064.htm (accessed 2026-02-26).
-- National People's Congress. *Social Insurance Law of the People's Republic of China* (official English text; adopted 2010-10-28). http://www.npc.gov.cn/zgrdw/englishnpc/Law/2009-02/20/content_1471106.htm (accessed 2026-02-26).
-- PwC Worldwide Tax Summaries. *People's Republic of China – Individual taxes on personal income* (reference page, periodically updated). https://taxsummaries.pwc.com/peoples-republic-of-china/individual/taxes-on-personal-income (accessed 2026-02-26).
+- National People’s Congress. *Labor Contract Law of the People’s Republic of China* (official English text; adopted 2007-06-29). http://www.npc.gov.cn/zgrdw/englishnpc/Law/2007-12/13/content_1384064.htm (accessed 2026-02-26).
+- State Council. *Regulations for the Implementation of the Labor Contract Law of the PRC* (official Chinese normative regulation; Decree No. 535). https://www.gov.cn/gongbao/content/2008/content_1124615.htm (accessed 2026-02-26).
+- Supreme People’s Court. *Interpretation of the Supreme People’s Court on Issues Concerning the Application of Law in the Trial of Labor Dispute Cases (I)* (2020 amendment). https://www.court.gov.cn/fabu/xiangqing/243981.html (accessed 2026-02-26).
+- National People’s Congress. *Social Insurance Law of the PRC* (official English text; adopted 2010-10-28). http://www.npc.gov.cn/zgrdw/englishnpc/Law/2009-02/20/content_1471106.htm (accessed 2026-02-26).
+- State Taxation Administration. *Announcement on Individual Income Tax Policies Relating to Annual One-time Bonuses and Related Items* (operational tax treatment reference). https://www.chinatax.gov.cn/chinatax/n810341/n810755/c5142812/content.html (accessed 2026-02-26).
 - Littler. *Key Recent Developments in China's Employment Law: A China-U.S. Comparative Perspective for Multinational Employers*. 2025-09-16. https://www.littler.com/news-analysis/asap/key-recent-developments-chinas-employment-law-china-us-comparative-perspective.
+- Dezan Shira & Associates (China Briefing). *Employee Termination in China: A Guide for Employers* (practical operations reference, updated 2025). https://www.china-briefing.com/news/employee-termination-in-china/ (accessed 2026-02-26).
 
 China-Payroll.com can support foreign employers with compliance-first EOR and payroll execution design for complex termination cases.
