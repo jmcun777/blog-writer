@@ -1,0 +1,74 @@
+{
+  "topic": "In China employee termination — Pulse risk radar brief for foreign employers",
+  "primary_keyword": "China employee termination risk radar for foreign employers",
+  "related_keywords": [
+    "China Labor Contract Law termination",
+    "China termination dispute risk",
+    "foreign employer payroll offboarding China",
+    "China labor evidence requirements",
+    "China employer compliance briefing"
+  ],
+  "theme_clusters": [
+    "Radar theme 1: route certainty before execution",
+    "Radar theme 2: evidence integrity as risk gate",
+    "Radar theme 3: coherence across legal/HR/payroll",
+    "Radar theme 4: local uncertainty and escalation discipline"
+  ],
+  "sources": [
+    {
+      "title": "Labor Contract Law of the People's Republic of China",
+      "publisher": "National People’s Congress (official English text)",
+      "url": "http://www.npc.gov.cn/zgrdw/englishnpc/Law/2007-12/13/content_1384064.htm",
+      "type": "official_legal",
+      "published_or_updated": "adopted 2007-06-29; amended 2012-12-28; accessed 2026-02-27",
+      "fit_note": "Primary legal route and consequence baseline."
+    },
+    {
+      "title": "Regulations for the Implementation of the Labor Contract Law of the PRC (State Council Decree No. 535)",
+      "publisher": "State Council Gazette (official)",
+      "url": "https://www.gov.cn/gongbao/content/2008/content_1124615.htm",
+      "type": "official_legal",
+      "published_or_updated": "2008-09-18; accessed 2026-02-27",
+      "fit_note": "Operational interpretation layer for practical route handling."
+    },
+    {
+      "title": "Interpretation of the Supreme People's Court on Issues Concerning the Application of Law in the Trial of Labor Dispute Cases (I)",
+      "publisher": "Supreme People’s Court (official)",
+      "url": "https://www.court.gov.cn/fabu/xiangqing/243981.html",
+      "type": "official_legal",
+      "published_or_updated": "2020 amendment; accessed 2026-02-27",
+      "fit_note": "Dispute-facing evidentiary and consistency lens."
+    },
+    {
+      "title": "Employee Termination in China: A Guide for Employers",
+      "publisher": "China Briefing (Dezan Shira & Associates)",
+      "url": "https://www.china-briefing.com/news/employee-termination-in-china/",
+      "type": "practical_interpretation",
+      "published_or_updated": "updated 2025; accessed 2026-02-27",
+      "fit_note": "Practical translation for foreign operators."
+    },
+    {
+      "title": "Key Recent Developments in China's Employment Law: A China-U.S. Comparative Perspective for Multinational Employers",
+      "publisher": "Littler",
+      "url": "https://www.littler.com/news-analysis/asap/key-recent-developments-chinas-employment-law-china-us-comparative-perspective",
+      "type": "practitioner",
+      "published_or_updated": "2025-09-16; accessed 2026-02-27",
+      "fit_note": "Multinational governance perspective and cross-border pitfalls."
+    },
+    {
+      "title": "People's Republic of China - Individual taxes on personal income",
+      "publisher": "PwC Worldwide Tax Summaries",
+      "url": "https://taxsummaries.pwc.com/peoples-republic-of-china/individual/taxes-on-personal-income",
+      "type": "market_business_context",
+      "published_or_updated": "accessed 2026-02-27",
+      "fit_note": "Business context for payroll-facing implications in exit periods."
+    }
+  ],
+  "source_fit_assessment": "Source mix requirement met: official/legal + practitioner + market/business context + practical interpretation. No stale/weak duplicates used as anchors.",
+  "uncertainties": [
+    "City-level implementation and evidentiary emphasis can vary.",
+    "Edge-case payment component treatment may require local confirmation.",
+    "Official English texts may not fully capture current Chinese-language implementation nuance."
+  ],
+  "research_completed_at": "2026-02-27"
+}

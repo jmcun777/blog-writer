@@ -64,3 +64,8 @@
 - Rotated to a **Pulse-style briefing** primary narrative: headline-led, impact-first, concise action bullets.
 - Kept legal depth as a secondary appendix to preserve readability while maintaining evidentiary rigor.
 - Improved source architecture by enforcing a four-part mix: official/legal + practitioner + market/business context + practical interpretation.
+
+## Incremental learning update (17:04 run; variation=Pulse risk radar)
+- Rotated from Pulse daily-brief narrative to a **Pulse risk-radar** structure with signal-based scanning (route, evidence, coherence, uncertainty, closure).
+- Preserved readability with headline-led sections while keeping legal depth in a secondary appendix.
+- Improved decision utility by adding a weekly risk-memo reporting pattern for cross-border leadership teams.
