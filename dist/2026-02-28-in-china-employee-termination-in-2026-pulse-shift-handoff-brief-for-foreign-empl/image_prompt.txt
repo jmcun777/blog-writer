@@ -1,0 +1,8 @@
+Create a 16:9 hero image for article title: 'In China Employee Termination in 2026: Pulse Shift-Handoff Brief for Foreign Employers (With Legal Appendix)'. Scene: global operations team evaluating workforce model options for China market entry. Include motifs: decision matrix, org chart, legal policy documents. Style: cinematic photo-realistic; natural office light, depth of field, modern corporate look. Audience is Western business readers. Tone should feel credible, practical, and contemporary. Leave clean whitespace on left/top area for headline overlay. No text in image, no logos, no watermarks.
+
+Variant A: add subtle human presence (2-4 professionals), emphasize collaboration and decision-making.
+Variant B: data-first composition with dashboards/charts as visual anchors, minimal people.
+Variant C: risk-and-compliance narrative visual (checklists, timeline cards, policy docs) with premium editorial look.
+
+Aspect ratio: 16:9 (1600x900 recommended)
+Negative prompt: no propaganda style, no flags dominating frame, no blurry text blocks, no cartoon faces, no watermark.

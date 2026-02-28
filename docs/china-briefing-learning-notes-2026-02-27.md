@@ -114,3 +114,8 @@
 - Rotated from QBR snapshot to a **Pulse morning-note** format optimized for daily leadership scans.
 - Kept legal context first and concise, with full doctrine in appendix.
 - Improved execution transfer by adding a 30-day adoption path plus a standard cross-border update template.
+
+## Incremental learning update (03:04 run; variation=Pulse shift-handoff)
+- Rotated from morning-note framing to a **Pulse shift-handoff** format focused on transfer quality between functions and regions.
+- Kept legal context concise at the top and retained doctrine in a secondary appendix.
+- Improved operational control by adding explicit go/pause/escalate transfer logic and handoff-specific KPI framing.
