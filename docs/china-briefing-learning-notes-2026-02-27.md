@@ -99,3 +99,8 @@
 - Rotated from executive memo framing to a **Pulse field-guide** format with frontline prompts and go/pause/escalate thresholds.
 - Preserved legal context first in plain language while keeping doctrine in a secondary appendix.
 - Improved implementation quality by adding a 30-day adoption path and a standardized cross-border status template.
+
+## Incremental learning update (00:04 run; variation=Pulse briefing cards)
+- Rotated from field-guide prompts to **Pulse briefing cards** with headline/implication/action blocks.
+- Preserved plain-language legal context as opening layer and pushed doctrine to appendix.
+- Improved execution readiness by adding weekly cadence, dashboard metrics, and a one-paragraph cross-border status template.
