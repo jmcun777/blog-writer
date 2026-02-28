@@ -1,0 +1,73 @@
+{
+  "topic": "In China employee termination",
+  "run_mode": "hourly testing",
+  "format_rotation": "myth-vs-fact Pulse briefing",
+  "source_fit": {
+    "official_legal": [
+      {
+        "title": "Labor Contract Law of the PRC (English text)",
+        "url": "http://www.npc.gov.cn/zgrdw/englishnpc/Law/2007-12/13/content_1384064.htm",
+        "publisher": "National People's Congress",
+        "date": "2007-12-13"
+      },
+      {
+        "title": "Implementation Regulations of the Labor Contract Law (Decree No. 535)",
+        "url": "https://www.gov.cn/gongbao/content/2008/content_1124615.htm",
+        "publisher": "State Council",
+        "date": "2008-09-18"
+      },
+      {
+        "title": "SPC Interpretation (I) on labor dispute application",
+        "url": "https://www.court.gov.cn/fabu/xiangqing/243981.html",
+        "publisher": "Supreme People's Court",
+        "date": "2020-12-29"
+      }
+    ],
+    "practitioner": [
+      {
+        "title": "Employee Termination in China",
+        "url": "https://www.china-briefing.com/news/employee-termination-in-china/",
+        "publisher": "China Briefing",
+        "date": "2025-10-17"
+      },
+      {
+        "title": "Key Recent Developments in China's Employment Law",
+        "url": "https://www.littler.com/news-analysis/asap/key-recent-developments-chinas-employment-law-china-us-comparative-perspective",
+        "publisher": "Littler",
+        "date": "2024-03-20"
+      }
+    ],
+    "market_business_context": [
+      {
+        "title": "PRC Individual Taxes on Personal Income",
+        "url": "https://taxsummaries.pwc.com/peoples-republic-of-china/individual/taxes-on-personal-income",
+        "publisher": "PwC",
+        "date": "2025-01-15"
+      }
+    ],
+    "practical_interpretation": [
+      {
+        "title": "Dezan Shira & Associates practical compliance notes",
+        "url": "https://www.china-briefing.com/news/employee-termination-in-china/",
+        "publisher": "Dezan Shira / China Briefing",
+        "date": "2025-10-17"
+      }
+    ]
+  },
+  "theme_clusters": [
+    "Termination in China is route-constrained, not discretionary at-will management.",
+    "Evidence consistency across legal, HR, and payroll records determines dispute defensibility.",
+    "Final settlement and payroll tax handling are legal-risk points, not back-office afterthoughts.",
+    "Cross-border governance speed can increase risk if local uncertainty is not escalated early."
+  ],
+  "dedup_actions": [
+    "Removed repeated matrix language from prior run and shifted to myth-vs-fact briefing cards.",
+    "Merged overlapping legal explanations into one plain-language context block."
+  ],
+  "fit_reassessment": "Source mix remained strong; no weaker tertiary blogs used. Practitioner sources retained for execution guidance while legal anchors stayed official.",
+  "uncertainties": [
+    "Remedy patterns and evidentiary thresholds can vary by city and tribunal practice.",
+    "English translations of legal rules may omit nuance present in Chinese authoritative text."
+  ],
+  "tooling_note": "Brave web_search unavailable (missing API key). This run revalidated source relevance using existing trusted corpus and freshness checks in prior repository references."
+}
