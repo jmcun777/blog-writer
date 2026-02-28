@@ -1,0 +1,37 @@
+{
+  "topic": "In China employee termination",
+  "run_mode": "hourly testing",
+  "format_rotation": "board Q&A memo",
+  "source_fit": {
+    "official_legal": [
+      {"title": "Labor Contract Law of the PRC (English text)", "url": "http://www.npc.gov.cn/zgrdw/englishnpc/Law/2007-12/13/content_1384064.htm", "publisher": "National People's Congress", "date": "2007-12-13"},
+      {"title": "Implementation Regulations of the Labor Contract Law (Decree No. 535)", "url": "https://www.gov.cn/gongbao/content/2008/content_1124615.htm", "publisher": "State Council", "date": "2008-09-18"},
+      {"title": "SPC Interpretation (I) on labor dispute application", "url": "https://www.court.gov.cn/fabu/xiangqing/243981.html", "publisher": "Supreme People's Court", "date": "2020-12-29"}
+    ],
+    "practitioner": [
+      {"title": "Employee Termination in China", "url": "https://www.china-briefing.com/news/employee-termination-in-china/", "publisher": "China Briefing", "date": "2025-10-17"},
+      {"title": "Key Recent Developments in China's Employment Law", "url": "https://www.littler.com/news-analysis/asap/key-recent-developments-chinas-employment-law-china-us-comparative-perspective", "publisher": "Littler", "date": "2024-03-20"}
+    ],
+    "market_business_context": [
+      {"title": "PRC Individual Taxes on Personal Income", "url": "https://taxsummaries.pwc.com/peoples-republic-of-china/individual/taxes-on-personal-income", "publisher": "PwC", "date": "2025-01-15"}
+    ],
+    "practical_interpretation": [
+      {"title": "China Briefing practical implementation notes", "url": "https://www.china-briefing.com/news/employee-termination-in-china/", "publisher": "Dezan Shira / China Briefing", "date": "2025-10-17"}
+    ]
+  },
+  "clusters": [
+    "Route-first legal framing remains mandatory for employer defensibility.",
+    "Cross-functional consistency across legal, HR, payroll is core risk control.",
+    "Final settlement and IIT treatment are legal-risk interfaces.",
+    "Local uncertainty must be explicit in governance decisions."
+  ],
+  "dedup_notes": [
+    "Replaced prior checklist-ladder scaffolding with executive Q&A narrative.",
+    "Collapsed repeated caveats into concise watchlist and appendix."
+  ],
+  "uncertainties": [
+    "City-level practice and remedies can diverge.",
+    "English legal source text may not fully reflect Chinese drafting nuance."
+  ],
+  "tooling_note": "Brave web_search unavailable in environment; source-fit revalidation done using trusted baseline sources and recency checks from prior runs."
+}
