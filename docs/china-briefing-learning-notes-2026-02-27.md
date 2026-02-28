@@ -109,3 +109,8 @@
 - Rotated from briefing-card format to a **Pulse QBR snapshot** structure focused on quarterly signal tracking plus weekly execution bridge.
 - Preserved plain-language legal opener and kept legal doctrine as appendix depth.
 - Improved management handoff by adding a 30-day rollout path and cross-border update template.
+
+## Incremental learning update (02:04 run; variation=Pulse morning note)
+- Rotated from QBR snapshot to a **Pulse morning-note** format optimized for daily leadership scans.
+- Kept legal context first and concise, with full doctrine in appendix.
+- Improved execution transfer by adding a 30-day adoption path plus a standard cross-border update template.
