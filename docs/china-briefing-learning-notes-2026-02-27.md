@@ -104,3 +104,8 @@
 - Rotated from field-guide prompts to **Pulse briefing cards** with headline/implication/action blocks.
 - Preserved plain-language legal context as opening layer and pushed doctrine to appendix.
 - Improved execution readiness by adding weekly cadence, dashboard metrics, and a one-paragraph cross-border status template.
+
+## Incremental learning update (01:04 run; variation=Pulse QBR snapshot)
+- Rotated from briefing-card format to a **Pulse QBR snapshot** structure focused on quarterly signal tracking plus weekly execution bridge.
+- Preserved plain-language legal opener and kept legal doctrine as appendix depth.
+- Improved management handoff by adding a 30-day rollout path and cross-border update template.
