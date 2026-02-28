@@ -74,3 +74,8 @@
 - Rotated from risk-radar signals to a **Pulse decision-deck** format centered on five explicit leadership decisions.
 - Kept legal context front-loaded in plain language while moving deeper doctrine into a secondary appendix.
 - Improved actionability by converting broad status reporting into decision-ready go/pause/escalate prompts.
+
+## Incremental learning update (19:04 run; variation=Pulse control tower)
+- Rotated from decision-deck framing to a **Pulse control-tower** model using five governance pillars with status signals.
+- Kept lead narrative concise and impact-first while maintaining legal detail in a secondary appendix.
+- Improved cross-border execution clarity by adding pillar-based escalation thresholds (0-1 amber / 2 amber / any red).

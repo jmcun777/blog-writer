@@ -1,0 +1,62 @@
+{
+  "topic": "In China employee termination — Pulse control-tower brief for foreign employers",
+  "primary_keyword": "China employee termination control tower brief",
+  "related_keywords": [
+    "China Labor Contract Law termination",
+    "foreign employer termination governance",
+    "China payroll offboarding risk",
+    "China labor dispute evidence",
+    "China compliance pulse brief"
+  ],
+  "theme_clusters": [
+    "Control Tower Pillar 1: legal-route integrity",
+    "Control Tower Pillar 2: evidence and file quality",
+    "Control Tower Pillar 3: cross-function coherence",
+    "Control Tower Pillar 4: local uncertainty management",
+    "Control Tower Pillar 5: closure and audit readiness"
+  ],
+  "sources": [
+    {
+      "title": "Labor Contract Law of the People's Republic of China",
+      "publisher": "National People’s Congress (official English text)",
+      "url": "http://www.npc.gov.cn/zgrdw/englishnpc/Law/2007-12/13/content_1384064.htm",
+      "type": "official_legal"
+    },
+    {
+      "title": "Regulations for the Implementation of the Labor Contract Law of the PRC (State Council Decree No. 535)",
+      "publisher": "State Council Gazette (official)",
+      "url": "https://www.gov.cn/gongbao/content/2008/content_1124615.htm",
+      "type": "official_legal"
+    },
+    {
+      "title": "Interpretation of the Supreme People's Court on Issues Concerning the Application of Law in the Trial of Labor Dispute Cases (I)",
+      "publisher": "Supreme People’s Court (official)",
+      "url": "https://www.court.gov.cn/fabu/xiangqing/243981.html",
+      "type": "official_legal"
+    },
+    {
+      "title": "Employee Termination in China: A Guide for Employers",
+      "publisher": "China Briefing (Dezan Shira & Associates)",
+      "url": "https://www.china-briefing.com/news/employee-termination-in-china/",
+      "type": "practical_interpretation"
+    },
+    {
+      "title": "Key Recent Developments in China's Employment Law: A China-U.S. Comparative Perspective for Multinational Employers",
+      "publisher": "Littler",
+      "url": "https://www.littler.com/news-analysis/asap/key-recent-developments-chinas-employment-law-china-us-comparative-perspective",
+      "type": "practitioner"
+    },
+    {
+      "title": "People's Republic of China - Individual taxes on personal income",
+      "publisher": "PwC Worldwide Tax Summaries",
+      "url": "https://taxsummaries.pwc.com/peoples-republic-of-china/individual/taxes-on-personal-income",
+      "type": "market_business_context"
+    }
+  ],
+  "source_fit_assessment": "Required source-mix enforced and clustered for control-tower pulse format.",
+  "uncertainties": [
+    "City-level implementation and evidentiary emphasis can vary.",
+    "Edge-case payment treatment may require local confirmation.",
+    "Official English texts may lag current Chinese-language practice updates."
+  ]
+}
