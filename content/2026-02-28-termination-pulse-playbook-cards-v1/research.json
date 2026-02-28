@@ -1,0 +1,37 @@
+{
+  "topic": "In China employee termination",
+  "run_mode": "hourly testing",
+  "format_rotation": "playbook cards",
+  "source_fit": {
+    "official_legal": [
+      {"title":"Labor Contract Law of the PRC (English text)","url":"http://www.npc.gov.cn/zgrdw/englishnpc/Law/2007-12/13/content_1384064.htm","publisher":"National People's Congress","date":"2007-12-13"},
+      {"title":"Implementation Regulations of the Labor Contract Law (Decree No. 535)","url":"https://www.gov.cn/gongbao/content/2008/content_1124615.htm","publisher":"State Council","date":"2008-09-18"},
+      {"title":"SPC Interpretation (I) on labor dispute application","url":"https://www.court.gov.cn/fabu/xiangqing/243981.html","publisher":"Supreme People's Court","date":"2020-12-29"}
+    ],
+    "practitioner": [
+      {"title":"Employee Termination in China","url":"https://www.china-briefing.com/news/employee-termination-in-china/","publisher":"China Briefing","date":"2025-10-17"},
+      {"title":"Key Recent Developments in China's Employment Law","url":"https://www.littler.com/news-analysis/asap/key-recent-developments-chinas-employment-law-china-us-comparative-perspective","publisher":"Littler","date":"2024-03-20"}
+    ],
+    "market_business_context": [
+      {"title":"PRC Individual Taxes on Personal Income","url":"https://taxsummaries.pwc.com/peoples-republic-of-china/individual/taxes-on-personal-income","publisher":"PwC","date":"2025-01-15"}
+    ],
+    "practical_interpretation": [
+      {"title":"China Briefing practical implementation notes","url":"https://www.china-briefing.com/news/employee-termination-in-china/","publisher":"Dezan Shira / China Briefing","date":"2025-10-17"}
+    ]
+  },
+  "clusters": [
+    "Route-first framing remains foundational for termination defensibility.",
+    "Evidence and narrative coherence across legal/HR/payroll are key risk controls.",
+    "Settlement and tax handling are part of legal execution quality.",
+    "Local uncertainty should be explicit in escalation design."
+  ],
+  "dedup_notes": [
+    "Rotated away from risk-thermometer model to action-card format.",
+    "Removed repeated temperature framing and replaced with 24-hour action cards."
+  ],
+  "uncertainties": [
+    "City-level application of similar fact patterns may differ.",
+    "English legal references may not include all nuances from Chinese texts."
+  ],
+  "tooling_note": "web_search unavailable (missing Brave API key); source-fit reviewed against trusted baseline corpus."
+}
