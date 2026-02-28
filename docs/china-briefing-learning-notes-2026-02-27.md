@@ -59,3 +59,8 @@
 - Rotated from investor position-paper framing to **myth-vs-fact** structure for faster assumption correction.
 - Preserved China Briefing-style analytical tone while pairing each myth correction with practical control implications.
 - Improved audience accessibility by separating confirmed legal signals from practical uncertainty boundaries.
+
+## Incremental learning update (16:04 run; variation=Pulse-style daily brief)
+- Rotated to a **Pulse-style briefing** primary narrative: headline-led, impact-first, concise action bullets.
+- Kept legal depth as a secondary appendix to preserve readability while maintaining evidentiary rigor.
+- Improved source architecture by enforcing a four-part mix: official/legal + practitioner + market/business context + practical interpretation.
