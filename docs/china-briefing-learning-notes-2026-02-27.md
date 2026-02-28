@@ -79,3 +79,8 @@
 - Rotated from decision-deck framing to a **Pulse control-tower** model using five governance pillars with status signals.
 - Kept lead narrative concise and impact-first while maintaining legal detail in a secondary appendix.
 - Improved cross-border execution clarity by adding pillar-based escalation thresholds (0-1 amber / 2 amber / any red).
+
+## Incremental learning update (20:04 run; variation=Pulse watchlist)
+- Rotated from control-tower pillar narrative to a **Pulse watchlist** format optimized for weekly operating reviews.
+- Kept legal context concise at the top and moved detailed doctrine into appendix structure.
+- Improved operational adoption by adding recurring review cadence and fast-fix failure patterns.
