@@ -84,3 +84,8 @@
 - Rotated from control-tower pillar narrative to a **Pulse watchlist** format optimized for weekly operating reviews.
 - Kept legal context concise at the top and moved detailed doctrine into appendix structure.
 - Improved operational adoption by adding recurring review cadence and fast-fix failure patterns.
+
+## Incremental learning update (21:04 run; variation=Pulse scoreboard)
+- Rotated from watchlist framing to a **Pulse scoreboard** structure focused on indicator status + trend direction.
+- Preserved concise lead narrative while adding a practical dashboard design for leadership reporting.
+- Improved decision value by linking governance indicators to CFO/ops business impact language.
