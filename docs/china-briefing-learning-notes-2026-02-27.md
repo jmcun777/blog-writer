@@ -89,3 +89,8 @@
 - Rotated from watchlist framing to a **Pulse scoreboard** structure focused on indicator status + trend direction.
 - Preserved concise lead narrative while adding a practical dashboard design for leadership reporting.
 - Improved decision value by linking governance indicators to CFO/ops business impact language.
+
+## Incremental learning update (22:04 run; variation=Pulse executive memo)
+- Rotated from scoreboard framing to a **Pulse executive memo** format focused on leadership-ready headlines and intervention choices.
+- Preserved plain-language legal context at the top while keeping doctrine in a secondary appendix.
+- Improved management usability by adding a business-impact snapshot for CFO/regional ops alongside governance controls.

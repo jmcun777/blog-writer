@@ -1,0 +1,24 @@
+{
+  "topic": "In China employee termination — Pulse executive memo for foreign employers",
+  "primary_keyword": "China employee termination executive memo",
+  "theme_clusters": [
+    "Executive headline brief",
+    "Legal baseline and decision thresholds",
+    "Cross-function execution controls",
+    "Business and reporting implications"
+  ],
+  "sources": [
+    {"title":"Labor Contract Law of the People's Republic of China","publisher":"National People’s Congress","url":"http://www.npc.gov.cn/zgrdw/englishnpc/Law/2007-12/13/content_1384064.htm","type":"official_legal"},
+    {"title":"Regulations for the Implementation of the Labor Contract Law of the PRC (State Council Decree No. 535)","publisher":"State Council Gazette","url":"https://www.gov.cn/gongbao/content/2008/content_1124615.htm","type":"official_legal"},
+    {"title":"Interpretation of the Supreme People's Court on Issues Concerning the Application of Law in the Trial of Labor Dispute Cases (I)","publisher":"Supreme People’s Court","url":"https://www.court.gov.cn/fabu/xiangqing/243981.html","type":"official_legal"},
+    {"title":"Employee Termination in China: A Guide for Employers","publisher":"China Briefing","url":"https://www.china-briefing.com/news/employee-termination-in-china/","type":"practical_interpretation"},
+    {"title":"Key Recent Developments in China's Employment Law: A China-U.S. Comparative Perspective for Multinational Employers","publisher":"Littler","url":"https://www.littler.com/news-analysis/asap/key-recent-developments-chinas-employment-law-china-us-comparative-perspective","type":"practitioner"},
+    {"title":"People's Republic of China - Individual taxes on personal income","publisher":"PwC Worldwide Tax Summaries","url":"https://taxsummaries.pwc.com/peoples-republic-of-china/individual/taxes-on-personal-income","type":"market_business_context"}
+  ],
+  "source_fit_assessment": "Source mix meets required balance; weak generic commentary excluded.",
+  "uncertainties": [
+    "City-level implementation and evidentiary emphasis vary.",
+    "Edge-case payment component treatment may require local confirmation.",
+    "Official English texts may lag Chinese-language practice nuance."
+  ]
+}
