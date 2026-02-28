@@ -94,3 +94,8 @@
 - Rotated from scoreboard framing to a **Pulse executive memo** format focused on leadership-ready headlines and intervention choices.
 - Preserved plain-language legal context at the top while keeping doctrine in a secondary appendix.
 - Improved management usability by adding a business-impact snapshot for CFO/regional ops alongside governance controls.
+
+## Incremental learning update (23:04 run; variation=Pulse field guide)
+- Rotated from executive memo framing to a **Pulse field-guide** format with frontline prompts and go/pause/escalate thresholds.
+- Preserved legal context first in plain language while keeping doctrine in a secondary appendix.
+- Improved implementation quality by adding a 30-day adoption path and a standardized cross-border status template.
