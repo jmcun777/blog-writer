@@ -69,3 +69,8 @@
 - Rotated from Pulse daily-brief narrative to a **Pulse risk-radar** structure with signal-based scanning (route, evidence, coherence, uncertainty, closure).
 - Preserved readability with headline-led sections while keeping legal depth in a secondary appendix.
 - Improved decision utility by adding a weekly risk-memo reporting pattern for cross-border leadership teams.
+
+## Incremental learning update (18:04 run; variation=Pulse decision deck)
+- Rotated from risk-radar signals to a **Pulse decision-deck** format centered on five explicit leadership decisions.
+- Kept legal context front-loaded in plain language while moving deeper doctrine into a secondary appendix.
+- Improved actionability by converting broad status reporting into decision-ready go/pause/escalate prompts.
