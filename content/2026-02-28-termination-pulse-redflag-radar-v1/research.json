@@ -1,0 +1,37 @@
+{
+  "topic": "In China employee termination",
+  "run_mode": "hourly testing",
+  "format_rotation": "red-flag radar",
+  "source_fit": {
+    "official_legal": [
+      {"title": "Labor Contract Law of the PRC (English text)", "url": "http://www.npc.gov.cn/zgrdw/englishnpc/Law/2007-12/13/content_1384064.htm", "publisher": "National People's Congress", "date": "2007-12-13"},
+      {"title": "Implementation Regulations of the Labor Contract Law (Decree No. 535)", "url": "https://www.gov.cn/gongbao/content/2008/content_1124615.htm", "publisher": "State Council", "date": "2008-09-18"},
+      {"title": "SPC Interpretation (I) on labor dispute application", "url": "https://www.court.gov.cn/fabu/xiangqing/243981.html", "publisher": "Supreme People's Court", "date": "2020-12-29"}
+    ],
+    "practitioner": [
+      {"title": "Employee Termination in China", "url": "https://www.china-briefing.com/news/employee-termination-in-china/", "publisher": "China Briefing", "date": "2025-10-17"},
+      {"title": "Key Recent Developments in China's Employment Law", "url": "https://www.littler.com/news-analysis/asap/key-recent-developments-chinas-employment-law-china-us-comparative-perspective", "publisher": "Littler", "date": "2024-03-20"}
+    ],
+    "market_business_context": [
+      {"title": "PRC Individual Taxes on Personal Income", "url": "https://taxsummaries.pwc.com/peoples-republic-of-china/individual/taxes-on-personal-income", "publisher": "PwC", "date": "2025-01-15"}
+    ],
+    "practical_interpretation": [
+      {"title": "China Briefing practical implementation notes", "url": "https://www.china-briefing.com/news/employee-termination-in-china/", "publisher": "Dezan Shira / China Briefing", "date": "2025-10-17"}
+    ]
+  },
+  "clustered_themes": [
+    "Route-first legal framing remains non-negotiable for employer defensibility.",
+    "Evidence and cross-functional coherence are top determinants of dispute posture.",
+    "Final settlement and payroll tax treatment are legal-risk interfaces.",
+    "Local uncertainty should be treated as an explicit escalation variable."
+  ],
+  "dedup_notes": [
+    "Removed prior board-Q&A structure and converted to risk-signal radar.",
+    "Merged repeated control language into signal-action tables."
+  ],
+  "uncertainties": [
+    "City-level tribunal practice and remedies may diverge for similar facts.",
+    "English legal references may not fully capture Chinese drafting nuance."
+  ],
+  "tooling_note": "web_search unavailable (missing Brave API key); source-fit reassessed from validated baseline stack."
+}
