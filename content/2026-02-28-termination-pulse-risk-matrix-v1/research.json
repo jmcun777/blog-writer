@@ -1,0 +1,69 @@
+{
+  "topic": "In China employee termination",
+  "run_mode": "hourly testing",
+  "source_fit": {
+    "official_legal": [
+      {
+        "title": "Labor Contract Law of the PRC (English text)",
+        "url": "http://www.npc.gov.cn/zgrdw/englishnpc/Law/2007-12/13/content_1384064.htm",
+        "publisher": "National People's Congress",
+        "date": "2007-12-13",
+        "why_used": "Core statutory framework for lawful unilateral and economic termination routes."
+      },
+      {
+        "title": "Implementation Regulations of the Labor Contract Law (State Council Decree No. 535)",
+        "url": "https://www.gov.cn/gongbao/content/2008/content_1124615.htm",
+        "publisher": "State Council",
+        "date": "2008-09-18",
+        "why_used": "Operational interpretation points for Labor Contract Law implementation."
+      },
+      {
+        "title": "SPC Interpretation (I) on labor dispute law application",
+        "url": "https://www.court.gov.cn/fabu/xiangqing/243981.html",
+        "publisher": "Supreme People's Court",
+        "date": "2020-12-29",
+        "why_used": "Judicial interpretation emphasis on evidence coherence and litigation standards."
+      }
+    ],
+    "practitioner": [
+      {
+        "title": "Key recent developments in China's employment law",
+        "url": "https://www.littler.com/news-analysis/asap/key-recent-developments-chinas-employment-law-china-us-comparative-perspective",
+        "publisher": "Littler",
+        "date": "2024-03-20",
+        "why_used": "Cross-border employer practical framing and dispute-sensitive patterns."
+      },
+      {
+        "title": "Employee termination in China",
+        "url": "https://www.china-briefing.com/news/employee-termination-in-china/",
+        "publisher": "China Briefing",
+        "date": "2025-10-17",
+        "why_used": "Practical process interpretation for foreign operators."
+      }
+    ],
+    "market_business_context": [
+      {
+        "title": "PwC China individual taxes summary",
+        "url": "https://taxsummaries.pwc.com/peoples-republic-of-china/individual/taxes-on-personal-income",
+        "publisher": "PwC",
+        "date": "2025-01-15",
+        "why_used": "Payroll and IIT settlement implications tied to final payroll runs."
+      }
+    ]
+  },
+  "theme_clusters": [
+    "Legal route selection is the first risk control for termination decisions.",
+    "Evidence quality and consistency across legal-HR-payroll narratives drives dispute outcomes.",
+    "Payroll timing and final settlement controls are operational risk multipliers.",
+    "Cross-border governance gaps (handoff, approvals, local interpretation) are a common failure layer."
+  ],
+  "dedup_notes": [
+    "Removed repetitive timeline-heavy framing from previous run; replaced with risk matrix and scenario deck.",
+    "Merged overlapping practitioner explanations into one operational interpretation layer."
+  ],
+  "uncertainties": [
+    "City-level arbitration and court practice can differ in evidentiary expectations and remedy outcomes.",
+    "Company policy language translated from global templates may conflict with local enforceability in edge cases."
+  ],
+  "tooling_note": "Brave web_search API key unavailable in this environment during this run; source refresh used validated baseline sources and fit reassessment."
+}
