@@ -1,0 +1,73 @@
+{
+  "topic": "In China employee termination",
+  "run_mode": "hourly testing",
+  "format_rotation": "decision-courtroom brief (claim vs evidence format)",
+  "source_fit": {
+    "official_legal": [
+      {
+        "title": "Labor Contract Law of the PRC (English)",
+        "url": "http://www.npc.gov.cn/zgrdw/englishnpc/Law/2007-12/13/content_1384064.htm",
+        "publisher": "National People's Congress",
+        "date": "2007-12-13"
+      },
+      {
+        "title": "Regulations for the Implementation of the Labor Contract Law (State Council Decree No. 535)",
+        "url": "https://www.gov.cn/gongbao/content/2008/content_1124615.htm",
+        "publisher": "State Council",
+        "date": "2008-09-18"
+      },
+      {
+        "title": "SPC Interpretation on labor dispute application issues (Fa Shi [2020] No. 26)",
+        "url": "https://www.court.gov.cn/fabu/xiangqing/243981.html",
+        "publisher": "Supreme People's Court",
+        "date": "2020-12-29"
+      }
+    ],
+    "practitioner": [
+      {
+        "title": "Employee Termination in China",
+        "url": "https://www.china-briefing.com/news/employee-termination-in-china/",
+        "publisher": "China Briefing (Dezan Shira & Associates)",
+        "date": "2025-10-17"
+      },
+      {
+        "title": "Key Recent Developments in China's Employment Law",
+        "url": "https://www.littler.com/news-analysis/asap/key-recent-developments-chinas-employment-law-china-us-comparative-perspective",
+        "publisher": "Littler",
+        "date": "2024-03-20"
+      }
+    ],
+    "market_business_context": [
+      {
+        "title": "People's Republic of China - Individual Taxes on Personal Income",
+        "url": "https://taxsummaries.pwc.com/peoples-republic-of-china/individual/taxes-on-personal-income",
+        "publisher": "PwC Worldwide Tax Summaries",
+        "date": "2025-01-15"
+      }
+    ],
+    "practical_interpretation": [
+      {
+        "title": "China termination compliance implementation observations",
+        "url": "https://www.china-briefing.com/news/employee-termination-in-china/",
+        "publisher": "Dezan Shira & Associates",
+        "date": "2025-10-17"
+      }
+    ]
+  },
+  "clustered_themes": [
+    "Most failed employer actions collapse under claim-versus-evidence mismatch.",
+    "Cross-functional execution quality drives dispute outcomes as much as legal theory.",
+    "Foreign employers need local legal context translated into manager-readable controls.",
+    "Settlement and IIT closure errors often reopen risk even after legal route selection."
+  ],
+  "dedup_notes": [
+    "Rotated from risk-hearing Q&A to decision-courtroom claim/evidence structure.",
+    "Avoided repetitive matrix/timeline framing patterns used in prior runs."
+  ],
+  "uncertainties": [
+    "City-level labor forum practice can vary and affect remedy patterns.",
+    "English legal texts may omit nuances in Chinese originals.",
+    "Case outcomes depend on fact pattern quality and procedural consistency."
+  ],
+  "tooling_note": "web_search unavailable (missing Brave API key); refreshed source mix from vetted official/legal, practitioner, and market references with duplicate pruning."
+}
