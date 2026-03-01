@@ -1,0 +1,38 @@
+{
+  "topic": "In China employee termination",
+  "run_mode": "hourly testing",
+  "format_rotation": "red-team memo (assumption stress-test format)",
+  "source_fit": {
+    "official_legal": [
+      {"title":"Labor Contract Law of the PRC (English)","url":"http://www.npc.gov.cn/zgrdw/englishnpc/Law/2007-12/13/content_1384064.htm","publisher":"National People's Congress","date":"2007-12-13"},
+      {"title":"Implementation Regulations of the Labor Contract Law (Decree No. 535)","url":"https://www.gov.cn/gongbao/content/2008/content_1124615.htm","publisher":"State Council","date":"2008-09-18"},
+      {"title":"SPC Interpretation on labor dispute application issues (Fa Shi [2020] No. 26)","url":"https://www.court.gov.cn/fabu/xiangqing/243981.html","publisher":"Supreme People's Court","date":"2020-12-29"}
+    ],
+    "practitioner": [
+      {"title":"Employee Termination in China","url":"https://www.china-briefing.com/news/employee-termination-in-china/","publisher":"China Briefing","date":"2025-10-17"},
+      {"title":"Key Recent Developments in China's Employment Law","url":"https://www.littler.com/news-analysis/asap/key-recent-developments-chinas-employment-law-china-us-comparative-perspective","publisher":"Littler","date":"2024-03-20"}
+    ],
+    "market_business_context": [
+      {"title":"PRC Individual Taxes on Personal Income","url":"https://taxsummaries.pwc.com/peoples-republic-of-china/individual/taxes-on-personal-income","publisher":"PwC Worldwide Tax Summaries","date":"2025-01-15"}
+    ],
+    "practical_interpretation": [
+      {"title":"China termination implementation observations","url":"https://www.china-briefing.com/news/employee-termination-in-china/","publisher":"Dezan Shira","date":"2025-10-17"}
+    ]
+  },
+  "clustered_themes": [
+    "Weak assumptions, not weak intentions, drive most termination disputes.",
+    "Route-evidence mismatch remains the dominant avoidable risk.",
+    "Settlement traceability and IIT consistency are board-level risk items.",
+    "Foreign employers need stress-tested local controls, not static templates."
+  ],
+  "dedup_notes": [
+    "Rotated from tri-signal framing to red-team assumption stress test.",
+    "Avoided repeated timeline and Q&A panel structures."
+  ],
+  "uncertainties": [
+    "Local forum practice can vary by city.",
+    "English legal text may not fully capture Chinese drafting nuance.",
+    "Case outcomes remain fact-dependent and cannot be guaranteed."
+  ],
+  "tooling_note": "web_search unavailable (missing Brave API key); source mix refreshed using vetted official, practitioner, and market references."
+}
