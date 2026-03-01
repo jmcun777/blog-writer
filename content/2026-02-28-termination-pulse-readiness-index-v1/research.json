@@ -1,0 +1,37 @@
+{
+  "topic": "In China employee termination",
+  "run_mode": "hourly testing",
+  "format_rotation": "readiness index",
+  "source_fit": {
+    "official_legal": [
+      {"title":"Labor Contract Law of the PRC (English text)","url":"http://www.npc.gov.cn/zgrdw/englishnpc/Law/2007-12/13/content_1384064.htm","publisher":"National People's Congress","date":"2007-12-13"},
+      {"title":"Implementation Regulations of the Labor Contract Law (Decree No. 535)","url":"https://www.gov.cn/gongbao/content/2008/content_1124615.htm","publisher":"State Council","date":"2008-09-18"},
+      {"title":"SPC Interpretation (I) on labor dispute application","url":"https://www.court.gov.cn/fabu/xiangqing/243981.html","publisher":"Supreme People's Court","date":"2020-12-29"}
+    ],
+    "practitioner": [
+      {"title":"Employee Termination in China","url":"https://www.china-briefing.com/news/employee-termination-in-china/","publisher":"China Briefing","date":"2025-10-17"},
+      {"title":"Key Recent Developments in China's Employment Law","url":"https://www.littler.com/news-analysis/asap/key-recent-developments-chinas-employment-law-china-us-comparative-perspective","publisher":"Littler","date":"2024-03-20"}
+    ],
+    "market_business_context": [
+      {"title":"PRC Individual Taxes on Personal Income","url":"https://taxsummaries.pwc.com/peoples-republic-of-china/individual/taxes-on-personal-income","publisher":"PwC","date":"2025-01-15"}
+    ],
+    "practical_interpretation": [
+      {"title":"China Briefing practical implementation notes","url":"https://www.china-briefing.com/news/employee-termination-in-china/","publisher":"Dezan Shira / China Briefing","date":"2025-10-17"}
+    ]
+  },
+  "clusters": [
+    "Route-first legal framing remains core baseline.",
+    "Cross-functional coherence is the highest controllable risk lever.",
+    "Settlement/tax handling should be pre-release controlled.",
+    "Local uncertainty should be explicitly owned and tracked."
+  ],
+  "dedup_notes": [
+    "Rotated from ops-scorecard to readiness-index scoring model.",
+    "Removed repeated KPI narration and switched to index bands with action thresholds."
+  ],
+  "uncertainties": [
+    "City-level dispute practices and remedies can vary.",
+    "English legal materials may miss nuances in Chinese original texts."
+  ],
+  "tooling_note": "web_search unavailable (missing Brave API key); source-fit revalidated against trusted baseline corpus."
+}
