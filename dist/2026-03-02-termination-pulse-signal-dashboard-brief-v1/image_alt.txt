@@ -1,0 +1,1 @@
+A dashboard-style view of HR, legal, and payroll termination risk signals in a corporate setting
