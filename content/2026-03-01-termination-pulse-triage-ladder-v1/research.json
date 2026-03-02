@@ -1,0 +1,38 @@
+{
+  "topic": "In China employee termination",
+  "run_mode": "hourly testing",
+  "format_rotation": "triage-ladder brief (escalation rung format)",
+  "source_fit": {
+    "official_legal": [
+      {"title":"Labor Contract Law of the PRC (English)","url":"http://www.npc.gov.cn/zgrdw/englishnpc/Law/2007-12/13/content_1384064.htm","publisher":"National People's Congress","date":"2007-12-13"},
+      {"title":"Implementation Regulations of the Labor Contract Law (Decree No. 535)","url":"https://www.gov.cn/gongbao/content/2008/content_1124615.htm","publisher":"State Council","date":"2008-09-18"},
+      {"title":"SPC Interpretation on labor dispute application issues (Fa Shi [2020] No. 26)","url":"https://www.court.gov.cn/fabu/xiangqing/243981.html","publisher":"Supreme People's Court","date":"2020-12-29"}
+    ],
+    "practitioner": [
+      {"title":"Employee Termination in China","url":"https://www.china-briefing.com/news/employee-termination-in-china/","publisher":"China Briefing","date":"2025-10-17"},
+      {"title":"Key Recent Developments in China's Employment Law","url":"https://www.littler.com/news-analysis/asap/key-recent-developments-chinas-employment-law-china-us-comparative-perspective","publisher":"Littler","date":"2024-03-20"}
+    ],
+    "market_business_context": [
+      {"title":"PRC Individual Taxes on Personal Income","url":"https://taxsummaries.pwc.com/peoples-republic-of-china/individual/taxes-on-personal-income","publisher":"PwC Worldwide Tax Summaries","date":"2025-01-15"}
+    ],
+    "practical_interpretation": [
+      {"title":"China termination implementation observations","url":"https://www.china-briefing.com/news/employee-termination-in-china/","publisher":"Dezan Shira","date":"2025-10-17"}
+    ]
+  },
+  "clustered_themes": [
+    "Escalation-ladder discipline helps foreign employers avoid premature route commitments.",
+    "Most disputes emerge from unresolved issues that should have moved to higher review earlier.",
+    "Settlement and IIT checks belong in core triage, not final admin.",
+    "Local forum variability should trigger conditional escalation rungs."
+  ],
+  "dedup_notes": [
+    "Rotated from go/no-go gate style to triage-ladder escalation style.",
+    "Avoided timeline and prior gateboard skeleton repetition."
+  ],
+  "uncertainties": [
+    "City-level labor dispute practice can differ.",
+    "English legal text may not fully reflect Chinese-language nuance.",
+    "Case outcomes remain fact and process dependent."
+  ],
+  "tooling_note": "web_search unavailable (missing Brave API key); source-fit refreshed from vetted corpus and deduplicated."
+}
