@@ -1,0 +1,1 @@
+Black-box event-chain dashboard for China employee termination compliance, communication controls, and payroll settlement traceability.
