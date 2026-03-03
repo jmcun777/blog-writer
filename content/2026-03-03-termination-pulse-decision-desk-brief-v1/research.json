@@ -1,0 +1,36 @@
+{
+  "topic": "In China employee termination",
+  "run_mode": "hourly testing",
+  "format_rotation": "decision desk brief (desk-check format)",
+  "research_refresh": {
+    "clustered_themes": [
+      "legal route boundaries and severance obligations",
+      "evidence/procedural defensibility",
+      "settlement/payroll/tax execution coherence",
+      "foreign-employer governance and escalation controls"
+    ],
+    "source_fit": {
+      "official_legal": [
+        {"title":"Labor Contract Law of the PRC (English)","url":"http://www.npc.gov.cn/zgrdw/englishnpc/Law/2007-12/13/content_1384064.htm","publisher":"National People's Congress","date":"2007-12-13"},
+        {"title":"Implementation Regulations of the Labor Contract Law (State Council Decree No. 535)","url":"https://www.gov.cn/gongbao/content/2008/content_1124615.htm","publisher":"State Council","date":"2008-09-18"},
+        {"title":"SPC Interpretation on Application of Law in Labor Dispute Cases (Fa Shi [2020] No. 26)","url":"https://www.court.gov.cn/fabu/xiangqing/243981.html","publisher":"Supreme People's Court","date":"2020-12-29"}
+      ],
+      "practitioner": [
+        {"title":"Employee Termination in China","url":"https://www.china-briefing.com/news/employee-termination-in-china/","publisher":"China Briefing / Dezan Shira","date":"2025-10-17"},
+        {"title":"Key Recent Developments in China's Employment Law","url":"https://www.littler.com/news-analysis/asap/key-recent-developments-chinas-employment-law-china-us-comparative-perspective","publisher":"Littler","date":"2024-03-20"}
+      ],
+      "market_business_context": [
+        {"title":"PRC Individual - Taxes on Personal Income","url":"https://taxsummaries.pwc.com/peoples-republic-of-china/individual/taxes-on-personal-income","publisher":"PwC Worldwide Tax Summaries","date":"2025-01-15"}
+      ],
+      "practical_interpretation": [
+        {"title":"China termination implementation observations","url":"https://www.china-briefing.com/news/employee-termination-in-china/","publisher":"Dezan Shira","date":"2025-10-17"}
+      ]
+    },
+    "top_sources_this_run": ["NPC Labor Contract Law","SPC Interpretation (2020)","China Briefing implementation note"],
+    "key_uncertainties": [
+      "City-level labor-arbitration and court practice can diverge in evidentiary weighting and remedy patterns.",
+      "Late protected-status/evidence findings may alter route feasibility near execution.",
+      "Settlement tax treatment and documentary proof standards may require local advisor confirmation."
+    ]
+  }
+}
