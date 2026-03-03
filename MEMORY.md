@@ -22,3 +22,4 @@ For expert-style blog writing, user wants:
 - User wants output style to benchmark against ChatGPT Pulse daily briefs; target strong similarity in briefing flow while preserving factual rigor.
 - User prefers receiving article links only after online URL is confirmed reachable (HTTP 200), to avoid 404 links.
 - If the same error occurs in 2 consecutive runs, auto-attempt remediation immediately (without waiting for user instruction), then report fix status.
+- User prefers article body to use clear H2 structure and avoid overly mechanical/accounting-like writing or heavy raw data dumping.

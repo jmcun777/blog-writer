@@ -21,6 +21,10 @@
    - short utility headings
    - coherent section flow
    - concrete data density
+7. Readability format rule (critical):
+   - Use clear H2-led section structure for main body.
+   - Avoid overly mechanical account-style writing and excessive raw data stacking.
+   - Keep evidence useful, but prioritize publishable narrative flow over data-dump formatting.
 5. Audience-fit rule (foreign readers new to China):
    - lead with clear legal/regulatory introduction and context
    - explain core local law concepts in plain business English first
