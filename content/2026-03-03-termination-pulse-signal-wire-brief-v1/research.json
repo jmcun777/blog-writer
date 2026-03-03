@@ -1,0 +1,32 @@
+{
+  "topic": "In China employee termination",
+  "run_mode": "hourly testing",
+  "format_rotation": "pulse signal wire brief",
+  "source_fit_review": {
+    "official_legal": [
+      {"title": "Labor Contract Law of the PRC (English)", "url": "http://www.npc.gov.cn/zgrdw/englishnpc/Law/2007-12/13/content_1384064.htm", "publisher": "National People's Congress", "date": "2007-12-13", "fit_note": "Primary route and consequence framework."},
+      {"title": "Implementation Regulations of the Labor Contract Law (Decree No. 535)", "url": "https://www.gov.cn/gongbao/content/2008/content_1124615.htm", "publisher": "State Council", "date": "2008-09-18", "fit_note": "Operational application context."},
+      {"title": "SPC Interpretation on Labor Dispute Cases (Fa Shi [2020] No. 26)", "url": "https://www.court.gov.cn/fabu/xiangqing/243981.html", "publisher": "Supreme People's Court", "date": "2020-12-29", "fit_note": "Dispute-facing evidence/procedure lens."}
+    ],
+    "practitioner": [
+      {"title": "Employee Termination in China", "url": "https://www.china-briefing.com/news/employee-termination-in-china/", "publisher": "China Briefing / Dezan Shira", "date": "2025-10-17", "fit_note": "Practical guidance for foreign employers."},
+      {"title": "Key Recent Developments in China's Employment Law", "url": "https://www.littler.com/news-analysis/asap/key-recent-developments-chinas-employment-law-china-us-comparative-perspective", "publisher": "Littler", "date": "2024-03-20", "fit_note": "Cross-border practitioner context."}
+    ],
+    "market_business_context": [
+      {"title": "PRC Individual - Taxes on Personal Income", "url": "https://taxsummaries.pwc.com/peoples-republic-of-china/individual/taxes-on-personal-income", "publisher": "PwC Worldwide Tax Summaries", "date": "2025-01-15", "fit_note": "Settlement/payroll treatment context."}
+    ],
+    "clustered_themes": [
+      "Route legality remains primary gate",
+      "Evidence coherence drives dispute resilience",
+      "Settlement/payroll sync is a recurring risk node",
+      "Local validation needed despite national anchors"
+    ],
+    "deduplication_note": "Replaced threshold-bulletin framing with signal-wire model; removed repetitive timeline mechanics and reused sources only where fit remains strong.",
+    "top_sources_this_run": ["NPC Labor Contract Law", "SPC interpretation", "China Briefing termination guide"],
+    "key_uncertainties": [
+      "City-level practice variance remains significant.",
+      "Late-stage factual developments can alter route viability.",
+      "Settlement tax treatment may vary by structure/local implementation."
+    ]
+  }
+}
