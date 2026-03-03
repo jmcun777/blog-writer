@@ -1,0 +1,72 @@
+{
+  "topic": "In China employee termination",
+  "run_mode": "hourly testing",
+  "format_rotation": "pulse morning brief + action queue",
+  "source_fit_review": {
+    "official_legal": [
+      {
+        "title": "Labor Contract Law of the PRC (English)",
+        "url": "http://www.npc.gov.cn/zgrdw/englishnpc/Law/2007-12/13/content_1384064.htm",
+        "publisher": "National People's Congress",
+        "date": "2007-12-13",
+        "fit_note": "Primary legal route and consequence framework."
+      },
+      {
+        "title": "Implementation Regulations of the Labor Contract Law (Decree No. 535)",
+        "url": "https://www.gov.cn/gongbao/content/2008/content_1124615.htm",
+        "publisher": "State Council",
+        "date": "2008-09-18",
+        "fit_note": "Operational interpretation for employer-side application."
+      },
+      {
+        "title": "SPC Interpretation on Labor Dispute Cases (Fa Shi [2020] No. 26)",
+        "url": "https://www.court.gov.cn/fabu/xiangqing/243981.html",
+        "publisher": "Supreme People's Court",
+        "date": "2020-12-29",
+        "fit_note": "Judicial lens for dispute-facing evidence and procedure evaluation."
+      }
+    ],
+    "practitioner": [
+      {
+        "title": "Employee Termination in China",
+        "url": "https://www.china-briefing.com/news/employee-termination-in-china/",
+        "publisher": "China Briefing / Dezan Shira",
+        "date": "2025-10-17",
+        "fit_note": "Foreign-employer implementation guidance."
+      },
+      {
+        "title": "Key Recent Developments in China's Employment Law",
+        "url": "https://www.littler.com/news-analysis/asap/key-recent-developments-chinas-employment-law-china-us-comparative-perspective",
+        "publisher": "Littler",
+        "date": "2024-03-20",
+        "fit_note": "Cross-border practitioner perspective for multinational employers."
+      }
+    ],
+    "market_business_context": [
+      {
+        "title": "PRC Individual - Taxes on Personal Income",
+        "url": "https://taxsummaries.pwc.com/peoples-republic-of-china/individual/taxes-on-personal-income",
+        "publisher": "PwC Worldwide Tax Summaries",
+        "date": "2025-01-15",
+        "fit_note": "Termination-month settlement/tax handling context for payroll decisions."
+      }
+    ],
+    "clustered_themes": [
+      "Legal route validity remains the first control gate",
+      "Evidence coherence and process consistency drive dispute outcomes",
+      "Settlement and payroll treatment alignment is a recurring practical risk",
+      "City-level variance requires local validation before release"
+    ],
+    "deduplication_note": "Removed repetitive route-only and timeline-heavy framing; retained mixed source set across legal, practitioner, and business context.",
+    "top_sources_this_run": [
+      "NPC Labor Contract Law",
+      "SPC Labor Dispute Interpretation (2020)",
+      "China Briefing termination guide"
+    ],
+    "key_uncertainties": [
+      "City-level dispute practice can diverge despite national legal anchors.",
+      "Protected-status and evidentiary findings can alter route viability late in process.",
+      "Settlement tax treatment may differ by structure and local practice; local advisor confirmation remains necessary."
+    ]
+  }
+}
