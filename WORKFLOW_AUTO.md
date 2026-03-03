@@ -12,7 +12,11 @@
 4. Delivery gate (anti-404):
    - Do not send user-facing link notifications until public URL is confirmed HTTP 200.
    - If the page is still propagating, keep retrying verification and notify only after online confirmation.
-4. Prioritize reader retention mechanics:
+5. Auto-remediation rule (critical):
+   - If the same operational error appears 2 runs in a row, automatically attempt a fix in the same run (do not wait for user command).
+   - Typical auto-fixes include: auth refresh/rebind, retry with backoff, restart failed step, switch to safer edit/write path, or reduce parallel load when fork/resource limits appear.
+   - Report what was auto-fixed and whether it resolved the issue.
+6. Prioritize reader retention mechanics:
    - fast value entry
    - short utility headings
    - coherent section flow
