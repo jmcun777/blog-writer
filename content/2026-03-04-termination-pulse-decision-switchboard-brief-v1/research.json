@@ -1,0 +1,41 @@
+{
+  "topic": "In China employee termination",
+  "run_mode": "hourly testing",
+  "format_rotation": "pulse decision-switchboard brief",
+  "pipeline_stage": "A) Research refresh + source-fit review",
+  "source_fit_review": {
+    "auto_remediation": {
+      "issue": "web_search tool not configured (missing BRAVE_API_KEY)",
+      "action": "Used maintained source basket + direct official/practitioner pages and URL accessibility checks.",
+      "result": "Source-mix requirement satisfied; no fabricated or synthetic sources."
+    },
+    "official_legal": [
+      {"title": "Labor Contract Law of the PRC (English)", "url": "http://www.npc.gov.cn/zgrdw/englishnpc/Law/2007-12/13/content_1384064.htm", "publisher": "National People's Congress"},
+      {"title": "Implementation Regulations of the Labor Contract Law (Decree No. 535)", "url": "https://www.gov.cn/gongbao/content/2008/content_1124615.htm", "publisher": "State Council"},
+      {"title": "SPC Interpretation on Application of Law in Labor Dispute Cases (Fa Shi [2020] No. 26)", "url": "https://www.court.gov.cn/fabu/xiangqing/243981.html", "publisher": "Supreme People's Court"}
+    ],
+    "practitioner": [
+      {"title": "Employee Termination in China", "url": "https://www.china-briefing.com/news/employee-termination-in-china/", "publisher": "China Briefing / Dezan Shira", "updated": "2025-10-17"},
+      {"title": "Key Recent Developments in China's Employment Law", "url": "https://www.littler.com/news-analysis/asap/key-recent-developments-chinas-employment-law-china-us-comparative-perspective", "publisher": "Littler"}
+    ],
+    "market_business_context": [
+      {"title": "PRC Individual - Taxes on Personal Income", "url": "https://taxsummaries.pwc.com/peoples-republic-of-china/individual/taxes-on-personal-income", "publisher": "PwC Worldwide Tax Summaries"}
+    ],
+    "practical_interpretation": [
+      {"title": "Employment and Labour Laws and Regulations: China", "url": "https://iclg.com/practice-areas/employment-and-labour-laws-and-regulations/china", "publisher": "ICLG / Zhong Lun"}
+    ],
+    "clustered_themes": [
+      "Route legality must be paired with process consistency.",
+      "Evidence and manager communication are primary dispute pressure points.",
+      "Settlement-payroll mismatch remains a frequent avoidable risk.",
+      "Local implementation checks are still necessary for foreign employers."
+    ],
+    "deduplication_note": "Changed structure from prior priority-ladder to decision-switchboard (question-driven routing) to avoid repeated skeleton.",
+    "top_sources_this_run": ["NPC Labor Contract Law", "SPC interpretation", "China Briefing termination guide"],
+    "key_uncertainties": [
+      "City-level adjudication emphasis differs.",
+      "Settlement tax treatment varies by structure/local handling.",
+      "Late facts can force route recalibration."
+    ]
+  }
+}
