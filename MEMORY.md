@@ -23,3 +23,5 @@ For expert-style blog writing, user wants:
 - User prefers receiving article links only after online URL is confirmed reachable (HTTP 200), to avoid 404 links.
 - If the same error occurs in 2 consecutive runs, auto-attempt remediation immediately (without waiting for user instruction), then report fix status.
 - User prefers article body to use clear H2 structure and avoid overly mechanical/accounting-like writing or heavy raw data dumping.
+- User wants fewer numeric-sequence lists (1/2/3/4 style); writing should feel like an article with stronger human readability.
+- Never sync any website backup content into blog-writer unless the user explicitly asks for it.

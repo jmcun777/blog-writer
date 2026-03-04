@@ -24,13 +24,19 @@
 7. Readability format rule (critical):
    - Use clear H2-led section structure for main body.
    - Avoid overly mechanical account-style writing and excessive raw data stacking.
-   - Keep evidence useful, but prioritize publishable narrative flow over data-dump formatting.
+   - Reduce numbered-list density (1/2/3/4 style) and avoid repetitive numeric sequencing tone.
+   - Keep evidence useful, but prioritize publishable narrative flow and article-like readability over data-dump formatting.
 5. Audience-fit rule (foreign readers new to China):
    - lead with clear legal/regulatory introduction and context
    - explain core local law concepts in plain business English first
    - keep heavy operational playbooks as secondary/optional sections
 6. Avoid machine-writing artifacts and overlong intros.
 
+
+## Repository Boundary Rule (Critical)
+- Do NOT sync website backup repositories/data into `blog-writer` by default.
+- Treat `web-sites-backup/` and similar backup directories as separate repos/workspaces.
+- Only sync backup content into `blog-writer` if the user explicitly requests it.
 
 ## Sticky Topic Rule (Hourly Testing Mode)
 - During hourly testing, do NOT pick random/new topics by default.
