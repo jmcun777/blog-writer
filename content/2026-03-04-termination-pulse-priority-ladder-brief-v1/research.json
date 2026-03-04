@@ -1,0 +1,81 @@
+{
+  "topic": "In China employee termination",
+  "run_mode": "hourly testing",
+  "format_rotation": "pulse priority-ladder brief",
+  "pipeline_stage": "A) Research refresh + source-fit review",
+  "source_fit_review": {
+    "auto_remediation": {
+      "issue": "Brave web_search API unavailable in environment",
+      "action": "Used direct source refresh from authoritative and practitioner references already in active source set, then validated live URL availability.",
+      "result": "Mixed-source requirement met without fabricating new references."
+    },
+    "official_legal": [
+      {
+        "title": "Labor Contract Law of the PRC (English)",
+        "url": "http://www.npc.gov.cn/zgrdw/englishnpc/Law/2007-12/13/content_1384064.htm",
+        "publisher": "National People's Congress",
+        "fit_note": "Primary legal framework for lawful termination routes and severance handling."
+      },
+      {
+        "title": "Implementation Regulations of the Labor Contract Law (Decree No. 535)",
+        "url": "https://www.gov.cn/gongbao/content/2008/content_1124615.htm",
+        "publisher": "State Council",
+        "fit_note": "Execution-level interpretation of route and procedure requirements."
+      },
+      {
+        "title": "SPC Interpretation on Application of Law in Labor Dispute Cases (Fa Shi [2020] No. 26)",
+        "url": "https://www.court.gov.cn/fabu/xiangqing/243981.html",
+        "publisher": "Supreme People's Court",
+        "fit_note": "Dispute-side evidentiary and procedural expectations."
+      }
+    ],
+    "practitioner": [
+      {
+        "title": "Employee Termination in China",
+        "url": "https://www.china-briefing.com/news/employee-termination-in-china/",
+        "publisher": "China Briefing / Dezan Shira & Associates",
+        "updated": "2025-10-17",
+        "fit_note": "Practical framing of route options and foreign-employer pitfalls."
+      },
+      {
+        "title": "Key Recent Developments in China's Employment Law",
+        "url": "https://www.littler.com/news-analysis/asap/key-recent-developments-chinas-employment-law-china-us-comparative-perspective",
+        "publisher": "Littler",
+        "fit_note": "Cross-border practitioner insight for non-local decision-makers."
+      }
+    ],
+    "market_business_context": [
+      {
+        "title": "PRC Individual - Taxes on Personal Income",
+        "url": "https://taxsummaries.pwc.com/peoples-republic-of-china/individual/taxes-on-personal-income",
+        "publisher": "PwC Worldwide Tax Summaries",
+        "fit_note": "Settlement and payroll-treatment context for final payment design."
+      }
+    ],
+    "practical_interpretation": [
+      {
+        "title": "Employment and Labour Laws and Regulations: China",
+        "url": "https://iclg.com/practice-areas/employment-and-labour-laws-and-regulations/china",
+        "publisher": "ICLG / Zhong Lun",
+        "fit_note": "Operational interpretation layer for in-house HR/payroll operators."
+      }
+    ],
+    "clustered_themes": [
+      "Legal route validity is necessary but insufficient without evidence continuity.",
+      "Most avoidable risk arises at handoffs between legal, HR, manager communication, and payroll coding.",
+      "Settlement language and payment execution must remain tightly synchronized.",
+      "Local implementation variance remains material for foreign operators."
+    ],
+    "deduplication_note": "Shifted from prior signal-stack board to a priority-ladder briefing format focused on intervention order and escalation discipline.",
+    "top_sources_this_run": [
+      "NPC Labor Contract Law",
+      "SPC labor-dispute interpretation",
+      "China Briefing termination guide"
+    ],
+    "key_uncertainties": [
+      "Arbitration emphasis can differ by city and panel.",
+      "Tax handling of settlement components depends on structure and local practice.",
+      "Case-fact changes close to execution can alter route viability."
+    ]
+  }
+}
