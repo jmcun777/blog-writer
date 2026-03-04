@@ -1,0 +1,32 @@
+{
+  "topic": "In China employee termination",
+  "run_mode": "hourly testing",
+  "format_rotation": "pulse circuit-breaker brief",
+  "source_fit_review": {
+    "official_legal": [
+      {"title":"Labor Contract Law of the PRC (English)","url":"http://www.npc.gov.cn/zgrdw/englishnpc/Law/2007-12/13/content_1384064.htm","publisher":"National People's Congress","date":"2007-12-13","fit_note":"Core route legality framework."},
+      {"title":"Implementation Regulations of the Labor Contract Law (Decree No. 535)","url":"https://www.gov.cn/gongbao/content/2008/content_1124615.htm","publisher":"State Council","date":"2008-09-18","fit_note":"Operational interpretation layer."},
+      {"title":"SPC Interpretation on Labor Dispute Cases (Fa Shi [2020] No. 26)","url":"https://www.court.gov.cn/fabu/xiangqing/243981.html","publisher":"Supreme People's Court","date":"2020-12-29","fit_note":"Dispute-facing evidence/procedure standards."}
+    ],
+    "practitioner": [
+      {"title":"Employee Termination in China","url":"https://www.china-briefing.com/news/employee-termination-in-china/","publisher":"China Briefing / Dezan Shira","date":"2025-10-17","fit_note":"Practical execution guidance for foreign employers."},
+      {"title":"Key Recent Developments in China's Employment Law","url":"https://www.littler.com/news-analysis/asap/key-recent-developments-chinas-employment-law-china-us-comparative-perspective","publisher":"Littler","date":"2024-03-20","fit_note":"Cross-border practitioner context."}
+    ],
+    "market_business_context": [
+      {"title":"PRC Individual - Taxes on Personal Income","url":"https://taxsummaries.pwc.com/peoples-republic-of-china/individual/taxes-on-personal-income","publisher":"PwC Worldwide Tax Summaries","date":"2025-01-15","fit_note":"Settlement/payroll treatment context."}
+    ],
+    "clustered_themes": [
+      "Route legality as safety baseline",
+      "Evidence/communication consistency as trip signal",
+      "Settlement/payroll alignment as lock-window dependency",
+      "Local validation and closure evidence as final release controls"
+    ],
+    "deduplication_note": "Rotated from triage-ward model to circuit-breaker pause/resume model; removed clinical-triage phrasing overlap.",
+    "top_sources_this_run": ["NPC Labor Contract Law", "SPC interpretation", "China Briefing termination guide"],
+    "key_uncertainties": [
+      "City-level implementation emphasis varies.",
+      "Late factual findings can alter route viability.",
+      "Settlement tax treatment may differ by structure/local practice and requires local confirmation."
+    ]
+  }
+}
