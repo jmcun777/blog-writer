@@ -1,0 +1,41 @@
+{
+  "topic": "In China employee termination",
+  "run_mode": "hourly testing",
+  "format_rotation": "pulse control-room bulletin brief",
+  "pipeline_stage": "A) Research refresh + source-fit review",
+  "source_fit_review": {
+    "auto_remediation": {
+      "issue": "web_search unavailable (missing BRAVE_API_KEY)",
+      "action": "Refreshed from validated official/legal + practitioner + market + practical interpretation source basket.",
+      "result": "Source-mix requirement satisfied; no fabricated sources."
+    },
+    "official_legal": [
+      {"title": "Labor Contract Law of the PRC (English)", "url": "http://www.npc.gov.cn/zgrdw/englishnpc/Law/2007-12/13/content_1384064.htm", "publisher": "National People's Congress"},
+      {"title": "Implementation Regulations of the Labor Contract Law (Decree No. 535)", "url": "https://www.gov.cn/gongbao/content/2008/content_1124615.htm", "publisher": "State Council"},
+      {"title": "SPC Interpretation on Labor Dispute Cases (Fa Shi [2020] No. 26)", "url": "https://www.court.gov.cn/fabu/xiangqing/243981.html", "publisher": "Supreme People's Court"}
+    ],
+    "practitioner": [
+      {"title": "Employee Termination in China", "url": "https://www.china-briefing.com/news/employee-termination-in-china/", "publisher": "China Briefing / Dezan Shira", "updated": "2025-10-17"},
+      {"title": "Key Recent Developments in China's Employment Law", "url": "https://www.littler.com/news-analysis/asap/key-recent-developments-chinas-employment-law-china-us-comparative-perspective", "publisher": "Littler"}
+    ],
+    "market_business_context": [
+      {"title": "PRC Individual - Taxes on Personal Income", "url": "https://taxsummaries.pwc.com/peoples-republic-of-china/individual/taxes-on-personal-income", "publisher": "PwC Worldwide Tax Summaries"}
+    ],
+    "practical_interpretation": [
+      {"title": "Employment and Labour Laws and Regulations: China", "url": "https://iclg.com/practice-areas/employment-and-labour-laws-and-regulations/china", "publisher": "ICLG / Zhong Lun"}
+    ],
+    "clustered_themes": [
+      "Foreign employers need real-time control-room visibility across route/evidence/comms/payroll.",
+      "Most avoidable disputes come from unresolved blockers being treated as routine work.",
+      "Payroll lock windows remain high-risk moments for settlement alignment.",
+      "Closure evidence discipline remains critical for downstream defendability."
+    ],
+    "deduplication_note": "Rotated from escalation-map to control-room bulletin framing to avoid repeated skeleton.",
+    "top_sources_this_run": ["NPC Labor Contract Law", "SPC interpretation", "China Briefing termination guide"],
+    "key_uncertainties": [
+      "City-level labor dispute handling still varies.",
+      "Settlement tax treatment differs by component design/local handling.",
+      "Late factual updates can force route adjustments."
+    ]
+  }
+}
