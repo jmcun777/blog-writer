@@ -1,0 +1,2 @@
+# Local backup repos/data should never be synced to blog-writer
+web-sites-backup/
