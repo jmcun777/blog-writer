@@ -1,0 +1,31 @@
+{
+  "topic": "In China employee termination",
+  "run_date": "2026-03-05",
+  "format": "myth-vs-fact Pulse brief + legal appendix",
+  "source_mix": {
+    "official_legal": [
+      "http://www.npc.gov.cn/zgrdw/englishnpc/Law/2007-12/13/content_1384064.htm",
+      "https://www.gov.cn/gongbao/content/2008/content_1124615.htm",
+      "https://www.court.gov.cn/fabu/xiangqing/243981.html"
+    ],
+    "practitioner": [
+      "https://www.china-briefing.com/news/employee-termination-in-china/",
+      "https://www.littler.com/news-analysis/asap/key-recent-developments-chinas-employment-law-china-us-comparative-perspective",
+      "https://iclg.com/practice-areas/employment-and-labour-laws-and-regulations/china"
+    ],
+    "market_business_context": [
+      "https://taxsummaries.pwc.com/peoples-republic-of-china/individual/taxes-on-personal-income"
+    ]
+  },
+  "theme_clusters": [
+    "legal basis and route discipline",
+    "evidence chronology and communication process",
+    "payroll/tax settlement coordination",
+    "city-level practice and interpretation uncertainty"
+  ],
+  "deduplication_notes": "Removed repeated generic statements from prior runs; retained only claims supported by at least one official/legal source plus one practitioner source.",
+  "key_uncertainties": [
+    "Local adjudication emphasis varies by city and case facts.",
+    "Public English translations may lag detailed Chinese updates; local counsel check remains required."
+  ]
+}
