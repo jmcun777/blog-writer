@@ -1,0 +1,40 @@
+{
+  "topic": "In China employee termination",
+  "run_mode": "hourly testing",
+  "format_rotation": "pulse control-index brief",
+  "pipeline_stage": "A) Research refresh + source-fit review",
+  "source_fit_review": {
+    "auto_remediation": {
+      "issue": "web_search unavailable (missing BRAVE_API_KEY)",
+      "action": "Refreshed validated source basket (official/legal + practitioner + market + practical interpretation) with direct checks.",
+      "result": "Source-fit requirement met; no fabricated sources."
+    },
+    "official_legal": [
+      {"title": "Labor Contract Law of the PRC (English)", "url": "http://www.npc.gov.cn/zgrdw/englishnpc/Law/2007-12/13/content_1384064.htm", "publisher": "National People's Congress"},
+      {"title": "Implementation Regulations of the Labor Contract Law (Decree No. 535)", "url": "https://www.gov.cn/gongbao/content/2008/content_1124615.htm", "publisher": "State Council"},
+      {"title": "SPC Interpretation on Labor Dispute Cases (Fa Shi [2020] No. 26)", "url": "https://www.court.gov.cn/fabu/xiangqing/243981.html", "publisher": "Supreme People's Court"}
+    ],
+    "practitioner": [
+      {"title": "Employee Termination in China", "url": "https://www.china-briefing.com/news/employee-termination-in-china/", "publisher": "China Briefing / Dezan Shira", "updated": "2025-10-17"},
+      {"title": "Key Recent Developments in China's Employment Law", "url": "https://www.littler.com/news-analysis/asap/key-recent-developments-chinas-employment-law-china-us-comparative-perspective", "publisher": "Littler"}
+    ],
+    "market_business_context": [
+      {"title": "PRC Individual - Taxes on Personal Income", "url": "https://taxsummaries.pwc.com/peoples-republic-of-china/individual/taxes-on-personal-income", "publisher": "PwC Worldwide Tax Summaries"}
+    ],
+    "practical_interpretation": [
+      {"title": "Employment and Labour Laws and Regulations: China", "url": "https://iclg.com/practice-areas/employment-and-labour-laws-and-regulations/china", "publisher": "ICLG / Zhong Lun"}
+    ],
+    "clustered_themes": [
+      "Control-index framing improves weighted prioritization for foreign operators.",
+      "Route/evidence/payroll alignment remains the highest-weight control cluster.",
+      "Communication drift and local-validation remain high-frequency secondary risks.",
+      "Closure evidence remains a key downstream dispute control."
+    ],
+    "top_sources_this_run": ["NPC Labor Contract Law", "SPC interpretation", "China Briefing termination guide"],
+    "key_uncertainties": [
+      "City-level dispute handling varies.",
+      "Settlement tax outcomes vary by component design/local handling.",
+      "Late factual changes can alter route viability."
+    ]
+  }
+}
