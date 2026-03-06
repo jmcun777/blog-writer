@@ -1,0 +1,69 @@
+{
+  "topic": "In China employee termination",
+  "run_date": "2026-03-06",
+  "format": "Pulse-style operating-modes brief",
+  "source_mix": {
+    "official_legal": [
+      {
+        "title": "Labor Contract Law of the PRC (English)",
+        "url": "http://www.npc.gov.cn/zgrdw/englishnpc/Law/2007-12/13/content_1384064.htm",
+        "publisher": "National People's Congress",
+        "accessed": "2026-03-06",
+        "fit_note": "Primary legal anchor for termination route and process legality."
+      }
+    ],
+    "practitioner": [
+      {
+        "title": "Employment & Labour Laws and Regulations: China",
+        "url": "https://iclg.com/practice-areas/employment-and-labour-laws-and-regulations/china",
+        "publisher": "ICLG",
+        "accessed": "2026-03-06",
+        "fit_note": "Cross-border route interpretation for non-local decision-makers."
+      },
+      {
+        "title": "Key Recent Developments in China's Employment Law",
+        "url": "https://www.littler.com/news-analysis/asap/key-recent-developments-chinas-employment-law-china-us-comparative-perspective",
+        "publisher": "Littler",
+        "accessed": "2026-03-06",
+        "fit_note": "Current practical legal trend context for multinational teams."
+      }
+    ],
+    "market_business_context": [
+      {
+        "title": "China Individual - Taxes on personal income",
+        "url": "https://taxsummaries.pwc.com/peoples-republic-of-china/individual/taxes-on-personal-income",
+        "publisher": "PwC Tax Summaries",
+        "accessed": "2026-03-06",
+        "fit_note": "Payout/IIT implications in termination operations."
+      },
+      {
+        "title": "China Human Resources and Payroll Guide",
+        "url": "https://www.china-briefing.com/doing-business-guide/china/human-resources-and-payroll",
+        "publisher": "China Briefing",
+        "accessed": "2026-03-06",
+        "fit_note": "Operational payroll/HR context for foreign companies."
+      }
+    ],
+    "practical_interpretation": [
+      "Operating-mode switching model (Normal / Tight Control / Dispute Containment)",
+      "Mode-based SOP ownership and gating",
+      "Escalation protocol tied to evidence/payroll/local-fit stress"
+    ]
+  },
+  "clustered_themes": [
+    "route legality under varying business pressure",
+    "evidence quality as mode-switch trigger",
+    "local interpretation uncertainty",
+    "payroll/tax closure reliability",
+    "communication containment and archive resilience"
+  ],
+  "dedupe_actions": [
+    "Continued excluding stale/404 links from old loops.",
+    "Rotated structure from prior risk-budget framing to operating-mode switching framework."
+  ],
+  "key_uncertainties": [
+    "City-level legal implementation can materially differ.",
+    "English references may lag Chinese-language updates.",
+    "IIT treatment can vary by payout design and local filing practice."
+  ]
+}
