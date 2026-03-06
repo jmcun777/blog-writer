@@ -1,0 +1,64 @@
+{
+  "topic": "In China employee termination",
+  "run_date": "2026-03-06",
+  "format": "Pulse-style decision-queue brief",
+  "source_mix": {
+    "official_legal": [
+      {
+        "title": "Labor Contract Law of the PRC (English)",
+        "url": "http://www.npc.gov.cn/zgrdw/englishnpc/Law/2007-12/13/content_1384064.htm",
+        "publisher": "National People's Congress",
+        "accessed": "2026-03-06"
+      }
+    ],
+    "practitioner": [
+      {
+        "title": "Employment & Labour Laws and Regulations: China",
+        "url": "https://iclg.com/practice-areas/employment-and-labour-laws-and-regulations/china",
+        "publisher": "ICLG",
+        "accessed": "2026-03-06"
+      },
+      {
+        "title": "Key Recent Developments in China's Employment Law",
+        "url": "https://www.littler.com/news-analysis/asap/key-recent-developments-chinas-employment-law-china-us-comparative-perspective",
+        "publisher": "Littler",
+        "accessed": "2026-03-06"
+      }
+    ],
+    "market_business_context": [
+      {
+        "title": "China Individual - Taxes on personal income",
+        "url": "https://taxsummaries.pwc.com/peoples-republic-of-china/individual/taxes-on-personal-income",
+        "publisher": "PwC Tax Summaries",
+        "accessed": "2026-03-06"
+      },
+      {
+        "title": "China Human Resources and Payroll Guide",
+        "url": "https://www.china-briefing.com/doing-business-guide/china/human-resources-and-payroll",
+        "publisher": "China Briefing",
+        "accessed": "2026-03-06"
+      }
+    ],
+    "practical_interpretation": [
+      "Decision-queue model for foreign operators",
+      "Queue priority based on legal and payroll break risk",
+      "Hold/release gating by queue item completion"
+    ]
+  },
+  "clustered_themes": [
+    "route legality readiness",
+    "evidence contradiction reduction",
+    "local interpretation variance",
+    "payout/tax closure before notice",
+    "communication and archive reliability"
+  ],
+  "dedupe_actions": [
+    "Maintained validated source set and removed stale/404 legacy links.",
+    "Rotated structure from lane model to decision-queue model."
+  ],
+  "key_uncertainties": [
+    "City-level implementation and adjudication can vary.",
+    "English-language references may lag Chinese updates.",
+    "IIT handling can differ by payout design and local filing practices."
+  ]
+}
