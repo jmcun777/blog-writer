@@ -1,0 +1,39 @@
+{
+  "topic": "In China employee termination",
+  "run_date": "2026-03-06",
+  "format": "Pulse-style confidence-bands brief",
+  "source_mix": {
+    "official_legal": [
+      {"title": "Labor Contract Law of the PRC (English)", "url": "http://www.npc.gov.cn/zgrdw/englishnpc/Law/2007-12/13/content_1384064.htm", "publisher": "National People's Congress", "accessed": "2026-03-06"}
+    ],
+    "practitioner": [
+      {"title": "Employment & Labour Laws and Regulations: China", "url": "https://iclg.com/practice-areas/employment-and-labour-laws-and-regulations/china", "publisher": "ICLG", "accessed": "2026-03-06"},
+      {"title": "Key Recent Developments in China's Employment Law", "url": "https://www.littler.com/news-analysis/asap/key-recent-developments-chinas-employment-law-china-us-comparative-perspective", "publisher": "Littler", "accessed": "2026-03-06"}
+    ],
+    "market_business_context": [
+      {"title": "China Individual - Taxes on personal income", "url": "https://taxsummaries.pwc.com/peoples-republic-of-china/individual/taxes-on-personal-income", "publisher": "PwC Tax Summaries", "accessed": "2026-03-06"},
+      {"title": "China Human Resources and Payroll Guide", "url": "https://www.china-briefing.com/doing-business-guide/china/human-resources-and-payroll", "publisher": "China Briefing", "accessed": "2026-03-06"}
+    ],
+    "practical_interpretation": [
+      "Confidence-band model (High / Conditional / Low)",
+      "Band-based go/hold actions for foreign employers",
+      "Band migration triggers by legal/evidence/payroll signals"
+    ]
+  },
+  "clustered_themes": [
+    "route confidence",
+    "evidence confidence",
+    "local interpretation confidence",
+    "payroll/tax confidence",
+    "communication and closure confidence"
+  ],
+  "dedupe_actions": [
+    "Reused validated live sources and excluded stale links.",
+    "Rotated structure from friction-points to confidence-band framework."
+  ],
+  "key_uncertainties": [
+    "City-level interpretation can materially alter confidence ratings.",
+    "English-language summaries may lag local updates.",
+    "IIT treatment may vary by payout structure and local filing practice."
+  ]
+}
