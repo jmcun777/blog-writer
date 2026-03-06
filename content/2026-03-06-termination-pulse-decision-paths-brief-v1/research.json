@@ -1,0 +1,63 @@
+{
+  "topic": "In China employee termination",
+  "run_date": "2026-03-06",
+  "format": "Pulse-style decision-paths brief",
+  "source_mix": {
+    "official_legal": [
+      {
+        "title": "Labor Contract Law of the PRC (English)",
+        "url": "http://www.npc.gov.cn/zgrdw/englishnpc/Law/2007-12/13/content_1384064.htm",
+        "publisher": "National People's Congress",
+        "fit_note": "Primary legal basis for employer-side termination routes, notice, and severance framework."
+      }
+    ],
+    "practitioner": [
+      {
+        "title": "Employment & Labour Laws and Regulations: China",
+        "url": "https://iclg.com/practice-areas/employment-and-labour-laws-and-regulations/china",
+        "publisher": "ICLG",
+        "fit_note": "Cross-border legal summary useful for non-local readers and route comparison."
+      },
+      {
+        "title": "Key Recent Developments in China's Employment Law",
+        "url": "https://www.littler.com/news-analysis/asap/key-recent-developments-chinas-employment-law-china-us-comparative-perspective",
+        "publisher": "Littler",
+        "fit_note": "Practical dispute and enforcement trend framing for multinational employers."
+      }
+    ],
+    "market_business_context": [
+      {
+        "title": "China Individual - Taxes on personal income",
+        "url": "https://taxsummaries.pwc.com/peoples-republic-of-china/individual/taxes-on-personal-income",
+        "publisher": "PwC Tax Summaries",
+        "fit_note": "Supports payroll and IIT treatment context for termination payout design."
+      },
+      {
+        "title": "China Human Resources and Payroll Guide",
+        "url": "https://www.china-briefing.com/doing-business-guide/china/human-resources-and-payroll",
+        "publisher": "China Briefing",
+        "fit_note": "Operational market context for foreign employers building China HR/payroll controls."
+      }
+    ],
+    "practical_interpretation": [
+      "Case-routing decision-path model (this run)",
+      "Owner-based SOP with pre-communication payroll lock",
+      "Exception playbook for document gaps and disputed facts"
+    ]
+  },
+  "clustered_themes": [
+    "route legality and evidence sufficiency",
+    "payroll/tax closure before communication",
+    "city-level interpretation and dispute exposure",
+    "cross-functional governance and auditability"
+  ],
+  "duplicates_removed": [
+    "Removed repeatedly failing/404 legacy reference links from prior runs.",
+    "Avoided using the same timeline-led skeleton as previous run."
+  ],
+  "key_uncertainties": [
+    "Local adjudication practice can diverge materially by city and case facts.",
+    "Some English-language legal summaries lag Chinese-language implementation updates.",
+    "Tax treatment details can vary with payout structure and local filing practice."
+  ]
+}
