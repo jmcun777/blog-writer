@@ -1,0 +1,69 @@
+{
+  "topic": "In China employee termination",
+  "run_date": "2026-03-06",
+  "format": "Pulse-style decision-traps brief",
+  "source_mix": {
+    "official_legal": [
+      {
+        "title": "Labor Contract Law of the PRC (English)",
+        "url": "http://www.npc.gov.cn/zgrdw/englishnpc/Law/2007-12/13/content_1384064.htm",
+        "publisher": "National People's Congress",
+        "accessed": "2026-03-06",
+        "fit_note": "Core statutory termination framework."
+      }
+    ],
+    "practitioner": [
+      {
+        "title": "Employment & Labour Laws and Regulations: China",
+        "url": "https://iclg.com/practice-areas/employment-and-labour-laws-and-regulations/china",
+        "publisher": "ICLG",
+        "accessed": "2026-03-06",
+        "fit_note": "Cross-border practitioner interpretation."
+      },
+      {
+        "title": "Key Recent Developments in China's Employment Law",
+        "url": "https://www.littler.com/news-analysis/asap/key-recent-developments-chinas-employment-law-china-us-comparative-perspective",
+        "publisher": "Littler",
+        "accessed": "2026-03-06",
+        "fit_note": "Recent dispute and enforcement trend signals for multinationals."
+      }
+    ],
+    "market_business_context": [
+      {
+        "title": "China Individual - Taxes on personal income",
+        "url": "https://taxsummaries.pwc.com/peoples-republic-of-china/individual/taxes-on-personal-income",
+        "publisher": "PwC Tax Summaries",
+        "accessed": "2026-03-06",
+        "fit_note": "Termination payment and IIT treatment context."
+      },
+      {
+        "title": "China Human Resources and Payroll Guide",
+        "url": "https://www.china-briefing.com/doing-business-guide/china/human-resources-and-payroll",
+        "publisher": "China Briefing",
+        "accessed": "2026-03-06",
+        "fit_note": "Practical payroll operating context for foreign employers."
+      }
+    ],
+    "practical_interpretation": [
+      "Trap-based risk framing for non-local operators",
+      "Pre-communication payroll lock and evidence integrity gates",
+      "Exception response flow for disputed facts and missing records"
+    ]
+  },
+  "clustered_themes": [
+    "legal route misclassification",
+    "evidence inconsistency and timing gaps",
+    "local interpretation variance",
+    "payout/tax closure before communication",
+    "manager messaging and archive defensibility"
+  ],
+  "dedupe_actions": [
+    "Excluded stale 404 China Briefing article URL used in older runs.",
+    "Changed structure from previous run's decision-path sequence to trap-led briefing board."
+  ],
+  "key_uncertainties": [
+    "City-level practice can differ from national-level summaries.",
+    "English-language resources may lag local implementation updates.",
+    "IIT outcome can vary by payment structure and local handling."
+  ]
+}
