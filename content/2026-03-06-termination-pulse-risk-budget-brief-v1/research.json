@@ -1,0 +1,69 @@
+{
+  "topic": "In China employee termination",
+  "run_date": "2026-03-06",
+  "format": "Pulse-style risk-budget brief",
+  "source_mix": {
+    "official_legal": [
+      {
+        "title": "Labor Contract Law of the PRC (English)",
+        "url": "http://www.npc.gov.cn/zgrdw/englishnpc/Law/2007-12/13/content_1384064.htm",
+        "publisher": "National People's Congress",
+        "accessed": "2026-03-06",
+        "fit_note": "Core statutory framework for employer-side termination routes and obligations."
+      }
+    ],
+    "practitioner": [
+      {
+        "title": "Employment & Labour Laws and Regulations: China",
+        "url": "https://iclg.com/practice-areas/employment-and-labour-laws-and-regulations/china",
+        "publisher": "ICLG",
+        "accessed": "2026-03-06",
+        "fit_note": "Cross-border practitioner synthesis and decision framing."
+      },
+      {
+        "title": "Key Recent Developments in China's Employment Law",
+        "url": "https://www.littler.com/news-analysis/asap/key-recent-developments-chinas-employment-law-china-us-comparative-perspective",
+        "publisher": "Littler",
+        "accessed": "2026-03-06",
+        "fit_note": "Practical trend context for multinational risk planning."
+      }
+    ],
+    "market_business_context": [
+      {
+        "title": "China Individual - Taxes on personal income",
+        "url": "https://taxsummaries.pwc.com/peoples-republic-of-china/individual/taxes-on-personal-income",
+        "publisher": "PwC Tax Summaries",
+        "accessed": "2026-03-06",
+        "fit_note": "Termination payout/IIT context for payroll decisions."
+      },
+      {
+        "title": "China Human Resources and Payroll Guide",
+        "url": "https://www.china-briefing.com/doing-business-guide/china/human-resources-and-payroll",
+        "publisher": "China Briefing",
+        "accessed": "2026-03-06",
+        "fit_note": "Operating context for foreign employers managing HR/payroll in China."
+      }
+    ],
+    "practical_interpretation": [
+      "Risk-budget allocation model for route, evidence, payroll, and communication",
+      "Red-line gating for non-negotiable legal/payroll controls",
+      "Monthly trap-to-budget recalibration loop"
+    ]
+  },
+  "clustered_themes": [
+    "legal route certainty",
+    "evidence quality and reconstruction readiness",
+    "local interpretation variance",
+    "payroll/tax closure before communication",
+    "communication and closure control"
+  ],
+  "dedupe_actions": [
+    "Retained validated source set and removed stale/404 links from historical runs.",
+    "Rotated structure away from prior run's trap list into budget-allocation model."
+  ],
+  "key_uncertainties": [
+    "City-level implementation variance can alter practical route defensibility.",
+    "English-language guidance may lag local-language implementation shifts.",
+    "IIT and payout handling can vary with package design and local filing practice."
+  ]
+}
