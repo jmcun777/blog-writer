@@ -1,0 +1,64 @@
+{
+  "topic": "In China employee termination",
+  "run_date": "2026-03-06",
+  "format": "Pulse-style control-lanes brief",
+  "source_mix": {
+    "official_legal": [
+      {
+        "title": "Labor Contract Law of the PRC (English)",
+        "url": "http://www.npc.gov.cn/zgrdw/englishnpc/Law/2007-12/13/content_1384064.htm",
+        "publisher": "National People's Congress",
+        "accessed": "2026-03-06"
+      }
+    ],
+    "practitioner": [
+      {
+        "title": "Employment & Labour Laws and Regulations: China",
+        "url": "https://iclg.com/practice-areas/employment-and-labour-laws-and-regulations/china",
+        "publisher": "ICLG",
+        "accessed": "2026-03-06"
+      },
+      {
+        "title": "Key Recent Developments in China's Employment Law",
+        "url": "https://www.littler.com/news-analysis/asap/key-recent-developments-chinas-employment-law-china-us-comparative-perspective",
+        "publisher": "Littler",
+        "accessed": "2026-03-06"
+      }
+    ],
+    "market_business_context": [
+      {
+        "title": "China Individual - Taxes on personal income",
+        "url": "https://taxsummaries.pwc.com/peoples-republic-of-china/individual/taxes-on-personal-income",
+        "publisher": "PwC Tax Summaries",
+        "accessed": "2026-03-06"
+      },
+      {
+        "title": "China Human Resources and Payroll Guide",
+        "url": "https://www.china-briefing.com/doing-business-guide/china/human-resources-and-payroll",
+        "publisher": "China Briefing",
+        "accessed": "2026-03-06"
+      }
+    ],
+    "practical_interpretation": [
+      "Control-lanes model: Legal lane, Evidence lane, Payroll lane, Communication lane, Closure lane",
+      "Lane-specific hold/release criteria for foreign employer teams",
+      "Escalation triggers mapped to lane breaks"
+    ]
+  },
+  "clustered_themes": [
+    "lawful route and route-proof alignment",
+    "evidence cohesion and contradiction control",
+    "local interpretation uncertainty",
+    "termination payout and IIT closure",
+    "message discipline and archive readiness"
+  ],
+  "dedupe_actions": [
+    "Kept validated live source set and excluded stale 404 references.",
+    "Rotated from operating-modes framework to control-lanes framework."
+  ],
+  "key_uncertainties": [
+    "City-level practice can differ from national-level summaries.",
+    "English-language practitioner summaries may lag local updates.",
+    "IIT/payout handling can vary by package design and local filing practice."
+  ]
+}
