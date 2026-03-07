@@ -1,0 +1,78 @@
+{
+  "topic": "In China employee termination",
+  "run_date": "2026-03-07",
+  "format": "Pulse-style readiness audit brief",
+  "source_mix": {
+    "official_legal": [
+      {
+        "title": "Labor Contract Law of the PRC (English)",
+        "url": "http://www.npc.gov.cn/zgrdw/englishnpc/Law/2007-12/13/content_1384064.htm",
+        "publisher": "National People's Congress",
+        "accessed": "2026-03-07",
+        "http_status": "200",
+        "last_modified_header": "unknown"
+      }
+    ],
+    "practitioner": [
+      {
+        "title": "Employment & Labour Laws and Regulations: China",
+        "url": "https://iclg.com/practice-areas/employment-and-labour-laws-and-regulations/china",
+        "publisher": "ICLG",
+        "accessed": "2026-03-07",
+        "http_status": "200",
+        "last_modified_header": "unknown"
+      },
+      {
+        "title": "Key Recent Developments in China's Employment Law",
+        "url": "https://www.littler.com/news-analysis/asap/key-recent-developments-chinas-employment-law-china-us-comparative-perspective",
+        "publisher": "Littler",
+        "accessed": "2026-03-07",
+        "http_status": "200",
+        "last_modified_header": "Fri, 06 Mar 2026 22:40:53 GMT"
+      }
+    ],
+    "market_business_context": [
+      {
+        "title": "China Individual - Taxes on personal income",
+        "url": "https://taxsummaries.pwc.com/peoples-republic-of-china/individual/taxes-on-personal-income",
+        "publisher": "PwC Tax Summaries",
+        "accessed": "2026-03-07",
+        "http_status": "302",
+        "last_modified_header": "unknown"
+      },
+      {
+        "title": "China Human Resources and Payroll Guide",
+        "url": "https://www.china-briefing.com/doing-business-guide/china/human-resources-and-payroll",
+        "publisher": "China Briefing",
+        "accessed": "2026-03-07",
+        "http_status": "200",
+        "last_modified_header": "unknown"
+      }
+    ],
+    "practical_interpretation": [
+      "Readiness-audit card model for foreign employers",
+      "Go/hold/stop gating before communication",
+      "Audit scoring tied to payroll and evidence controls"
+    ]
+  },
+  "clustered_themes": [
+    "pre-notice readiness gaps",
+    "payroll and tax lock failures",
+    "communication-script alignment",
+    "post-case archive defensibility"
+  ],
+  "dedupe_actions": [
+    "Rotated framing from escalation-cost matrix to readiness-audit cards.",
+    "Removed repeated route-level narrative and replaced with go/hold/stop audit gates."
+  ],
+  "source_fit_review": {
+    "summary": "Source set remains balanced and live; suitable for legal baseline, practitioner interpretation, and operational payroll context.",
+    "replacements_needed": "No replacement required in this run.",
+    "auto_remediation": "Third consecutive run with unavailable web_search key; fallback freshness workflow remains stable (HTTP checks + link verification) and fully passed."
+  },
+  "key_uncertainties": [
+    "Local practice varies by city and dispute forum.",
+    "English references may trail Chinese-language updates.",
+    "IIT treatment of payout items can differ by local filing execution."
+  ]
+}
