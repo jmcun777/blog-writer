@@ -1,0 +1,78 @@
+{
+  "topic": "In China employee termination",
+  "run_date": "2026-03-07",
+  "format": "Pulse-style incident-response cards brief",
+  "source_mix": {
+    "official_legal": [
+      {
+        "title": "Labor Contract Law of the PRC (English)",
+        "url": "http://www.npc.gov.cn/zgrdw/englishnpc/Law/2007-12/13/content_1384064.htm",
+        "publisher": "National People's Congress",
+        "accessed": "2026-03-07",
+        "http_status": "200",
+        "last_modified_header": "unknown"
+      }
+    ],
+    "practitioner": [
+      {
+        "title": "Employment & Labour Laws and Regulations: China",
+        "url": "https://iclg.com/practice-areas/employment-and-labour-laws-and-regulations/china",
+        "publisher": "ICLG",
+        "accessed": "2026-03-07",
+        "http_status": "200",
+        "last_modified_header": "unknown"
+      },
+      {
+        "title": "Key Recent Developments in China's Employment Law",
+        "url": "https://www.littler.com/news-analysis/asap/key-recent-developments-chinas-employment-law-china-us-comparative-perspective",
+        "publisher": "Littler",
+        "accessed": "2026-03-07",
+        "http_status": "200",
+        "last_modified_header": "Fri, 06 Mar 2026 22:40:53 GMT"
+      }
+    ],
+    "market_business_context": [
+      {
+        "title": "China Individual - Taxes on personal income",
+        "url": "https://taxsummaries.pwc.com/peoples-republic-of-china/individual/taxes-on-personal-income",
+        "publisher": "PwC Tax Summaries",
+        "accessed": "2026-03-07",
+        "http_status": "302",
+        "last_modified_header": "unknown"
+      },
+      {
+        "title": "China Human Resources and Payroll Guide",
+        "url": "https://www.china-briefing.com/doing-business-guide/china/human-resources-and-payroll",
+        "publisher": "China Briefing",
+        "accessed": "2026-03-07",
+        "http_status": "200",
+        "last_modified_header": "unknown"
+      }
+    ],
+    "practical_interpretation": [
+      "Incident-response card model",
+      "Rapid containment playbooks",
+      "Card-based governance for foreign teams"
+    ]
+  },
+  "clustered_themes": [
+    "pre-dispute incident containment",
+    "route/payroll/script incidents",
+    "cross-functional recovery actions",
+    "closure resilience"
+  ],
+  "dedupe_actions": [
+    "Rotated from assurance-ladder to incident-response cards format.",
+    "Converted step-based structure into incident card response workflows."
+  ],
+  "source_fit_review": {
+    "summary": "Source set remains relevant and reachable for legal baseline, practitioner guidance, and payroll context.",
+    "replacements_needed": "No source replacement required in this run.",
+    "auto_remediation": "web_search key still unavailable; fallback HTTP freshness checks + full public-link verification completed successfully."
+  },
+  "key_uncertainties": [
+    "City-level practice and dispute handling vary.",
+    "English references may lag local-language updates.",
+    "IIT treatment of payouts may vary by local filing and composition."
+  ]
+}
