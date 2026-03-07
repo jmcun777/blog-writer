@@ -1,0 +1,78 @@
+{
+  "topic": "In China employee termination",
+  "run_date": "2026-03-07",
+  "format": "Pulse-style dispute-prevention lanes brief",
+  "source_mix": {
+    "official_legal": [
+      {
+        "title": "Labor Contract Law of the PRC (English)",
+        "url": "http://www.npc.gov.cn/zgrdw/englishnpc/Law/2007-12/13/content_1384064.htm",
+        "publisher": "National People's Congress",
+        "accessed": "2026-03-07",
+        "http_status": "200",
+        "last_modified_header": "unknown"
+      }
+    ],
+    "practitioner": [
+      {
+        "title": "Employment & Labour Laws and Regulations: China",
+        "url": "https://iclg.com/practice-areas/employment-and-labour-laws-and-regulations/china",
+        "publisher": "ICLG",
+        "accessed": "2026-03-07",
+        "http_status": "200",
+        "last_modified_header": "unknown"
+      },
+      {
+        "title": "Key Recent Developments in China's Employment Law",
+        "url": "https://www.littler.com/news-analysis/asap/key-recent-developments-chinas-employment-law-china-us-comparative-perspective",
+        "publisher": "Littler",
+        "accessed": "2026-03-07",
+        "http_status": "200",
+        "last_modified_header": "Fri, 06 Mar 2026 22:40:53 GMT"
+      }
+    ],
+    "market_business_context": [
+      {
+        "title": "China Individual - Taxes on personal income",
+        "url": "https://taxsummaries.pwc.com/peoples-republic-of-china/individual/taxes-on-personal-income",
+        "publisher": "PwC Tax Summaries",
+        "accessed": "2026-03-07",
+        "http_status": "302",
+        "last_modified_header": "unknown"
+      },
+      {
+        "title": "China Human Resources and Payroll Guide",
+        "url": "https://www.china-briefing.com/doing-business-guide/china/human-resources-and-payroll",
+        "publisher": "China Briefing",
+        "accessed": "2026-03-07",
+        "http_status": "200",
+        "last_modified_header": "unknown"
+      }
+    ],
+    "practical_interpretation": [
+      "Dispute-prevention lane model",
+      "Prevention-to-response lane escalation",
+      "Lane-specific controls for foreign employers"
+    ]
+  },
+  "clustered_themes": [
+    "early dispute triggers",
+    "route/payroll/script lane controls",
+    "escalation thresholds",
+    "defensible closure"
+  ],
+  "dedupe_actions": [
+    "Rotated from handoff control-tower to dispute-prevention lane model.",
+    "Replaced checkpoint-centric framing with lane-based prevention/respond controls."
+  ],
+  "source_fit_review": {
+    "summary": "Source set remains current and balanced across legal baseline, practitioner guidance, and payroll business context.",
+    "replacements_needed": "No source replacement needed this run.",
+    "auto_remediation": "Persistent web_search key issue handled via fallback HTTP freshness checks plus full post-publish link verification."
+  },
+  "key_uncertainties": [
+    "City-level dispute handling differs materially.",
+    "English references may lag Chinese-language updates.",
+    "IIT payout handling may vary by local filing practice and payout mix."
+  ]
+}
