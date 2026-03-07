@@ -1,0 +1,73 @@
+{
+  "topic": "In China employee termination",
+  "run_date": "2026-03-07",
+  "format": "Pulse-style route risk matrix brief",
+  "source_mix": {
+    "official_legal": [
+      {
+        "title": "Labor Contract Law of the PRC (English)",
+        "url": "http://www.npc.gov.cn/zgrdw/englishnpc/Law/2007-12/13/content_1384064.htm",
+        "publisher": "National People's Congress",
+        "accessed": "2026-03-07",
+        "last_modified_header": "unknown"
+      }
+    ],
+    "practitioner": [
+      {
+        "title": "Employment & Labour Laws and Regulations: China",
+        "url": "https://iclg.com/practice-areas/employment-and-labour-laws-and-regulations/china",
+        "publisher": "ICLG",
+        "accessed": "2026-03-07",
+        "last_modified_header": "unknown"
+      },
+      {
+        "title": "Key Recent Developments in China's Employment Law",
+        "url": "https://www.littler.com/news-analysis/asap/key-recent-developments-chinas-employment-law-china-us-comparative-perspective",
+        "publisher": "Littler",
+        "accessed": "2026-03-07",
+        "last_modified_header": "Fri, 06 Mar 2026 22:40:53 GMT"
+      }
+    ],
+    "market_business_context": [
+      {
+        "title": "China Individual - Taxes on personal income",
+        "url": "https://taxsummaries.pwc.com/peoples-republic-of-china/individual/taxes-on-personal-income",
+        "publisher": "PwC Tax Summaries",
+        "accessed": "2026-03-07",
+        "last_modified_header": "unknown"
+      },
+      {
+        "title": "China Human Resources and Payroll Guide",
+        "url": "https://www.china-briefing.com/doing-business-guide/china/human-resources-and-payroll",
+        "publisher": "China Briefing",
+        "accessed": "2026-03-07",
+        "last_modified_header": "unknown"
+      }
+    ],
+    "practical_interpretation": [
+      "Route-risk matrix for foreign operators",
+      "Legal-route to payroll-lock dependency mapping",
+      "Dispute-exposure scoring by control failure"
+    ]
+  },
+  "clustered_themes": [
+    "route misclassification risk",
+    "severance and IIT execution alignment",
+    "city-level interpretation variance",
+    "communication and evidence defensibility"
+  ],
+  "dedupe_actions": [
+    "Shifted format from myth-vs-fact to route risk matrix to avoid structural repetition.",
+    "Merged overlapping payroll control points into a single lock-based dependency model."
+  ],
+  "source_fit_review": {
+    "summary": "Retained core source set; all links reachable and refreshed via direct HTTP header checks as fallback research method.",
+    "replacements_needed": "No broken/stale links requiring replacement this run; monitor for newly issued local court guidance in next cycle.",
+    "auto_remediation": "Brave web_search API unavailable in consecutive runs; auto-remediated by running direct freshness checks (curl headers + accessibility verification) on all selected sources."
+  },
+  "key_uncertainties": [
+    "City-level adjudication standards can differ materially.",
+    "English-language summaries may lag Chinese-language updates.",
+    "IIT treatment details can vary based on payout composition and local tax bureau practice."
+  ]
+}
