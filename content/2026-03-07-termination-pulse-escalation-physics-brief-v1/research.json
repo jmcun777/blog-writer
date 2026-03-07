@@ -1,0 +1,37 @@
+{
+  "topic": "In China employee termination",
+  "run_date": "2026-03-07",
+  "format": "Pulse-style escalation-physics brief",
+  "source_mix": {
+    "official_legal": [
+      {"title": "Labor Contract Law of the PRC (English)", "url": "http://www.npc.gov.cn/zgrdw/englishnpc/Law/2007-12/13/content_1384064.htm", "publisher": "National People's Congress", "accessed": "2026-03-07"}
+    ],
+    "practitioner": [
+      {"title": "Employment & Labour Laws and Regulations: China", "url": "https://iclg.com/practice-areas/employment-and-labour-laws-and-regulations/china", "publisher": "ICLG", "accessed": "2026-03-07"},
+      {"title": "Key Recent Developments in China's Employment Law", "url": "https://www.littler.com/news-analysis/asap/key-recent-developments-chinas-employment-law-china-us-comparative-perspective", "publisher": "Littler", "accessed": "2026-03-07"}
+    ],
+    "market_business_context": [
+      {"title": "China Individual - Taxes on personal income", "url": "https://taxsummaries.pwc.com/peoples-republic-of-china/individual/taxes-on-personal-income", "publisher": "PwC Tax Summaries", "accessed": "2026-03-07"},
+      {"title": "China Human Resources and Payroll Guide", "url": "https://www.china-briefing.com/doing-business-guide/china/human-resources-and-payroll", "publisher": "China Briefing", "accessed": "2026-03-07"}
+    ],
+    "practical_interpretation": [
+      "Escalation physics model (pressure + friction + uncertainty)",
+      "Escalation dampeners and accelerators",
+      "Intervention timing for foreign employers"
+    ]
+  },
+  "clustered_themes": [
+    "escalation triggers in route and evidence",
+    "escalation acceleration via payroll uncertainty",
+    "de-escalation mechanisms through communication discipline"
+  ],
+  "dedupe_actions": [
+    "Retained verified live source set and excluded stale links.",
+    "Rotated structure from failure-recovery loops to escalation-physics model."
+  ],
+  "key_uncertainties": [
+    "City-level implementation can vary materially.",
+    "English-language summaries may lag local-language updates.",
+    "IIT handling may vary by payout structure and local filing practice."
+  ]
+}
