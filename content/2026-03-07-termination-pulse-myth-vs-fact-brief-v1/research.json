@@ -1,0 +1,68 @@
+{
+  "topic": "In China employee termination",
+  "run_date": "2026-03-07",
+  "format": "Pulse-style myth-vs-fact briefing",
+  "source_mix": {
+    "official_legal": [
+      {
+        "title": "Labor Contract Law of the PRC (English)",
+        "url": "http://www.npc.gov.cn/zgrdw/englishnpc/Law/2007-12/13/content_1384064.htm",
+        "publisher": "National People's Congress",
+        "accessed": "2026-03-07"
+      }
+    ],
+    "practitioner": [
+      {
+        "title": "Employment & Labour Laws and Regulations: China",
+        "url": "https://iclg.com/practice-areas/employment-and-labour-laws-and-regulations/china",
+        "publisher": "ICLG",
+        "accessed": "2026-03-07"
+      },
+      {
+        "title": "Key Recent Developments in China's Employment Law",
+        "url": "https://www.littler.com/news-analysis/asap/key-recent-developments-chinas-employment-law-china-us-comparative-perspective",
+        "publisher": "Littler",
+        "accessed": "2026-03-07"
+      }
+    ],
+    "market_business_context": [
+      {
+        "title": "China Individual - Taxes on personal income",
+        "url": "https://taxsummaries.pwc.com/peoples-republic-of-china/individual/taxes-on-personal-income",
+        "publisher": "PwC Tax Summaries",
+        "accessed": "2026-03-07"
+      },
+      {
+        "title": "China Human Resources and Payroll Guide",
+        "url": "https://www.china-briefing.com/doing-business-guide/china/human-resources-and-payroll",
+        "publisher": "China Briefing",
+        "accessed": "2026-03-07"
+      }
+    ],
+    "practical_interpretation": [
+      "Myth-vs-fact framing for non-China legal teams",
+      "Route-first controls before communication",
+      "Payroll and document synchronization gates"
+    ]
+  },
+  "clustered_themes": [
+    "lawful grounds vs managerial preference",
+    "severance and IIT handling in real payroll operations",
+    "city-level variance and evidence controls",
+    "communication and archive defensibility"
+  ],
+  "dedupe_actions": [
+    "Removed repetitive timeline-led framing from prior run.",
+    "Consolidated overlapping practitioner commentary into a single myth-vs-fact decision brief."
+  ],
+  "source_fit_review": {
+    "summary": "Source mix retained because links remain live and coverage still balances legal basis, practitioner interpretation, and payroll/business execution.",
+    "replacements_needed": "No critical source replacement required this run; monitor for newer court-guidance roundups in next cycle.",
+    "tooling_note": "Brave web_search API key unavailable in runtime, so this run used validated known sources and live-link checks."
+  },
+  "key_uncertainties": [
+    "Local arbitration and court practice can differ by city and fact pattern.",
+    "English-language summaries can lag Chinese-language policy updates.",
+    "Tax handling details for termination payouts vary by local filing execution and compensation structure."
+  ]
+}
