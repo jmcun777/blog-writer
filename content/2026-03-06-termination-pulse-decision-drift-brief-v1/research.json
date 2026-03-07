@@ -1,0 +1,39 @@
+{
+  "topic": "In China employee termination",
+  "run_date": "2026-03-06",
+  "format": "Pulse-style decision-drift brief",
+  "source_mix": {
+    "official_legal": [
+      {"title": "Labor Contract Law of the PRC (English)", "url": "http://www.npc.gov.cn/zgrdw/englishnpc/Law/2007-12/13/content_1384064.htm", "publisher": "National People's Congress", "accessed": "2026-03-06"}
+    ],
+    "practitioner": [
+      {"title": "Employment & Labour Laws and Regulations: China", "url": "https://iclg.com/practice-areas/employment-and-labour-laws-and-regulations/china", "publisher": "ICLG", "accessed": "2026-03-06"},
+      {"title": "Key Recent Developments in China's Employment Law", "url": "https://www.littler.com/news-analysis/asap/key-recent-developments-chinas-employment-law-china-us-comparative-perspective", "publisher": "Littler", "accessed": "2026-03-06"}
+    ],
+    "market_business_context": [
+      {"title": "China Individual - Taxes on personal income", "url": "https://taxsummaries.pwc.com/peoples-republic-of-china/individual/taxes-on-personal-income", "publisher": "PwC Tax Summaries", "accessed": "2026-03-06"},
+      {"title": "China Human Resources and Payroll Guide", "url": "https://www.china-briefing.com/doing-business-guide/china/human-resources-and-payroll", "publisher": "China Briefing", "accessed": "2026-03-06"}
+    ],
+    "practical_interpretation": [
+      "Decision-drift model for route/evidence/payroll/communication",
+      "Drift detection checkpoints",
+      "Correction protocols before notice"
+    ]
+  },
+  "clustered_themes": [
+    "route drift",
+    "evidence drift",
+    "payroll assumption drift",
+    "communication drift",
+    "closure drift"
+  ],
+  "dedupe_actions": [
+    "Retained live source set and excluded stale links.",
+    "Rotated structure from latency map to decision-drift model."
+  ],
+  "key_uncertainties": [
+    "City-level implementation can vary materially.",
+    "English-language summaries may lag local-language updates.",
+    "IIT treatment may vary by payout structure and local filing practice."
+  ]
+}
