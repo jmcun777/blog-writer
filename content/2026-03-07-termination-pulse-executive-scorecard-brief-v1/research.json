@@ -1,0 +1,78 @@
+{
+  "topic": "In China employee termination",
+  "run_date": "2026-03-07",
+  "format": "Pulse-style executive scorecard brief",
+  "source_mix": {
+    "official_legal": [
+      {
+        "title": "Labor Contract Law of the PRC (English)",
+        "url": "http://www.npc.gov.cn/zgrdw/englishnpc/Law/2007-12/13/content_1384064.htm",
+        "publisher": "National People's Congress",
+        "accessed": "2026-03-07",
+        "http_status": "200",
+        "last_modified_header": "unknown"
+      }
+    ],
+    "practitioner": [
+      {
+        "title": "Employment & Labour Laws and Regulations: China",
+        "url": "https://iclg.com/practice-areas/employment-and-labour-laws-and-regulations/china",
+        "publisher": "ICLG",
+        "accessed": "2026-03-07",
+        "http_status": "200",
+        "last_modified_header": "unknown"
+      },
+      {
+        "title": "Key Recent Developments in China's Employment Law",
+        "url": "https://www.littler.com/news-analysis/asap/key-recent-developments-chinas-employment-law-china-us-comparative-perspective",
+        "publisher": "Littler",
+        "accessed": "2026-03-07",
+        "http_status": "200",
+        "last_modified_header": "Sat, 07 Mar 2026 22:56:03 GMT"
+      }
+    ],
+    "market_business_context": [
+      {
+        "title": "China Individual - Taxes on personal income",
+        "url": "https://taxsummaries.pwc.com/peoples-republic-of-china/individual/taxes-on-personal-income",
+        "publisher": "PwC Tax Summaries",
+        "accessed": "2026-03-07",
+        "http_status": "302",
+        "last_modified_header": "unknown"
+      },
+      {
+        "title": "China Human Resources and Payroll Guide",
+        "url": "https://www.china-briefing.com/doing-business-guide/china/human-resources-and-payroll",
+        "publisher": "China Briefing",
+        "accessed": "2026-03-07",
+        "http_status": "200",
+        "last_modified_header": "unknown"
+      }
+    ],
+    "practical_interpretation": [
+      "Executive scorecard model",
+      "Decision-value scoring",
+      "control maturity tracking"
+    ]
+  },
+  "clustered_themes": [
+    "decision-value metrics",
+    "route/payroll/script quality signals",
+    "closure reliability",
+    "executive intervention thresholds"
+  ],
+  "dedupe_actions": [
+    "Rotated from Q&A and board memo patterns to scorecard-first narrative.",
+    "Removed question-led structure and adopted metric-led decision briefing."
+  ],
+  "source_fit_review": {
+    "summary": "Source set remains fit and reachable for legal baseline, practitioner interpretation, and payroll/business context.",
+    "replacements_needed": "No replacement required this run.",
+    "auto_remediation": "web_search key unavailable; fallback HTTP freshness checks and public-link verification passed."
+  },
+  "key_uncertainties": [
+    "Local dispute handling varies by city and forum.",
+    "English references may lag local-language updates.",
+    "IIT treatment can vary by payout structure and filing execution."
+  ]
+}
