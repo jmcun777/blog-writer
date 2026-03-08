@@ -1,0 +1,78 @@
+{
+  "topic": "In China employee termination",
+  "run_date": "2026-03-07",
+  "format": "Pulse-style signal bulletin brief",
+  "source_mix": {
+    "official_legal": [
+      {
+        "title": "Labor Contract Law of the PRC (English)",
+        "url": "http://www.npc.gov.cn/zgrdw/englishnpc/Law/2007-12/13/content_1384064.htm",
+        "publisher": "National People's Congress",
+        "accessed": "2026-03-07",
+        "http_status": "200",
+        "last_modified_header": "unknown"
+      }
+    ],
+    "practitioner": [
+      {
+        "title": "Employment & Labour Laws and Regulations: China",
+        "url": "https://iclg.com/practice-areas/employment-and-labour-laws-and-regulations/china",
+        "publisher": "ICLG",
+        "accessed": "2026-03-07",
+        "http_status": "200",
+        "last_modified_header": "unknown"
+      },
+      {
+        "title": "Key Recent Developments in China's Employment Law",
+        "url": "https://www.littler.com/news-analysis/asap/key-recent-developments-chinas-employment-law-china-us-comparative-perspective",
+        "publisher": "Littler",
+        "accessed": "2026-03-07",
+        "http_status": "200",
+        "last_modified_header": "Sat, 07 Mar 2026 22:56:03 GMT"
+      }
+    ],
+    "market_business_context": [
+      {
+        "title": "China Individual - Taxes on personal income",
+        "url": "https://taxsummaries.pwc.com/peoples-republic-of-china/individual/taxes-on-personal-income",
+        "publisher": "PwC Tax Summaries",
+        "accessed": "2026-03-07",
+        "http_status": "302",
+        "last_modified_header": "unknown"
+      },
+      {
+        "title": "China Human Resources and Payroll Guide",
+        "url": "https://www.china-briefing.com/doing-business-guide/china/human-resources-and-payroll",
+        "publisher": "China Briefing",
+        "accessed": "2026-03-07",
+        "http_status": "200",
+        "last_modified_header": "unknown"
+      }
+    ],
+    "practical_interpretation": [
+      "Signal bulletin format",
+      "priority-ranked risk feed",
+      "action-by-signal mapping"
+    ]
+  },
+  "clustered_themes": [
+    "high-priority execution signals",
+    "route/payroll/script drift",
+    "closure resilience",
+    "executive trigger thresholds"
+  ],
+  "dedupe_actions": [
+    "Rotated from foreign-operator playbook to signal-bulletin format.",
+    "Replaced module-based narrative with priority-ranked signal feed."
+  ],
+  "source_fit_review": {
+    "summary": "Source set remains balanced and live for legal baseline, practitioner interpretation, and payroll context.",
+    "replacements_needed": "No source replacement required this run.",
+    "auto_remediation": "web_search key unavailable; fallback HTTP freshness checks and public-link verification completed successfully."
+  },
+  "key_uncertainties": [
+    "City-level dispute practice varies by locality.",
+    "English summaries may lag Chinese-language updates.",
+    "IIT handling may vary by payout structure and local filing execution."
+  ]
+}
