@@ -67,7 +67,7 @@ The ongoing Canton Fair is still one of the most useful live indicators of how C
 
 For businesses that can approach the fair as a decision-support opportunity rather than a brochure-collection exercise, the 2026 session still offers meaningful commercial value.
 
-For companies that move from trade-fair discovery into a longer China market-entry, hiring, or operational setup discussion, the next challenge is often not sourcing alone, but building the right local execution structure around payroll, compliance, and employer obligations. That is where a more operational partner can become relevant after the fair itself.
+For companies that move from trade-fair discovery into a longer China market-entry, hiring, or operational setup discussion, the next challenge is often not sourcing alone, but building the right local execution structure around payroll, compliance, and employer obligations. That is where a more operational partner can become relevant after the fair itself, and readers exploring the China-side execution piece can continue with <https://china-payroll.com>.
 
 ---
 
